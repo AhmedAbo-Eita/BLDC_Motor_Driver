@@ -609,6 +609,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "e34fda66-7244-4ac9-bbf7-3725f03e688f",
+      "Root"
+    ],
+    [
+      "e7fbbff1-7265-43e4-97d7-cbbb02426874",
+      "Power_Sheet"
+    ],
+    [
+      "a8b67aa6-c16e-4704-8284-64b4e81a0aca",
+      "MCU"
+    ]
+  ],
   "text_variables": {}
 }

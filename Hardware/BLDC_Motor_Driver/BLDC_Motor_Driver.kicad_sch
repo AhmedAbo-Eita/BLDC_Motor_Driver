@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid e34fda66-7244-4ac9-bbf7-3725f03e688f)
+	(uuid "e34fda66-7244-4ac9-bbf7-3725f03e688f")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 113.03 55.88)
+		(size 31.75 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8b67aa6-c16e-4704-8284-64b4e81a0aca")
+		(property "Sheetname" "MCU"
+			(at 113.03 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 113.03 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 50.8)
+		(size 30.48 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7fbbff1-7265-43e4-97d7-cbbb02426874")
+		(property "Sheetname" "Power_Sheet"
+			(at 58.42 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Sheet.kicad_sch"
+			(at 58.42 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
