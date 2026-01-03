@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -621,6 +621,10 @@
     [
       "a8b67aa6-c16e-4704-8284-64b4e81a0aca",
       "MCU"
+    ],
+    [
+      "17c2dea7-3456-4796-810d-fa2277d14545",
+      "CAN_Transceiver"
     ]
   ],
   "text_variables": {}
