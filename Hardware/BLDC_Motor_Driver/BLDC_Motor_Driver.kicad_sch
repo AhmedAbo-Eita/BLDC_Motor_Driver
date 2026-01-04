@@ -6,8 +6,50 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 113.03 55.88)
-		(size 31.75 35.56)
+		(at 43.18 121.92)
+		(size 39.37 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17c2dea7-3456-4796-810d-fa2277d14545")
+		(property "Sheetname" "CAN_Transceiver"
+			(at 43.18 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_Transceiver.kicad_sch"
+			(at 43.18 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 54.61)
+		(size 49.53 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +64,7 @@
 		)
 		(uuid "a8b67aa6-c16e-4704-8284-64b4e81a0aca")
 		(property "Sheetname" "MCU"
-			(at 113.03 55.1684 0)
+			(at 129.54 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 113.03 92.0246 0)
+			(at 129.54 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 50.8)
-		(size 30.48 36.83)
+		(at 41.91 57.15)
+		(size 41.91 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +106,7 @@
 		)
 		(uuid "e7fbbff1-7265-43e4-97d7-cbbb02426874")
 		(property "Sheetname" "Power_Sheet"
-			(at 58.42 50.0884 0)
+			(at 41.91 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Sheet.kicad_sch"
-			(at 58.42 88.2146 0)
+			(at 41.91 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
