@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "e34fda66-7244-4ac9-bbf7-3725f03e688f")
 	(paper "A4")
+	(title_block
+		(title "${Project_Name}")
+		(date "2026-01-05")
+		(rev "V1")
+	)
 	(lib_symbols)
 	(sheet
 		(at 43.18 121.92)
@@ -91,7 +96,7 @@
 	)
 	(sheet
 		(at 41.91 57.15)
-		(size 41.91 36.83)
+		(size 38.735 17.145)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -115,7 +120,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Sheet.kicad_sch"
-			(at 41.91 94.5646 0)
+			(at 41.91 74.8796 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3320,7 +3320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0236e8b7-eeaa-4550-a4c7-2e67ee46900e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0102"
 			(at 88.9 143.51 0)
 			(effects
 				(font
@@ -3374,6 +3374,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3385,7 +3391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0534822a-ee8e-4376-9b17-ae7c608dba2e")
-		(property "Reference" "C8"
+		(property "Reference" "C?"
 			(at 171.704 32.004 0)
 			(effects
 				(font
@@ -3479,6 +3485,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3491,7 +3503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b8b6c06-cf3a-41b1-9a2a-1f6195838352")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 91.0433 132.08 0)
 			(effects
 				(font
@@ -3776,6 +3788,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3787,7 +3805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f1a8c7e-35f7-485d-9932-abd7076fe299")
-		(property "Reference" "C5"
+		(property "Reference" "C?"
 			(at 147.574 32.004 0)
 			(effects
 				(font
@@ -3881,6 +3899,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3892,7 +3916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1211bd75-49e0-4437-afd5-7bee69f5e589")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at 156.464 32.004 0)
 			(effects
 				(font
@@ -3986,6 +4010,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3997,7 +4027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23913df1-ed5d-4388-ae24-d63a1062ced3")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 123.444 32.004 0)
 			(effects
 				(font
@@ -4091,6 +4121,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4103,7 +4139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32795134-ee7b-40dc-9a2f-c359fef252d0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0104"
 			(at 139.7 25.4 0)
 			(effects
 				(font
@@ -4157,6 +4193,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4168,7 +4210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41b20bc8-d87a-484a-b0bb-ef7a55057113")
-		(property "Reference" "C4"
+		(property "Reference" "C?"
 			(at 139.954 32.004 0)
 			(effects
 				(font
@@ -4262,6 +4304,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4274,7 +4322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd430ff-f66d-4aeb-8f18-ee22dff838f0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0101"
 			(at 45.72 88.9 0)
 			(effects
 				(font
@@ -4328,6 +4376,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4339,7 +4393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fafc7e4-461f-4759-b56c-4dfc27b8fcbc")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 132.334 32.004 0)
 			(effects
 				(font
@@ -4433,6 +4487,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4444,7 +4504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55fe30fd-9684-4271-9b51-ee394c2fb445")
-		(property "Reference" "C9"
+		(property "Reference" "C?"
 			(at 35.814 48.006 0)
 			(effects
 				(font
@@ -4538,6 +4598,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4549,7 +4615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98823fc7-3b3c-45be-9f8a-548196018e93")
-		(property "Reference" "Y1"
+		(property "Reference" "Y?"
 			(at 41.91 68.326 90)
 			(effects
 				(font
@@ -4612,6 +4678,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "Y?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4624,7 +4696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c1770d-644b-44c3-98dc-f6578ae39092")
-		(property "Reference" "Y2"
+		(property "Reference" "Y?"
 			(at 50.8 50.7999 90)
 			(effects
 				(font
@@ -4682,6 +4754,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "Y?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4693,7 +4771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0ae6ac1-7742-4568-8d38-2328e44a5354")
-		(property "Reference" "C10"
+		(property "Reference" "C?"
 			(at 35.814 55.626 0)
 			(effects
 				(font
@@ -4787,6 +4865,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4799,7 +4883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea52762-d8e8-4700-a550-6f58127555a2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0103"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -4853,6 +4937,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4864,7 +4954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d991e75b-a39c-4dd3-86bd-d3403face219")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0105"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -4918,6 +5008,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4929,7 +5025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4b8affd-d948-47a4-b760-9c247473b3e9")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 114.554 32.004 0)
 			(effects
 				(font
@@ -5023,6 +5119,12 @@
 					(unit 1)
 				)
 			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5034,7 +5136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e65b175c-ac59-4577-b11a-476014e83639")
-		(property "Reference" "C7"
+		(property "Reference" "C?"
 			(at 164.084 32.004 0)
 			(effects
 				(font
@@ -5125,6 +5227,12 @@
 			(project "MCU"
 				(path "/5241f41f-5653-473e-a4c4-edebfe1a2b5c"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
+					(reference "C?")
 					(unit 1)
 				)
 			)
