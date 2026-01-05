@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LMR51440SDRRR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/LMR51440SDRRR.kicad_sym")(options "")(descr ""))
   (lib (name "TCAN334DR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/TCAN334DR.kicad_sym")(options "")(descr ""))
+  (lib (name "PESD2CANFD27V-QCZ")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/PESD2CANFD27V-QCZ.kicad_sym")(options "")(descr ""))
 )

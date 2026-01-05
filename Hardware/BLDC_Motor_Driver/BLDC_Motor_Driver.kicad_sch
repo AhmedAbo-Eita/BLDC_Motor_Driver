@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(sheet
 		(at 43.18 121.92)
-		(size 39.37 36.83)
+		(size 30.48 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -42,6 +42,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN_L" input
+			(at 73.66 153.67 0)
+			(uuid "8ebeb0ca-2f81-41e7-a8b3-170cddd3ee2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_H" input
+			(at 73.66 151.13 0)
+			(uuid "04ac4f4a-2fa8-44e5-8e99-dc8744614c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" input
+			(at 73.66 127 0)
+			(uuid "4a513d0e-4732-4d7a-97b8-460e719238f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 73.66 129.54 0)
+			(uuid "9ab95830-69a6-47e5-bc43-8bb40c631933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SHDN" input
+			(at 73.66 132.08 0)
+			(uuid "f1ad4d46-fd8b-4dfb-b5b4-9b496ce1df81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STB" input
+			(at 73.66 134.62 0)
+			(uuid "2acd9cf8-8729-4113-aa41-410116aaa72d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
