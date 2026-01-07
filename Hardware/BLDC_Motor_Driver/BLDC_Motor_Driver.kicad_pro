@@ -742,7 +742,7 @@
     ],
     [
       "e7fbbff1-7265-43e4-97d7-cbbb02426874",
-      "Power_Sheet"
+      "Power"
     ],
     [
       "a8b67aa6-c16e-4704-8284-64b4e81a0aca",
@@ -751,6 +751,10 @@
     [
       "17c2dea7-3456-4796-810d-fa2277d14545",
       "CAN_Transceiver"
+    ],
+    [
+      "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8",
+      "Memory"
     ]
   ],
   "text_variables": {
