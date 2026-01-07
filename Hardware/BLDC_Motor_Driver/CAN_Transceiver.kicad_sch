@@ -2506,31 +2506,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 85.09 90)
+		(at 101.6 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "14c82b0d-acdb-4f14-989d-aa9205a8ef08")
-		(property "Reference" "R12"
-			(at 96.52 83.82 90)
+		(uuid "117d20d2-cbf0-4d90-b696-931bc7b24f04")
+		(property "Reference" "R9"
+			(at 96.52 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "49.9R"
-			(at 107.95 83.82 90)
+		(property "Value" "33R"
+			(at 106.68 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 86.868 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,8 +2538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C269747.pdf"
-			(at 101.6 85.09 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2548,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 85.09 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,8 +2556,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C269747"
-			(at 101.6 85.09 0)
+		(property "LCSC_PN" "C108661"
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,8 +2565,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RMC080549.91%N"
-			(at 101.6 85.09 0)
+		(property "MP" "RC0603FR-0733RL"
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 101.6 85.09 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,15 +2584,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e722782c-8917-4de3-89cd-76409c736764")
+			(uuid "4c7f8cd6-d94e-42eb-a35e-815d3110cf08")
 		)
 		(pin "1"
-			(uuid "aff50018-c82e-4c48-9db8-6d9cac3debe4")
+			(uuid "9a6be629-e947-4efa-9965-9f1bec3d7bad")
 		)
 		(instances
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/17c2dea7-3456-4796-810d-fa2277d14545"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2600,31 +2600,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 90.17 90)
+		(at 101.6 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "17b3abd6-8b42-4cb5-b5a2-5cf46b0aeca7")
+		(uuid "1b149153-8a16-4c42-97f3-1463deb2aaaa")
 		(property "Reference" "R10"
-			(at 96.52 88.9 90)
+			(at 96.52 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "49.9R"
-			(at 107.95 88.9 90)
+		(property "Value" "33R"
+			(at 106.68 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 91.948 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,8 +2632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C269747.pdf"
-			(at 101.6 90.17 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2642,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 90.17 0)
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,8 +2650,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C269747"
-			(at 101.6 90.17 0)
+		(property "LCSC_PN" "C108661"
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,8 +2659,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RMC080549.91%N"
-			(at 101.6 90.17 0)
+		(property "MP" "RC0603FR-0733RL"
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 101.6 90.17 0)
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,10 +2678,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "37070fa1-9ed3-49ff-96a4-0bc98f6b4eeb")
+			(uuid "e52279fe-636f-4d7e-9d96-95f27c2579f8")
 		)
 		(pin "1"
-			(uuid "bba31e47-cc72-4d8c-9b9d-abd71829f20a")
+			(uuid "80ca3d48-9e9d-4564-8cec-fbc9ae428580")
 		)
 		(instances
 			(project "BLDC_Motor_Driver"
@@ -3084,6 +3084,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 101.6 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ec04f2e-9cfa-478f-8309-372668f1a9d9")
+		(property "Reference" "R11"
+			(at 96.52 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 106.68 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C108661"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0733RL"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "Yes"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1030f10-29ff-4133-a0dc-a6e49e2a3492")
+		)
+		(pin "1"
+			(uuid "5e1c1473-8dfc-4edd-a83b-3dfab46d582d")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/17c2dea7-3456-4796-810d-fa2277d14545"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 91.44 71.12 0)
 		(unit 1)
@@ -3241,6 +3335,100 @@
 			(project ""
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/17c2dea7-3456-4796-810d-fa2277d14545"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cba5619-98a0-4b59-8ca3-0f52d49ca04f")
+		(property "Reference" "R12"
+			(at 96.52 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 106.68 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C108661"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0733RL"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "Yes"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6847d78-29e8-41e6-8319-309951fb2529")
+		)
+		(pin "1"
+			(uuid "fe981ea6-6625-487d-a59b-09497f8768e4")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/17c2dea7-3456-4796-810d-fa2277d14545"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3736,100 +3924,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 101.6 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af9d7670-a489-4819-8f33-72f531b7d660")
-		(property "Reference" "R9"
-			(at 96.52 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "49.9R"
-			(at 107.95 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C269747.pdf"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_PN" "C269747"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "RMC080549.91%N"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c28d6de8-3a1d-403e-9a66-9a711494eac5")
-		)
-		(pin "1"
-			(uuid "5e64c827-3616-4761-8382-9267e994c752")
-		)
-		(instances
-			(project ""
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/17c2dea7-3456-4796-810d-fa2277d14545"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PESD2CANFD27V-QCZ:PESD2CANFD24V-QCZ")
 		(at 208.28 86.36 0)
 		(unit 1)
@@ -4085,100 +4179,6 @@
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/17c2dea7-3456-4796-810d-fa2277d14545"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6a2ff5d-8584-49e3-acf5-94a8601904e8")
-		(property "Reference" "R11"
-			(at 96.52 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "49.9R"
-			(at 107.95 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C269747.pdf"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_PN" "C269747"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "RMC080549.91%N"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93402db4-6239-42a5-b4b7-26f2d09d2471")
-		)
-		(pin "1"
-			(uuid "471afbf6-6a9a-4db5-837e-aa3edcdf381b")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/17c2dea7-3456-4796-810d-fa2277d14545"
-					(reference "R11")
 					(unit 1)
 				)
 			)
