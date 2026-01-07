@@ -755,6 +755,10 @@
     [
       "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8",
       "Memory"
+    ],
+    [
+      "92b92d4b-1235-4f84-bc4b-c464ddae5bcb",
+      "3Phase_Inverter_legs"
     ]
   ],
   "text_variables": {

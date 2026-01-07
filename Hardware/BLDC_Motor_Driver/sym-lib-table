@@ -4,4 +4,5 @@
   (lib (name "TCAN334DR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/TCAN334DR.kicad_sym")(options "")(descr ""))
   (lib (name "PESD2CANFD27V-QCZ")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/PESD2CANFD27V-QCZ.kicad_sym")(options "")(descr ""))
   (lib (name "25LC256-E_SN")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/25LC256-E_SN.kicad_sym")(options "")(descr ""))
+  (lib (name "BSC0702LS")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/BSC0702LS.kicad_sym")(options "")(descr ""))
 )

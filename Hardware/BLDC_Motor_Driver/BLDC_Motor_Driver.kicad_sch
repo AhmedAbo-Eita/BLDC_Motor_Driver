@@ -113,6 +113,48 @@
 		)
 	)
 	(sheet
+		(at 217.17 81.28)
+		(size 38.1 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92b92d4b-1235-4f84-bc4b-c464ddae5bcb")
+		(property "Sheetname" "3Phase_Inverter_legs"
+			(at 217.17 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3Phase_Inverter_legs.kicad_sch"
+			(at 217.17 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 104.14 40.64)
 		(size 49.53 63.5)
 		(exclude_from_sim no)
