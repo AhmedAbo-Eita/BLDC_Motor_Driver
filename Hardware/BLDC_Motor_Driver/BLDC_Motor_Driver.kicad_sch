@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 43.18 121.92)
+		(at 44.45 119.38)
 		(size 30.48 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "17c2dea7-3456-4796-810d-fa2277d14545")
 		(property "Sheetname" "CAN_Transceiver"
-			(at 43.18 121.2084 0)
+			(at 44.45 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN_Transceiver.kicad_sch"
-			(at 43.18 159.3346 0)
+			(at 44.45 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(pin "CAN_L" input
-			(at 73.66 153.67 0)
+			(at 74.93 151.13 0)
 			(uuid "8ebeb0ca-2f81-41e7-a8b3-170cddd3ee2c")
 			(effects
 				(font
@@ -55,7 +55,7 @@
 			)
 		)
 		(pin "CAN_H" input
-			(at 73.66 151.13 0)
+			(at 74.93 148.59 0)
 			(uuid "04ac4f4a-2fa8-44e5-8e99-dc8744614c1b")
 			(effects
 				(font
@@ -65,7 +65,7 @@
 			)
 		)
 		(pin "RXD" input
-			(at 73.66 127 0)
+			(at 74.93 124.46 0)
 			(uuid "4a513d0e-4732-4d7a-97b8-460e719238f4")
 			(effects
 				(font
@@ -75,7 +75,7 @@
 			)
 		)
 		(pin "TXD" input
-			(at 73.66 129.54 0)
+			(at 74.93 127 0)
 			(uuid "9ab95830-69a6-47e5-bc43-8bb40c631933")
 			(effects
 				(font
@@ -85,7 +85,7 @@
 			)
 		)
 		(pin "SHDN" input
-			(at 73.66 132.08 0)
+			(at 74.93 129.54 0)
 			(uuid "f1ad4d46-fd8b-4dfb-b5b4-9b496ce1df81")
 			(effects
 				(font
@@ -95,7 +95,7 @@
 			)
 		)
 		(pin "STB" input
-			(at 73.66 134.62 0)
+			(at 74.93 132.08 0)
 			(uuid "2acd9cf8-8729-4113-aa41-410116aaa72d")
 			(effects
 				(font
