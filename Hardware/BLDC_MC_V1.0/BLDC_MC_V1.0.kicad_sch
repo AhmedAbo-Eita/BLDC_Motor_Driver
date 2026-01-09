@@ -26,7 +26,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "17c2dea7-3456-4796-810d-fa2277d14545")
-		(property "Sheetname" "CAN_Transceiver"
+		(property "Sheetname" "BLDC_MC_V1.0_CAN_Transceiver"
 			(at 44.45 118.6684 0)
 			(effects
 				(font
@@ -35,7 +35,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN_Transceiver.kicad_sch"
+		(property "Sheetfile" "BLDC_MC_V1.0_CAN_Transceiver.kicad_sch"
 			(at 44.45 156.7946 0)
 			(effects
 				(font
@@ -105,7 +105,7 @@
 			)
 		)
 		(instances
-			(project "BLDC_Motor_Driver"
+			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
 					(page "4")
 				)
@@ -128,7 +128,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "92b92d4b-1235-4f84-bc4b-c464ddae5bcb")
-		(property "Sheetname" "3Phase_Inverter_legs"
+		(property "Sheetname" "BLDC_MC_V1.0_3Phase_Inverter_legs"
 			(at 217.17 80.5684 0)
 			(effects
 				(font
@@ -137,7 +137,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "3Phase_Inverter_legs.kicad_sch"
+		(property "Sheetfile" "BLDC_MC_V1.0_3Phase_Inverter_legs.kicad_sch"
 			(at 217.17 130.1246 0)
 			(effects
 				(font
@@ -147,7 +147,7 @@
 			)
 		)
 		(instances
-			(project "BLDC_Motor_Driver"
+			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
 					(page "6")
 				)
@@ -170,7 +170,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a8b67aa6-c16e-4704-8284-64b4e81a0aca")
-		(property "Sheetname" "MCU"
+		(property "Sheetname" "BLDC_MC_V1.0_MCU"
 			(at 104.14 39.9284 0)
 			(effects
 				(font
@@ -179,7 +179,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU.kicad_sch"
+		(property "Sheetfile" "BLDC_MC_V1.0_MCU.kicad_sch"
 			(at 104.14 104.7246 0)
 			(effects
 				(font
@@ -189,7 +189,7 @@
 			)
 		)
 		(instances
-			(project "BLDC_Motor_Driver"
+			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
 					(page "3")
 				)
@@ -211,7 +211,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8")
-		(property "Sheetname" "Memory"
+		(property "Sheetname" "BLDC_MC_V1.0_Memory"
 			(at 115.5043 127.8101 0)
 			(effects
 				(font
@@ -220,7 +220,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Memory.kicad_sch"
+		(property "Sheetfile" "BLDC_MC_V1.0_Memory.kicad_sch"
 			(at 115.5043 154.4144 0)
 			(effects
 				(font
@@ -270,7 +270,7 @@
 			)
 		)
 		(instances
-			(project "BLDC_Motor_Driver"
+			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
 					(page "5")
 				)
@@ -293,7 +293,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e7fbbff1-7265-43e4-97d7-cbbb02426874")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "BLDC_MC_V1.0_Power"
 			(at 41.91 56.4384 0)
 			(effects
 				(font
@@ -302,7 +302,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power_Sheet.kicad_sch"
+		(property "Sheetfile" "BLDC_MC_V1.0_Power.kicad_sch"
 			(at 41.91 74.8796 0)
 			(effects
 				(font
@@ -312,7 +312,7 @@
 			)
 		)
 		(instances
-			(project "BLDC_Motor_Driver"
+			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
 					(page "2")
 				)
