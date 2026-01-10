@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BLDC_Motor_Driver.kicad_pro",
+    "filename": "BLDC_MC_V1.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -762,6 +762,6 @@
     ]
   ],
   "text_variables": {
-    "Project_Name": "BLDC_Motor_Driver"
+    "Project_Name": "BLDC_MC"
   }
 }
