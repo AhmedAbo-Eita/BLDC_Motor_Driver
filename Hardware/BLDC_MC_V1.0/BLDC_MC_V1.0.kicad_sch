@@ -113,7 +113,49 @@
 		)
 	)
 	(sheet
-		(at 217.17 81.28)
+		(at 213.36 99.06)
+		(size 43.18 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e3e7380-448b-40c5-a207-83c216af4ef7")
+		(property "Sheetname" "BLDC_MC_V1.0_Gate_Drive"
+			(at 213.36 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLDC_MC_V1.0_Gate_Drive.kicad_sch"
+			(at 213.36 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 40.64)
 		(size 38.1 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -129,7 +171,7 @@
 		)
 		(uuid "92b92d4b-1235-4f84-bc4b-c464ddae5bcb")
 		(property "Sheetname" "BLDC_MC_V1.0_3Phase_Inverter_legs"
-			(at 217.17 80.5684 0)
+			(at 213.36 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,7 +180,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_3Phase_Inverter_legs.kicad_sch"
-			(at 217.17 130.1246 0)
+			(at 213.36 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

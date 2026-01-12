@@ -1,4 +1,4 @@
-26350023899792229
+26351792151633926
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -34,6 +34,13 @@ QFN50P600X400X80-31N
 0
 41
 41
+BLDC_Motor_Driver_Components_Footprint
+RTA0040B
+
+DRV8353HRTAR 
+0
+53
+42
 BLDC_Motor_Driver_Components_Footprint
 SOIC127P599X175-8N
 

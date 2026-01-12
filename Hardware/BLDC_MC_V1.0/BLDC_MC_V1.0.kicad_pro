@@ -759,6 +759,10 @@
     [
       "92b92d4b-1235-4f84-bc4b-c464ddae5bcb",
       "BLDC_MC_V1.0_3Phase_Inverter_legs"
+    ],
+    [
+      "6e3e7380-448b-40c5-a207-83c216af4ef7",
+      "BLDC_MC_V1.0_Gate_Drive"
     ]
   ],
   "text_variables": {

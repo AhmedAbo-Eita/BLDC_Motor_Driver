@@ -7,4 +7,5 @@
   (lib (name "BSC0702LS")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/BSC0702LS.kicad_sym")(options "")(descr ""))
   (lib (name "LM76005RNPR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/LM76005RNPR.kicad_sym")(options "")(descr ""))
   (lib (name "LDL1117S33R")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/LDL1117S33R.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8353HRTAR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/DRV8353HRTAR.kicad_sym")(options "")(descr ""))
 )
