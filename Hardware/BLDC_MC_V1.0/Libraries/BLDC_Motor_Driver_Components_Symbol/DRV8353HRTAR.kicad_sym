@@ -337,78 +337,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -22.86 -2.54 0)
-				(length 5.08)
-				(name "SDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -7.62 0)
-				(length 5.08)
-				(name "SDI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -12.7 0)
-				(length 5.08)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -17.78 0)
-				(length 5.08)
-				(name "SCS_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -22.86 -25.4 0)
 				(length 5.08)
@@ -536,7 +464,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 55.88 180)
+				(at 22.86 50.8 180)
 				(length 5.08)
 				(name "GHA"
 					(effects
@@ -554,7 +482,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 50.8 180)
+				(at 22.86 45.72 180)
 				(length 5.08)
 				(name "SHA"
 					(effects
@@ -572,7 +500,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 45.72 180)
+				(at 22.86 40.64 180)
 				(length 5.08)
 				(name "GLA"
 					(effects
@@ -590,7 +518,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 35.56 180)
+				(at 22.86 30.48 180)
 				(length 5.08)
 				(name "GHB"
 					(effects
@@ -608,7 +536,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 30.48 180)
+				(at 22.86 25.4 180)
 				(length 5.08)
 				(name "SHB"
 					(effects
@@ -626,7 +554,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 25.4 180)
+				(at 22.86 20.32 180)
 				(length 5.08)
 				(name "GLB"
 					(effects
@@ -644,7 +572,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 15.24 180)
+				(at 22.86 10.16 180)
 				(length 5.08)
 				(name "GHC"
 					(effects
@@ -662,7 +590,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 10.16 180)
+				(at 22.86 5.08 180)
 				(length 5.08)
 				(name "SHC"
 					(effects
@@ -680,7 +608,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 5.08 180)
+				(at 22.86 0 180)
 				(length 5.08)
 				(name "GLC"
 					(effects
@@ -698,7 +626,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -7.62 180)
+				(at 22.86 -11.43 180)
 				(length 5.08)
 				(name "SPC"
 					(effects
@@ -716,7 +644,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -17.78 180)
+				(at 22.86 -16.51 180)
 				(length 5.08)
 				(name "SNC"
 					(effects
@@ -734,7 +662,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -22.86 180)
+				(at 22.86 -26.67 180)
 				(length 5.08)
 				(name "SPB"
 					(effects
@@ -752,7 +680,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -33.02 180)
+				(at 22.86 -31.75 180)
 				(length 5.08)
 				(name "SNB"
 					(effects
@@ -770,7 +698,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -38.1 180)
+				(at 22.86 -40.64 180)
 				(length 5.08)
 				(name "SPA"
 					(effects
@@ -788,7 +716,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -48.26 180)
+				(at 22.86 -45.72 180)
 				(length 5.08)
 				(name "SNA"
 					(effects
@@ -852,6 +780,80 @@
 					)
 				)
 				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DRV8353HRTAR_1_1"
+			(pin passive line
+				(at -22.86 -2.54 0)
+				(length 5.08)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -7.62 0)
+				(length 5.08)
+				(name "IDRIVE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -12.7 0)
+				(length 5.08)
+				(name "VDS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -17.78 0)
+				(length 5.08)
+				(name "GAIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
 					(effects
 						(font
 							(size 1.27 1.27)
