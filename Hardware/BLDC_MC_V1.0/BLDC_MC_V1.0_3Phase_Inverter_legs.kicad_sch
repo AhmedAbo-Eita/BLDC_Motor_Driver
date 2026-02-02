@@ -584,6 +584,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -833,7 +959,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GND1"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -854,7 +980,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GND1"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -880,7 +1006,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -898,7 +1024,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GND1_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -912,7 +1038,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GND1_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -934,112 +1060,245 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 86.36 111.76)
+		(at 58.42 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "060c9dd7-dc1e-4207-bc80-81557e62bf7b")
 	)
 	(junction
-		(at 86.36 149.86)
+		(at 58.42 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "230e09c9-afd8-4562-abb0-172e795f39b9")
 	)
 	(junction
-		(at 156.21 132.08)
+		(at 128.27 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b6593e8-2f84-4467-b6dc-cabd6063549c")
 	)
 	(junction
-		(at 121.92 132.08)
+		(at 72.39 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e09e1ec-1bc5-4617-b268-cd4cc1fe66aa")
+	)
+	(junction
+		(at 93.98 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bc1a3b0-b914-4b4d-8228-c20760c927b9")
 	)
 	(junction
-		(at 121.92 111.76)
+		(at 93.98 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dcfd7ac-3d7e-4c2b-a404-5882ab3ce0d4")
 	)
 	(junction
-		(at 156.21 139.7)
+		(at 128.27 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e865305-a6ef-4264-b1b5-6d2c7205b152")
 	)
 	(junction
-		(at 156.21 100.33)
+		(at 128.27 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99ac2c03-0d1f-4d95-bcc8-d4c6d9213412")
 	)
 	(junction
-		(at 156.21 149.86)
+		(at 128.27 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1412225-6127-4f1f-97be-8668d56aa008")
 	)
 	(junction
-		(at 121.92 139.7)
+		(at 93.98 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a87ff630-fecd-4c94-b422-a61a75aee411")
 	)
 	(junction
-		(at 121.92 149.86)
+		(at 93.98 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b39a38ea-e4b5-4ceb-9d43-643f580dbb20")
 	)
 	(junction
-		(at 121.92 80.01)
+		(at 93.98 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4999d4e-fac9-4790-bd6d-1cb33fb6491a")
 	)
 	(junction
-		(at 156.21 111.76)
+		(at 72.39 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b75a01ce-941c-4f89-8412-e53f0c54299d")
+	)
+	(junction
+		(at 128.27 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b77d2da3-7e2a-44f6-bc89-138ac2843703")
 	)
 	(junction
-		(at 86.36 100.33)
+		(at 58.42 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0cb4027-ebfc-4de7-a446-b41a21514c37")
 	)
 	(junction
-		(at 121.92 100.33)
+		(at 93.98 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbe5934e-010b-441a-8d81-f462a37a6b2a")
 	)
 	(junction
-		(at 86.36 139.7)
+		(at 58.42 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9e334ad-3c31-4b10-89e2-154a6e90d409")
 	)
 	(junction
-		(at 121.92 156.21)
+		(at 93.98 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec95bf57-df90-4945-b7b4-f10bce4fd4a2")
 	)
 	(junction
-		(at 86.36 132.08)
+		(at 58.42 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecd7d4c2-77ee-4fe7-8256-6ca82ef2e8ad")
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 151.13 95.25)
+			(xy 72.39 156.21) (xy 93.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0095be88-8c0c-4698-b112-042505b51a43")
+	)
+	(wire
+		(pts
+			(xy 58.42 137.16) (xy 58.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0632eaca-98fc-4963-ac26-0f5da75cad45")
+	)
+	(wire
+		(pts
+			(xy 120.65 82.55) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 149.86) (xy 86.36 149.86)
+			(xy 52.07 137.16) (xy 58.42 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 132.08) (xy 121.92 132.08)
+			(xy 91.44 119.38) (xy 93.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 139.7) (xy 121.92 139.7)
+			(xy 87.63 127) (xy 93.98 127)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 149.86) (xy 156.21 149.86)
+			(xy 121.92 137.16) (xy 128.27 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 156.21) (xy 121.92 156.21)
+			(xy 58.42 156.21) (xy 72.39 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 132.08) (xy 156.21 132.08)
+			(xy 125.73 119.38) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1368,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 156.21 111.76)
+			(xy 128.27 87.63) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1119,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 121.92 100.33)
+			(xy 91.44 87.63) (xy 93.98 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1129,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 132.08) (xy 86.36 132.08)
+			(xy 55.88 119.38) (xy 58.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1139,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 132.08) (xy 86.36 139.7)
+			(xy 58.42 119.38) (xy 58.42 127)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 80.01) (xy 121.92 80.01)
+			(xy 58.42 67.31) (xy 72.39 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 140.97) (xy 86.36 139.7)
+			(xy 58.42 128.27) (xy 58.42 127)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 86.36 119.38)
+			(xy 58.42 99.06) (xy 58.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 157.48) (xy 121.92 156.21)
+			(xy 93.98 157.48) (xy 93.98 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 86.36 100.33)
+			(xy 55.88 87.63) (xy 58.42 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 149.86) (xy 121.92 149.86)
+			(xy 87.63 137.16) (xy 93.98 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1209,7 +1468,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 161.29 111.76)
+			(xy 128.27 99.06) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1219,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 139.7) (xy 86.36 139.7)
+			(xy 52.07 127) (xy 58.42 127)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 156.21 139.7)
+			(xy 121.92 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 100.33) (xy 86.36 111.76)
+			(xy 58.42 87.63) (xy 58.42 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 127) (xy 81.28 127)
+			(xy 52.07 114.3) (xy 53.34 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 121.92 111.76)
+			(xy 93.98 87.63) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1269,7 +1528,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 80.01)
+			(xy 93.98 62.23) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1279,7 +1538,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 100.33) (xy 88.9 100.33)
+			(xy 58.42 87.63) (xy 60.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1289,7 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 121.92 87.63)
+			(xy 93.98 67.31) (xy 93.98 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 124.46 100.33)
+			(xy 93.98 87.63) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1309,7 +1568,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 149.86) (xy 121.92 156.21)
+			(xy 93.98 137.16) (xy 93.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1319,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 127) (xy 116.84 127)
+			(xy 87.63 114.3) (xy 88.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 121.92 119.38)
+			(xy 93.98 99.06) (xy 93.98 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1598,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 156.21 100.33)
+			(xy 125.73 87.63) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1608,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 156.21 80.01)
+			(xy 58.42 148.59) (xy 58.42 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b18d3a-1380-4f0b-be5c-4be0de37c2d0")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 128.27 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 149.86) (xy 156.21 156.21)
+			(xy 128.27 137.16) (xy 128.27 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 132.08) (xy 88.9 132.08)
+			(xy 58.42 119.38) (xy 60.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 132.08) (xy 121.92 139.7)
+			(xy 93.98 119.38) (xy 93.98 127)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 95.25) (xy 81.28 95.25)
+			(xy 52.07 82.55) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 132.08) (xy 158.75 132.08)
+			(xy 128.27 119.38) (xy 130.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 156.21 80.01)
+			(xy 128.27 74.93) (xy 128.27 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 116.84 95.25)
+			(xy 87.63 82.55) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 139.7) (xy 121.92 140.97)
+			(xy 93.98 127) (xy 93.98 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1708,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 149.86) (xy 86.36 148.59)
+			(xy 128.27 148.59) (xy 128.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70dbd01-5b11-48d4-a9f0-a8fe82e72280")
+	)
+	(wire
+		(pts
+			(xy 58.42 137.16) (xy 58.42 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1728,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 127 111.76)
+			(xy 93.98 99.06) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1738,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 132.08) (xy 156.21 139.7)
+			(xy 93.98 148.59) (xy 93.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8e22e8-bcb6-4442-835d-2b07b253cb06")
+	)
+	(wire
+		(pts
+			(xy 128.27 119.38) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -1469,17 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 156.21) (xy 86.36 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c27a54-0125-41a5-8367-3dbe081a057b")
-	)
-	(wire
-		(pts
-			(xy 121.92 148.59) (xy 121.92 149.86)
+			(xy 93.98 135.89) (xy 93.98 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 127) (xy 151.13 127)
+			(xy 120.65 114.3) (xy 123.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1778,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 158.75 100.33)
+			(xy 72.39 67.31) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76c08e7-9bf7-421e-933c-b923fbb3156a")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 130.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 156.21) (xy 156.21 156.21)
+			(xy 93.98 156.21) (xy 128.27 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 92.71 111.76)
+			(xy 58.42 99.06) (xy 64.77 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 148.59) (xy 156.21 149.86)
+			(xy 128.27 135.89) (xy 128.27 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 132.08) (xy 124.46 132.08)
+			(xy 93.98 119.38) (xy 96.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 139.7) (xy 156.21 140.97)
+			(xy 128.27 127) (xy 128.27 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 80.01) (xy 86.36 87.63)
+			(xy 58.42 67.31) (xy 58.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1569,7 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 156.21 119.38)
+			(xy 128.27 99.06) (xy 128.27 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1868,7 @@
 	)
 	(hierarchical_label "Phase_B"
 		(shape output)
-		(at 127 111.76 0)
+		(at 99.06 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1590,7 +1879,7 @@
 	)
 	(hierarchical_label "GHB"
 		(shape input)
-		(at 115.57 95.25 180)
+		(at 87.63 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1601,7 +1890,7 @@
 	)
 	(hierarchical_label "GLC"
 		(shape input)
-		(at 148.59 127 180)
+		(at 120.65 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1610,9 +1899,9 @@
 		)
 		(uuid "2535ac5b-6d0e-462a-9a79-af4f08e518b7")
 	)
-	(hierarchical_label "SPB"
+	(hierarchical_label "SB+"
 		(shape output)
-		(at 115.57 139.7 180)
+		(at 87.63 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1623,7 +1912,7 @@
 	)
 	(hierarchical_label "GLB"
 		(shape input)
-		(at 115.57 127 180)
+		(at 87.63 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1634,7 +1923,7 @@
 	)
 	(hierarchical_label "Phase_C"
 		(shape output)
-		(at 161.29 111.76 0)
+		(at 133.35 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1645,7 +1934,7 @@
 	)
 	(hierarchical_label "GHC"
 		(shape input)
-		(at 148.59 95.25 180)
+		(at 120.65 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1656,7 +1945,7 @@
 	)
 	(hierarchical_label "Phase_A"
 		(shape output)
-		(at 92.71 111.76 0)
+		(at 64.77 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,9 +1954,9 @@
 		)
 		(uuid "5b37a4e4-377c-42fa-84b2-648478396efe")
 	)
-	(hierarchical_label "SNC"
+	(hierarchical_label "SC-"
 		(shape output)
-		(at 149.86 149.86 180)
+		(at 121.92 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,9 +1965,9 @@
 		)
 		(uuid "5ff54287-e725-422e-a2e2-59437e471408")
 	)
-	(hierarchical_label "SPC"
+	(hierarchical_label "SC+"
 		(shape output)
-		(at 149.86 139.7 180)
+		(at 121.92 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1689,7 +1978,7 @@
 	)
 	(hierarchical_label "GHA"
 		(shape input)
-		(at 80.01 95.25 180)
+		(at 52.07 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1698,9 +1987,9 @@
 		)
 		(uuid "bb7bf518-ff86-4890-9526-437faef6f06e")
 	)
-	(hierarchical_label "SPA"
+	(hierarchical_label "SA+"
 		(shape output)
-		(at 80.01 139.7 180)
+		(at 52.07 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1711,7 +2000,7 @@
 	)
 	(hierarchical_label "GLA"
 		(shape input)
-		(at 80.01 127 180)
+		(at 52.07 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,9 +2009,9 @@
 		)
 		(uuid "cfdee7b8-edc0-47b0-ac97-f6dccbb9cfe5")
 	)
-	(hierarchical_label "SNA"
+	(hierarchical_label "SA-"
 		(shape output)
-		(at 80.01 149.86 180)
+		(at 52.07 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,9 +2020,9 @@
 		)
 		(uuid "d7c9631f-8655-4db1-a701-0485b7517f7f")
 	)
-	(hierarchical_label "SNB"
+	(hierarchical_label "SB-"
 		(shape output)
-		(at 115.57 149.86 180)
+		(at 87.63 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1744,7 +2033,7 @@
 	)
 	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 153.67 92.71 0)
+		(at 125.73 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1753,7 +2042,7 @@
 		(fields_autoplaced yes)
 		(uuid "11be7680-e472-4d2a-9e3c-cd803d31a67f")
 		(property "Reference" "Q1"
-			(at 160.02 92.5085 0)
+			(at 132.08 79.8085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2051,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 160.02 95.0485 0)
+			(at 132.08 82.3485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +2060,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +2070,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +2079,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +2088,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2098,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +2108,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +2118,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +2128,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +2138,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +2148,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +2158,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +2168,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +2178,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +2188,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +2198,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +2208,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +2218,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +2227,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 153.67 92.71 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,6 +2251,12 @@
 			(uuid "907b2ec9-1592-4f27-927b-d8f3793c2dd1")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "Q1")
@@ -1972,7 +2267,7 @@
 	)
 	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 83.82 92.71 0)
+		(at 55.88 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1981,7 +2276,7 @@
 		(fields_autoplaced yes)
 		(uuid "301419ef-1160-4cca-a7fa-8a33d01a382a")
 		(property "Reference" "Q5"
-			(at 90.17 92.5085 0)
+			(at 62.23 79.8085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +2285,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 90.17 95.0485 0)
+			(at 62.23 82.3485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +2294,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2304,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2313,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2322,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2332,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2342,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2352,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2362,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2372,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2382,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2392,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2402,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2412,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2422,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2432,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +2442,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2452,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2461,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 83.82 92.71 0)
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,6 +2485,12 @@
 			(uuid "443b8fc3-6785-4ea9-9978-66044f198aaa")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "Q5")
@@ -2199,8 +2500,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 72.39 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ceae71d-8a9b-41f4-8e33-e582289153ef")
+		(property "Reference" "#FLG02"
+			(at 72.39 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b9df782-0692-4ec9-abf0-5b560401d605")
+		)
+		(instances
+			(project ""
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 119.38 92.71 0)
+		(at 91.44 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,7 +2576,7 @@
 		(fields_autoplaced yes)
 		(uuid "463a5525-2e46-4d31-b520-c8ff04c17be8")
 		(property "Reference" "Q3"
-			(at 125.73 92.5085 0)
+			(at 97.79 79.8085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2585,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 125.73 95.0485 0)
+			(at 97.79 82.3485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2594,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2613,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2622,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2632,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2642,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2652,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2662,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2672,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2682,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2692,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2702,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2712,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2722,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2732,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2742,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2752,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2761,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 119.38 92.71 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,6 +2785,12 @@
 			(uuid "c3ab3724-93e8-4627-94ad-e8505111bbaf")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "Q3")
@@ -2428,7 +2801,7 @@
 	)
 	(symbol
 		(lib_id "power:+36V")
-		(at 121.92 74.93 0)
+		(at 93.98 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2437,7 +2810,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d57dbc9-db4f-4c9b-bc45-d4920fd472b5")
 		(property "Reference" "#PWR033"
-			(at 121.92 78.74 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2819,7 @@
 			)
 		)
 		(property "Value" "Vin"
-			(at 121.92 69.85 0)
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 74.93 0)
+			(at 93.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 74.93 0)
+			(at 93.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+36V\""
-			(at 121.92 74.93 0)
+			(at 93.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,6 +2857,12 @@
 			(uuid "c940f473-4d12-41bc-9405-8b10d91a9cf2")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "#PWR033")
@@ -2493,17 +2872,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 121.92 157.48 0)
+		(lib_id "Device:NetTie_2")
+		(at 58.42 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8a8b9caa-eac2-4840-9bcc-7bec7c4b291d")
-		(property "Reference" "#PWR034"
-			(at 121.92 163.83 0)
+		(uuid "62c4900b-e649-49c1-a2a9-8997735ca863")
+		(property "Reference" "NT1"
+			(at 59.69 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 59.69 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,16 +2908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 121.92 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 157.48 0)
+		(property "Datasheet" "~"
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,17 +2917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 121.92 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 157.48 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,10 +2927,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f3fe7ce-16fa-4bf9-aa86-1922ccd556ec")
+			(uuid "3de00d9f-bda0-4528-8b1d-c7ed554b04d2")
+		)
+		(pin "2"
+			(uuid "e847d4a2-5aa0-4324-ba61-de2cec9b22c9")
 		)
 		(instances
 			(project ""
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 93.98 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "702a4205-6e52-433f-88f0-38b39b24e494")
+		(property "Reference" "NT2"
+			(at 95.25 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 95.25 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 93.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05bc6efe-43f0-42b1-b3fe-4e15c331f713")
+		)
+		(pin "2"
+			(uuid "e435d5ed-34d2-47b0-b728-1b8e0c6b001f")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 93.98 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928948c0-72db-403e-bd56-b9d22b6c47a4")
+		(property "Reference" "#PWR034"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 93.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 93.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eb7ac01-f611-4f7b-8bbc-de8a9df71228")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "#PWR034")
 					(unit 1)
@@ -2559,8 +3078,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 72.39 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9078d2-04fd-4521-84f4-c996d89e570d")
+		(property "Reference" "#FLG01"
+			(at 72.39 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 72.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474f6bf6-627d-4bbe-be7b-f84e6ef9bc05")
+		)
+		(instances
+			(project ""
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 119.38 124.46 0)
+		(at 91.44 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2569,7 +3154,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0452194-fdcb-4d38-9c2e-6b845a81e6e5")
 		(property "Reference" "Q4"
-			(at 125.73 124.2585 0)
+			(at 97.79 111.5585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +3163,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 125.73 126.7985 0)
+			(at 97.79 114.0985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +3172,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +3182,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +3191,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +3200,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +3210,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +3220,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +3230,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +3240,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +3250,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +3260,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +3270,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +3280,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +3290,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +3300,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +3310,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +3320,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +3330,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +3339,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 119.38 124.46 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,6 +3363,12 @@
 			(uuid "7fc8fc97-44ee-44fd-b6ff-0aedb720f5fe")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "Q4")
@@ -2788,7 +3379,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 144.78 0)
+		(at 93.98 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2797,7 +3388,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8805950-9708-4d0f-bc23-9816a7ffb219")
 		(property "Reference" "R8"
-			(at 124.46 143.5099 0)
+			(at 96.52 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +3397,7 @@
 			)
 		)
 		(property "Value" "1mR"
-			(at 124.46 146.0499 0)
+			(at 96.52 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +3406,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 120.142 144.78 90)
+			(at 92.202 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +3415,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C7419999.pdf"
-			(at 121.92 144.78 0)
+			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +3424,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 144.78 0)
+			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +3433,7 @@
 			)
 		)
 		(property "LCSC_PN" "C7419999"
-			(at 121.92 144.78 0)
+			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +3442,7 @@
 			)
 		)
 		(property "MP" "FPM253WJR001TML"
-			(at 121.92 144.78 0)
+			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +3451,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 121.92 144.78 0)
+			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,6 +3466,12 @@
 			(uuid "30d82133-1297-444b-be4c-3193df123901")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "R8")
@@ -2884,8 +3481,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 128.27 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa1c7c06-b61e-4fe8-a201-ddf544061364")
+		(property "Reference" "NT3"
+			(at 129.54 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 129.54 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 128.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 128.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "061075c1-793c-4963-9902-ded2d18af01d")
+		)
+		(pin "2"
+			(uuid "25d164c7-602c-41bf-97e0-8484b3dc9236")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 83.82 124.46 0)
+		(at 55.88 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2894,7 +3561,7 @@
 		(fields_autoplaced yes)
 		(uuid "b28e0c5a-39a5-4cbc-831d-5a59b9c22242")
 		(property "Reference" "Q6"
-			(at 90.17 124.2585 0)
+			(at 62.23 111.5585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3570,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 90.17 126.7985 0)
+			(at 62.23 114.0985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +3579,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +3589,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +3598,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3607,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +3617,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3627,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3637,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3647,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3657,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3667,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3677,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3687,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3697,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3707,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +3717,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3727,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3737,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3746,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 83.82 124.46 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,6 +3770,12 @@
 			(uuid "63ee9cc2-0b88-4ca2-84bd-b7aa5f3d3f5e")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "Q6")
@@ -3113,7 +3786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 144.78 0)
+		(at 128.27 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3122,7 +3795,7 @@
 		(fields_autoplaced yes)
 		(uuid "be9e7a91-d0ab-46b4-b132-10fb4fc6fa49")
 		(property "Reference" "R22"
-			(at 158.75 143.5099 0)
+			(at 130.81 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3804,7 @@
 			)
 		)
 		(property "Value" "1mR"
-			(at 158.75 146.0499 0)
+			(at 130.81 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3813,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 154.432 144.78 90)
+			(at 126.492 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3822,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C7419999.pdf"
-			(at 156.21 144.78 0)
+			(at 128.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3831,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 144.78 0)
+			(at 128.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3840,7 @@
 			)
 		)
 		(property "LCSC_PN" "C7419999"
-			(at 156.21 144.78 0)
+			(at 128.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3849,7 @@
 			)
 		)
 		(property "MP" "FPM253WJR001TML"
-			(at 156.21 144.78 0)
+			(at 128.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3858,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 156.21 144.78 0)
+			(at 128.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,6 +3873,12 @@
 			(uuid "9f083ef0-8132-4a62-8c34-381815ae7385")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "R22")
@@ -3210,7 +3889,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 144.78 0)
+		(at 58.42 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3219,7 +3898,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5eb7a77-d8bb-49a8-9602-a4f27273ace3")
 		(property "Reference" "R7"
-			(at 88.9 143.5099 0)
+			(at 60.96 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3907,7 @@
 			)
 		)
 		(property "Value" "1mR"
-			(at 88.9 146.0499 0)
+			(at 60.96 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3916,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 84.582 144.78 90)
+			(at 56.642 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3925,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C7419999.pdf"
-			(at 86.36 144.78 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3934,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 144.78 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3943,7 @@
 			)
 		)
 		(property "LCSC_PN" "C7419999"
-			(at 86.36 144.78 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3952,7 @@
 			)
 		)
 		(property "MP" "FPM253WJR001TML"
-			(at 86.36 144.78 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3961,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 86.36 144.78 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,6 +3976,12 @@
 			(uuid "4e5422a6-7cc1-4f34-a030-0fca4657991b")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "R7")
@@ -3307,7 +3992,7 @@
 	)
 	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 153.67 124.46 0)
+		(at 125.73 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3316,7 +4001,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8a7aab7-f640-454b-b7c9-e29beba1b7cf")
 		(property "Reference" "Q2"
-			(at 160.02 124.2585 0)
+			(at 132.08 111.5585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +4010,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 160.02 126.7985 0)
+			(at 132.08 114.0985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +4019,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +4029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +4038,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +4047,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +4057,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +4067,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +4077,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +4087,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +4097,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +4107,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +4117,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +4127,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +4137,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +4147,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +4157,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +4167,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +4177,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +4186,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 153.67 124.46 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,6 +4210,12 @@
 			(uuid "2462e3e4-b584-4523-9832-3e71a051391c")
 		)
 		(instances
+			(project "BLDC_MC_V1.0_3Phase_Inverter_legs"
+				(path "/c559ff52-52df-4245-9b6a-a74ad98227e2"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "BLDC_Motor_Driver"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "Q2")
@@ -3533,4 +4224,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

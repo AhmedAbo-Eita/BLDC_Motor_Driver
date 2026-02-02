@@ -476,7 +476,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPA" input
+		(pin "SA+" input
 			(at 203.2 78.74 0)
 			(uuid "1c2637a3-8ed1-4ce2-b091-a40d87b7338e")
 			(effects
@@ -486,7 +486,7 @@
 				(justify right)
 			)
 		)
-		(pin "SNC" input
+		(pin "SC-" input
 			(at 203.2 93.98 0)
 			(uuid "a83e7b54-4716-417e-bf3f-1b32637dd232")
 			(effects
@@ -496,7 +496,7 @@
 				(justify right)
 			)
 		)
-		(pin "SNB" input
+		(pin "SB-" input
 			(at 203.2 87.63 0)
 			(uuid "93f028ed-3fc5-4075-90ee-a4a5bf19f540")
 			(effects
@@ -506,7 +506,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPB" input
+		(pin "SB+" input
 			(at 203.2 85.09 0)
 			(uuid "75872afe-5883-45e4-9eb9-b2e05e571475")
 			(effects
@@ -516,7 +516,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPC" input
+		(pin "SC+" input
 			(at 203.2 91.44 0)
 			(uuid "0d2b0a5f-a03d-4eca-afe4-2581d07589d7")
 			(effects
@@ -526,7 +526,7 @@
 				(justify right)
 			)
 		)
-		(pin "SNA" input
+		(pin "SA-" input
 			(at 203.2 81.28 0)
 			(uuid "202f8b96-73af-48de-954b-184ce6f9efaa")
 			(effects
@@ -534,6 +534,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GD_Enable" input
+			(at 160.02 86.36 180)
+			(uuid "48627459-9db5-4035-9240-03114388fb19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAULT_N" output
+			(at 160.02 88.9 180)
+			(uuid "717b7d8f-a49d-483a-ae20-d636ec62415f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -608,7 +628,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPC" output
+		(pin "SC+" output
 			(at 219.71 91.44 180)
 			(uuid "34e1637c-8f35-4d7c-ad1e-d362742a8708")
 			(effects
@@ -618,7 +638,7 @@
 				(justify left)
 			)
 		)
-		(pin "SNC" output
+		(pin "SC-" output
 			(at 219.71 93.98 180)
 			(uuid "34593983-04b5-4514-9074-46fe0b593b18")
 			(effects
@@ -638,7 +658,7 @@
 				(justify left)
 			)
 		)
-		(pin "SNA" output
+		(pin "SA-" output
 			(at 219.71 81.28 180)
 			(uuid "1bc78efc-acd3-4ab2-8028-270b961c0d1e")
 			(effects
@@ -648,7 +668,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPB" output
+		(pin "SB+" output
 			(at 219.71 85.09 180)
 			(uuid "386f5b8a-2213-47a1-9576-58cf1ae8eaab")
 			(effects
@@ -678,7 +698,7 @@
 				(justify left)
 			)
 		)
-		(pin "SNB" output
+		(pin "SB-" output
 			(at 219.71 87.63 180)
 			(uuid "d114dc33-4bd7-4177-87ba-1d0aeb74ac0a")
 			(effects
@@ -698,7 +718,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPA" output
+		(pin "SA+" output
 			(at 219.71 78.74 180)
 			(uuid "01ac48ed-04f8-42ae-8e74-68084cf897cf")
 			(effects
