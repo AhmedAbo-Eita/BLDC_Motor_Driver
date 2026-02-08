@@ -1263,7 +1263,7 @@
 		)
 		(uuid "01d8ff99-37c1-4f63-9bac-aaede1b6f53b")
 	)
-	(hierarchical_label "SI"
+	(hierarchical_label "MOSI"
 		(shape input)
 		(at 199.39 97.79 0)
 		(effects
@@ -1274,7 +1274,7 @@
 		)
 		(uuid "a0488656-9123-479f-862f-8d1b25a2fe25")
 	)
-	(hierarchical_label "SO"
+	(hierarchical_label "MISO"
 		(shape output)
 		(at 199.39 92.71 0)
 		(effects

@@ -2619,7 +2619,7 @@
 		(uuid "f4882e89-80e4-41e0-a0a3-7f25924387ae")
 	)
 	(hierarchical_label "RXD"
-		(shape input)
+		(shape bidirectional)
 		(at 77.47 91.44 180)
 		(effects
 			(font
@@ -2674,7 +2674,7 @@
 		(uuid "b1798b3b-d449-4d10-900c-9379527123d8")
 	)
 	(hierarchical_label "TXD"
-		(shape input)
+		(shape bidirectional)
 		(at 77.47 88.9 180)
 		(effects
 			(font
