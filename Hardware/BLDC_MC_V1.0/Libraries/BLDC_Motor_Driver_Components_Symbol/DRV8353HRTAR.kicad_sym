@@ -73,54 +73,6 @@
 			)
 		)
 		(symbol "DRV8353HRTAR_0_1"
-			(polyline
-				(pts
-					(xy -17.78 66.04) (xy -17.78 -66.04)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -17.78 -66.04) (xy 17.78 -66.04)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.78 66.04) (xy -17.78 66.04)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.78 -66.04) (xy 17.78 66.04)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_in line
 				(at -22.86 60.96 0)
 				(length 5.08)
@@ -789,6 +741,17 @@
 			)
 		)
 		(symbol "DRV8353HRTAR_1_1"
+			(rectangle
+				(start -17.78 66.04)
+				(end 17.78 -66.04)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -22.86 -2.54 0)
 				(length 5.08)
