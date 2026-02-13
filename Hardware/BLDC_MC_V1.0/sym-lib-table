@@ -11,4 +11,5 @@
   (lib (name "ACT1210-510-2P-TL00")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/ACT1210-510-2P-TL00.kicad_sym")(options "")(descr ""))
   (lib (name "7M-24.000MAAJ-T")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/7M-24.000MAAJ-T.kicad_sym")(options "")(descr ""))
   (lib (name "ABS07-32.768KHZ-T")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/ABS07-32.768KHZ-T.kicad_sym")(options "")(descr ""))
+  (lib (name "NCV4274ADT50RKG")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/NCV4274ADT50RKG.kicad_sym")(options "")(descr ""))
 )

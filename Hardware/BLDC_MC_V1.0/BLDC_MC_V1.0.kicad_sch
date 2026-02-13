@@ -52,7 +52,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 115.57) (xy 87.63 115.57)
+			(xy 77.47 115.57) (xy 87.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -72,7 +72,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 118.11) (xy 87.63 118.11)
+			(xy 77.47 118.11) (xy 87.63 118.11)
 		)
 		(stroke
 			(width 0)
@@ -251,7 +251,7 @@
 		(uuid "fd295b47-eb64-4991-b4fe-99f5b4bddc3f")
 	)
 	(sheet
-		(at 26.67 110.49)
+		(at 46.99 110.49)
 		(size 30.48 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -263,11 +263,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "17c2dea7-3456-4796-810d-fa2277d14545")
 		(property "Sheetname" "BLDC_MC_V1.0_CAN_Transceiver"
-			(at 26.67 109.7784 0)
+			(at 46.99 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,7 +276,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_CAN_Transceiver.kicad_sch"
-			(at 26.67 147.9046 0)
+			(at 46.99 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +285,7 @@
 			)
 		)
 		(pin "CAN_L" bidirectional
-			(at 57.15 142.24 0)
+			(at 77.47 142.24 0)
 			(uuid "8ebeb0ca-2f81-41e7-a8b3-170cddd3ee2c")
 			(effects
 				(font
@@ -295,7 +295,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 57.15 139.7 0)
+			(at 77.47 139.7 0)
 			(uuid "04ac4f4a-2fa8-44e5-8e99-dc8744614c1b")
 			(effects
 				(font
@@ -305,7 +305,7 @@
 			)
 		)
 		(pin "RXD" bidirectional
-			(at 57.15 115.57 0)
+			(at 77.47 115.57 0)
 			(uuid "4a513d0e-4732-4d7a-97b8-460e719238f4")
 			(effects
 				(font
@@ -315,7 +315,7 @@
 			)
 		)
 		(pin "TXD" bidirectional
-			(at 57.15 118.11 0)
+			(at 77.47 118.11 0)
 			(uuid "9ab95830-69a6-47e5-bc43-8bb40c631933")
 			(effects
 				(font
@@ -325,7 +325,7 @@
 			)
 		)
 		(pin "SHDN" input
-			(at 57.15 120.65 0)
+			(at 77.47 120.65 0)
 			(uuid "f1ad4d46-fd8b-4dfb-b5b4-9b496ce1df81")
 			(effects
 				(font
@@ -335,7 +335,7 @@
 			)
 		)
 		(pin "STB" input
-			(at 57.15 123.19 0)
+			(at 77.47 123.19 0)
 			(uuid "2acd9cf8-8729-4113-aa41-410116aaa72d")
 			(effects
 				(font
@@ -365,7 +365,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "6e3e7380-448b-40c5-a207-83c216af4ef7")
 		(property "Sheetname" "BLDC_MC_V1.0_Gate_Drive"
@@ -655,8 +655,8 @@
 		)
 	)
 	(sheet
-		(at 219.71 43.18)
-		(size 38.1 55.88)
+		(at 219.71 44.45)
+		(size 38.1 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -667,11 +667,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "92b92d4b-1235-4f84-bc4b-c464ddae5bcb")
 		(property "Sheetname" "BLDC_MC_V1.0_3Phase_Inverter_legs"
-			(at 219.71 42.4684 0)
+			(at 219.71 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +859,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "a8b67aa6-c16e-4704-8284-64b4e81a0aca")
 		(property "Sheetname" "BLDC_MC_V1.0_MCU"
@@ -990,7 +990,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8")
 		(property "Sheetname" "BLDC_MC_V1.0_Memory"
@@ -1060,7 +1060,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 48.26)
+		(at 46.99 53.34)
 		(size 30.48 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1072,11 +1072,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "e7fbbff1-7265-43e4-97d7-cbbb02426874")
 		(property "Sheetname" "BLDC_MC_V1.0_Power"
-			(at 26.67 47.5484 0)
+			(at 46.99 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1085,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_Power.kicad_sch"
-			(at 26.67 86.9446 0)
+			(at 46.99 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
