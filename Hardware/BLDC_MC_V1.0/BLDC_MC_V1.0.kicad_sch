@@ -92,6 +92,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 58.42) (xy 160.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50363168-82f0-4390-b1bd-3ec9bf7d7b00")
+	)
+	(wire
+		(pts
 			(xy 137.16 134.62) (xy 160.02 134.62)
 		)
 		(stroke
@@ -139,6 +149,26 @@
 			(type default)
 		)
 		(uuid "6b07a989-6cc0-47bc-be3c-3b227322b726")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783011a8-3877-4b7f-b672-9dba4579c0e1")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 160.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e3aa27-8f32-4463-be65-df46e6980765")
 	)
 	(wire
 		(pts
@@ -202,6 +232,36 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab00cfb-17a3-48c6-99c7-dff0d62d897d")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda108c2-21f4-48ac-bcd5-b5b44076342b")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01e615a-b442-4282-8d78-57abb0fe76b4")
+	)
+	(wire
+		(pts
 			(xy 137.16 81.28) (xy 160.02 81.28)
 		)
 		(stroke
@@ -212,6 +272,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 49.53) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cb490e-4b66-4cb8-aa32-86f8c75652b6")
+	)
+	(wire
+		(pts
 			(xy 203.2 48.26) (xy 219.71 48.26)
 		)
 		(stroke
@@ -219,6 +289,16 @@
 			(type default)
 		)
 		(uuid "eb6f4f7a-2798-49ee-888d-00a76a060e4c")
+	)
+	(wire
+		(pts
+			(xy 137.16 52.07) (xy 160.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2fb37f-7f95-4373-9d26-126f112066e8")
 	)
 	(wire
 		(pts
@@ -963,6 +1043,86 @@
 		(pin "Memo_CS" output
 			(at 137.16 129.54 0)
 			(uuid "3a326d72-8837-45a0-a0ed-5bbfa0973cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAULT_N" input
+			(at 137.16 88.9 0)
+			(uuid "6e9fe00d-b42b-4da6-a51d-b5ad231f2591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GD_Enable" output
+			(at 137.16 86.36 0)
+			(uuid "0e7372e1-d41a-497a-b299-37eacf2044f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A_L" output
+			(at 137.16 52.07 0)
+			(uuid "b392bee5-375f-468e-a0a8-c903982dfb33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_C_L" output
+			(at 137.16 69.85 0)
+			(uuid "22bb93f0-f30e-433e-9865-6d724bc27fe5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_C_H" output
+			(at 137.16 67.31 0)
+			(uuid "13c35883-a62b-4ecc-9f01-41e4faaff26e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A_H" output
+			(at 137.16 49.53 0)
+			(uuid "977fb0a6-a7a4-4b05-a6b6-7ee84b821005")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_B_H" output
+			(at 137.16 58.42 0)
+			(uuid "0a2fb391-a1ec-4007-8c18-2be624b2f267")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_B_L" output
+			(at 137.16 60.96 0)
+			(uuid "bd27e8f6-52da-4852-bdfa-d5a8518b9ee5")
 			(effects
 				(font
 					(size 1.27 1.27)
