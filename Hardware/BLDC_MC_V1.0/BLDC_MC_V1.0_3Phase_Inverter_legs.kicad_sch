@@ -1463,19 +1463,37 @@
 		)
 	)
 	(junction
-		(at 45.72 68.58)
+		(at 27.94 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "060c9dd7-dc1e-4207-bc80-81557e62bf7b")
 	)
 	(junction
-		(at 45.72 106.68)
+		(at 27.94 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a54a897-7803-4975-bfff-cb41dc18d3dd")
+	)
+	(junction
+		(at 27.94 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "156c1d77-05a3-45d2-a00f-4eaed25099c9")
+	)
+	(junction
+		(at 27.94 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "230e09c9-afd8-4562-abb0-172e795f39b9")
 	)
 	(junction
-		(at 115.57 88.9)
+		(at 27.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27a3eead-1503-4d4e-b2ad-b2108529eb5b")
+	)
+	(junction
+		(at 129.54 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b6593e8-2f84-4467-b6dc-cabd6063549c")
@@ -1499,6 +1517,12 @@
 		(uuid "3e09e1ec-1bc5-4617-b268-cd4cc1fe66aa")
 	)
 	(junction
+		(at 81.28 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9f65bd-65d0-41e0-be21-26d913d7f416")
+	)
+	(junction
 		(at 81.28 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1511,7 +1535,7 @@
 		(uuid "7dcfd7ac-3d7e-4c2b-a404-5882ab3ce0d4")
 	)
 	(junction
-		(at 115.57 96.52)
+		(at 129.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e865305-a6ef-4264-b1b5-6d2c7205b152")
@@ -1523,13 +1547,19 @@
 		(uuid "98c9d97c-483e-46d9-8342-50f7305cb84a")
 	)
 	(junction
-		(at 115.57 57.15)
+		(at 129.54 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99ac2c03-0d1f-4d95-bcc8-d4c6d9213412")
 	)
 	(junction
-		(at 115.57 106.68)
+		(at 27.94 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9de3ca40-2c11-4b40-a14d-368980d61e35")
+	)
+	(junction
+		(at 129.54 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1412225-6127-4f1f-97be-8668d56aa008")
@@ -1559,7 +1589,7 @@
 		(uuid "b75a01ce-941c-4f89-8412-e53f0c54299d")
 	)
 	(junction
-		(at 115.57 68.58)
+		(at 129.54 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b77d2da3-7e2a-44f6-bc89-138ac2843703")
@@ -1571,10 +1601,28 @@
 		(uuid "bc397dde-a5d9-484c-bd23-1425aafe6bb5")
 	)
 	(junction
-		(at 45.72 57.15)
+		(at 27.94 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0cb4027-ebfc-4de7-a446-b41a21514c37")
+	)
+	(junction
+		(at 129.54 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c11d64-b34b-4a24-a06a-4b6fc0cdb8a2")
+	)
+	(junction
+		(at 81.28 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5c677ce-5bc1-45a7-80fb-d943c13e9ec4")
+	)
+	(junction
+		(at 129.54 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c744950d-090e-47e7-96d6-27ae1986d472")
 	)
 	(junction
 		(at 81.28 57.15)
@@ -1583,7 +1631,13 @@
 		(uuid "cbe5934e-010b-441a-8d81-f462a37a6b2a")
 	)
 	(junction
-		(at 45.72 96.52)
+		(at 129.54 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce8722a7-0ab9-428d-ba54-a125c9336815")
+	)
+	(junction
+		(at 27.94 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9e334ad-3c31-4b10-89e2-154a6e90d409")
@@ -1601,10 +1655,28 @@
 		(uuid "ec95bf57-df90-4945-b7b4-f10bce4fd4a2")
 	)
 	(junction
-		(at 45.72 88.9)
+		(at 27.94 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecd7d4c2-77ee-4fe7-8256-6ca82ef2e8ad")
+	)
+	(junction
+		(at 81.28 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f100a687-c663-4da8-ab77-9bd44ff9299a")
+	)
+	(junction
+		(at 129.54 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e95bc8-d1cf-4058-ab67-237a7ade5996")
+	)
+	(junction
+		(at 81.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f69297fd-d4ea-43bb-96b7-762d2239db32")
 	)
 	(wire
 		(pts
@@ -1628,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 106.68) (xy 45.72 113.03)
+			(xy 27.94 106.68) (xy 27.94 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1730,27 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 52.07) (xy 110.49 52.07)
+			(xy 46.99 81.28) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0888ac82-f291-4189-ab6a-5817a6c91072")
+	)
+	(wire
+		(pts
+			(xy 27.94 73.66) (xy 27.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc3d1bf-f489-47af-afbe-09cb56e1e5f1")
+	)
+	(wire
+		(pts
+			(xy 121.92 52.07) (xy 124.46 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1760,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 106.68) (xy 45.72 106.68)
+			(xy 81.28 125.73) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138e077f-9e87-4e05-9459-70cea8ef3da3")
+	)
+	(wire
+		(pts
+			(xy 21.59 106.68) (xy 27.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1688,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 60.96) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e7d787-3165-4e59-9dd8-d9bd9b8f2fcf")
+	)
+	(wire
+		(pts
 			(xy 74.93 96.52) (xy 81.28 96.52)
 		)
 		(stroke
@@ -1698,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 115.57 106.68)
+			(xy 123.19 106.68) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 125.73) (xy 59.69 125.73)
+			(xy 27.94 125.73) (xy 59.69 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 115.57 88.9)
+			(xy 127 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1728,13 +1840,43 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 57.15) (xy 115.57 68.58)
+			(xy 148.59 40.64) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2719a619-b20a-46d3-98b6-4f95890f9e72")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "28023aa8-2e32-485b-8a37-1f999b75d9ba")
+	)
+	(wire
+		(pts
+			(xy 46.99 49.53) (xy 46.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2844ffcd-1d90-4941-acd1-9916227d3d2d")
+	)
+	(wire
+		(pts
+			(xy 148.59 49.53) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28792972-57ff-4c97-ba29-4a004cd4c42e")
 	)
 	(wire
 		(pts
@@ -1748,7 +1890,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 88.9) (xy 45.72 88.9)
+			(xy 148.59 40.64) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297e5f2f-448d-4577-97df-ab511f86ea67")
+	)
+	(wire
+		(pts
+			(xy 25.4 88.9) (xy 27.94 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 45.72 96.52)
+			(xy 27.94 88.9) (xy 27.94 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1920,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 59.69 36.83)
+			(xy 81.28 40.64) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ca755f-8cbc-4f47-b87e-d960bbc6e698")
+	)
+	(wire
+		(pts
+			(xy 27.94 36.83) (xy 59.69 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 97.79) (xy 45.72 96.52)
+			(xy 27.94 97.79) (xy 27.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1818,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 45.72 76.2)
+			(xy 27.94 68.58) (xy 27.94 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1848,6 +2010,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 40.64) (xy 100.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401cd002-35a5-43a1-a163-b7a1ab618ba8")
+	)
+	(wire
+		(pts
+			(xy 129.54 92.71) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42390a16-f2b9-4d0b-b16a-a371a0704986")
+	)
+	(wire
+		(pts
 			(xy 60.96 173.99) (xy 60.96 180.34)
 		)
 		(stroke
@@ -1858,13 +2040,33 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 57.15) (xy 45.72 57.15)
+			(xy 27.94 92.71) (xy 46.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cdd63e-bef8-40bd-8c9b-2573fc366364")
+	)
+	(wire
+		(pts
+			(xy 25.4 57.15) (xy 27.94 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "440d0ebb-bf18-4ee6-b762-1f1c5016aaaf")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46799a80-8f9e-4510-9249-a34eceb0dc3d")
 	)
 	(wire
 		(pts
@@ -1878,7 +2080,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 68.58) (xy 120.65 68.58)
+			(xy 81.28 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a346c63-10c2-4f8f-b0f3-c8c43b6f7e33")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1888,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 96.52) (xy 45.72 96.52)
+			(xy 21.59 96.52) (xy 27.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1898,7 +2110,37 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 96.52) (xy 115.57 96.52)
+			(xy 129.54 40.64) (xy 129.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5317d735-3d18-4aa5-b305-7fd33dd8da85")
+	)
+	(wire
+		(pts
+			(xy 27.94 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5399d43d-ee8d-4515-ba3c-52474cc4e251")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54997fdb-1e5a-4464-9aa3-bd3e1b03d883")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1908,17 +2150,37 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 57.15) (xy 45.72 68.58)
+			(xy 129.54 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ceccdec-6e87-43da-9db7-93519e8da8ce")
+		(uuid "580ad738-3ad3-4e15-944a-b1ed781c4612")
 	)
 	(wire
 		(pts
-			(xy 39.37 83.82) (xy 40.64 83.82)
+			(xy 81.28 36.83) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643e4f4b-bf30-491e-92ea-3e1273883928")
+	)
+	(wire
+		(pts
+			(xy 81.28 72.39) (xy 81.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f505df-90fc-46b8-a0ce-9736ecef61aa")
+	)
+	(wire
+		(pts
+			(xy 21.59 83.82) (xy 22.86 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1928,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 81.28 68.58)
+			(xy 81.28 57.15) (xy 81.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 57.15) (xy 48.26 57.15)
+			(xy 27.94 57.15) (xy 30.48 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1958,7 +2220,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 36.83) (xy 81.28 44.45)
+			(xy 81.28 36.83) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1975,6 +2237,16 @@
 			(type default)
 		)
 		(uuid "6ef11b32-f9b3-415f-9e82-d8f69c9ed58c")
+	)
+	(wire
+		(pts
+			(xy 100.33 60.96) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705bd386-ea61-48db-ab62-fe1f281bfbba")
 	)
 	(wire
 		(pts
@@ -1998,6 +2270,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767912e7-7dd2-463f-8468-d61a668f8ec4")
+	)
+	(wire
+		(pts
+			(xy 27.94 60.96) (xy 27.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7706f08a-76fc-42bc-94d0-acf27c088357")
+	)
+	(wire
+		(pts
 			(xy 74.93 83.82) (xy 76.2 83.82)
 		)
 		(stroke
@@ -2008,23 +2300,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 81.28 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d374fc5-b10b-43b8-9d71-02170f76090a")
-	)
-	(wire
-		(pts
-			(xy 113.03 57.15) (xy 115.57 57.15)
+			(xy 127 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8008549e-e259-4d46-b0d5-07fe6d5f4008")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800b461c-1ffc-418c-8aa9-0e218650003b")
 	)
 	(wire
 		(pts
@@ -2038,7 +2330,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 118.11) (xy 45.72 125.73)
+			(xy 100.33 49.53) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811e52f1-60f8-496e-96fc-dd3b0ad20a06")
+	)
+	(wire
+		(pts
+			(xy 27.94 118.11) (xy 27.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2068,16 +2370,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 36.83) (xy 115.57 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8683019e-9f92-46df-88b9-cad33f3b9f3f")
-	)
-	(wire
-		(pts
 			(xy 74.93 173.99) (xy 74.93 180.34)
 		)
 		(stroke
@@ -2088,13 +2380,33 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 115.57 113.03)
+			(xy 129.54 106.68) (xy 129.54 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88651dba-6feb-4d06-9926-8f01bfa30ee6")
+	)
+	(wire
+		(pts
+			(xy 149.86 90.17) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d048267-9791-44b4-a242-b7ba7c0db417")
+	)
+	(wire
+		(pts
+			(xy 149.86 72.39) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f052247-060a-43d0-943f-a5530eeb4f96")
 	)
 	(wire
 		(pts
@@ -2108,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 48.26 88.9)
+			(xy 27.94 88.9) (xy 30.48 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2118,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 81.28 96.52)
+			(xy 81.28 88.9) (xy 81.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2128,7 +2440,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 52.07) (xy 40.64 52.07)
+			(xy 21.59 52.07) (xy 22.86 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2138,23 +2450,33 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 118.11 88.9)
+			(xy 129.54 72.39) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a92c46-797d-433e-ac06-e5c0a033ef79")
+	)
+	(wire
+		(pts
+			(xy 46.99 40.64) (xy 46.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99117fac-37a6-43db-b452-105717ab729d")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d9e162e-dfce-4b90-bdc3-2bce35078ac1")
-	)
-	(wire
-		(pts
-			(xy 115.57 44.45) (xy 115.57 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ddf2a2f-62dc-4c56-b298-2d5ee9270cd9")
 	)
 	(wire
 		(pts
@@ -2178,6 +2500,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 60.96) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac39bef0-5ba6-4b1b-80ea-bf4943882eda")
+	)
+	(wire
+		(pts
 			(xy 60.96 156.21) (xy 60.96 166.37)
 		)
 		(stroke
@@ -2185,6 +2517,16 @@
 			(type default)
 		)
 		(uuid "ac5bcc3b-b411-47ee-af6d-870b63c2309e")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d90114-4d0f-48d3-8716-3f5294c45720")
 	)
 	(wire
 		(pts
@@ -2198,7 +2540,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 118.11) (xy 115.57 125.73)
+			(xy 27.94 40.64) (xy 46.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11a706f-852a-4dd6-aa37-0b20e90bb6e7")
+	)
+	(wire
+		(pts
+			(xy 129.54 118.11) (xy 129.54 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2208,13 +2560,43 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 106.68) (xy 45.72 105.41)
+			(xy 27.94 40.64) (xy 27.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81e5eb7-4d95-4da1-b5b9-524edc5390b5")
+	)
+	(wire
+		(pts
+			(xy 27.94 106.68) (xy 27.94 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb61c30f-486b-4069-beaa-24f0b3926f26")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7e590e-6984-428d-aa19-8355d26a92b4")
+	)
+	(wire
+		(pts
+			(xy 129.54 36.83) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf12e855-204e-43e4-9005-47fb704236b8")
 	)
 	(wire
 		(pts
@@ -2238,13 +2620,43 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 115.57 96.52)
+			(xy 27.94 92.71) (xy 27.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01558e9-5183-4c00-b5cb-e4b8dcc1baa2")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 129.54 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1e85ec6-1f93-4659-9e86-d64fdbf159a1")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53c72a9-7459-4aa1-8c18-9e438772efc1")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b58d0c-8e25-464e-b370-e84f060207ec")
 	)
 	(wire
 		(pts
@@ -2258,6 +2670,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 60.96) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e091c0c3-c4ef-4564-9489-29a3ae2a070e")
+	)
+	(wire
+		(pts
 			(xy 100.33 173.99) (xy 100.33 180.34)
 		)
 		(stroke
@@ -2268,7 +2690,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 83.82) (xy 110.49 83.82)
+			(xy 100.33 72.39) (xy 100.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5385c6d-7c4f-46f0-9eac-a4c605800f2f")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2288,7 +2720,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 57.15) (xy 118.11 57.15)
+			(xy 27.94 57.15) (xy 27.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87868cd-dbb7-4d56-a219-2b6fd542cf29")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 132.08 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2298,13 +2740,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 125.73) (xy 115.57 125.73)
+			(xy 129.54 72.39) (xy 149.86 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee7c63fa-7a52-4377-8e3b-920e265bdab1")
+		(uuid "e8df53ae-7b7c-4302-be10-a1e598439fd4")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97e6826-3946-4dc8-88d2-68515b7adfd1")
+	)
+	(wire
+		(pts
+			(xy 81.28 60.96) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab301e1-c329-4c60-901b-495a20c95d4b")
 	)
 	(wire
 		(pts
@@ -2318,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 52.07 68.58)
+			(xy 27.94 68.58) (xy 34.29 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2328,13 +2790,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 105.41) (xy 115.57 106.68)
+			(xy 129.54 105.41) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f327cf2a-510b-4b47-b0a4-5fd8c65ad785")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 100.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64f5967-3e01-43aa-b934-3443b7f172e5")
 	)
 	(wire
 		(pts
@@ -2348,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 115.57 97.79)
+			(xy 129.54 96.52) (xy 129.54 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 45.72 44.45)
+			(xy 27.94 36.83) (xy 27.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2378,13 +2850,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 68.58) (xy 115.57 76.2)
+			(xy 129.54 68.58) (xy 129.54 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa6a6974-4ac9-4778-9f2b-8309c9abab05")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb198fb1-face-4c44-ae66-1f2128ec3e7c")
 	)
 	(hierarchical_label "Phase_B"
 		(shape output)
@@ -2410,7 +2892,7 @@
 	)
 	(hierarchical_label "GLC"
 		(shape input)
-		(at 107.95 83.82 180)
+		(at 121.92 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2443,7 +2925,7 @@
 	)
 	(hierarchical_label "Phase_C"
 		(shape output)
-		(at 120.65 68.58 0)
+		(at 134.62 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2454,7 +2936,7 @@
 	)
 	(hierarchical_label "GHC"
 		(shape input)
-		(at 107.95 52.07 180)
+		(at 121.92 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2465,7 +2947,7 @@
 	)
 	(hierarchical_label "Phase_A"
 		(shape output)
-		(at 52.07 68.58 0)
+		(at 34.29 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2476,7 +2958,7 @@
 	)
 	(hierarchical_label "SC-"
 		(shape output)
-		(at 109.22 106.68 180)
+		(at 123.19 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2487,7 +2969,7 @@
 	)
 	(hierarchical_label "SC+"
 		(shape output)
-		(at 109.22 96.52 180)
+		(at 123.19 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2498,7 +2980,7 @@
 	)
 	(hierarchical_label "GHA"
 		(shape input)
-		(at 39.37 52.07 180)
+		(at 21.59 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2509,7 +2991,7 @@
 	)
 	(hierarchical_label "SA+"
 		(shape output)
-		(at 39.37 96.52 180)
+		(at 21.59 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2520,7 +3002,7 @@
 	)
 	(hierarchical_label "GLA"
 		(shape input)
-		(at 39.37 83.82 180)
+		(at 21.59 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2531,7 +3013,7 @@
 	)
 	(hierarchical_label "SA-"
 		(shape output)
-		(at 39.37 106.68 180)
+		(at 21.59 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2553,7 +3035,7 @@
 	)
 	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 113.03 49.53 0)
+		(at 127 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2562,7 +3044,7 @@
 		(fields_autoplaced yes)
 		(uuid "11be7680-e472-4d2a-9e3c-cd803d31a67f")
 		(property "Reference" "Q1"
-			(at 119.38 49.3285 0)
+			(at 133.35 49.3285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +3053,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 119.38 51.8685 0)
+			(at 133.35 51.8685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +3062,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +3072,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +3081,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +3090,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +3100,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +3110,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +3120,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +3130,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +3140,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +3150,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +3160,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +3170,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +3180,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +3190,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +3200,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +3210,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +3220,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +3229,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 113.03 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,6 +3262,103 @@
 			(project ""
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1358cc7f-fb93-417b-873b-911486576fae")
+		(property "Reference" "R45"
+			(at 152.4 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4R7"
+			(at 152.4 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 148.082 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25489.pdf"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C25489"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "25121WJ047JT4E"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0403ac63-37fe-4b5e-b3df-d19234be9e29")
+		)
+		(pin "2"
+			(uuid "78b0cbb2-612c-48c6-b359-53b2fa9489c2")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3595,7 @@
 	)
 	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 43.18 49.53 0)
+		(at 25.4 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3025,7 +3604,7 @@
 		(fields_autoplaced yes)
 		(uuid "301419ef-1160-4cca-a7fa-8a33d01a382a")
 		(property "Reference" "Q5"
-			(at 49.53 49.3285 0)
+			(at 31.75 49.3285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3613,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 49.53 51.8685 0)
+			(at 31.75 51.8685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3622,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3632,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3641,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3650,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3660,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3670,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3680,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3690,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3700,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3710,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3720,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3730,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3740,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3750,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3760,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3770,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3780,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3789,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 43.18 49.53 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,8 +4266,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 148.59 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6219ffc6-12e3-42cd-bca9-c9e6af4afccd")
+		(property "Reference" "R44"
+			(at 151.13 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4R7"
+			(at 151.13 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 146.812 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25489.pdf"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C25489"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "25121WJ047JT4E"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "189884f7-1dbc-4d4e-979d-785c534eb248")
+		)
+		(pin "2"
+			(uuid "6e7c3c1f-bb6b-429c-8575-d9c702107337")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 45.72 115.57 90)
+		(at 27.94 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3697,7 +4373,7 @@
 		(fields_autoplaced yes)
 		(uuid "62c4900b-e649-49c1-a2a9-8997735ca863")
 		(property "Reference" "NT1"
-			(at 46.99 114.2999 90)
+			(at 29.21 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +4382,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 46.99 116.8399 90)
+			(at 29.21 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +4391,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 45.72 115.57 0)
+			(at 27.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +4400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 115.57 0)
+			(at 27.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +4409,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 45.72 115.57 0)
+			(at 27.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,6 +4427,103 @@
 			(project ""
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a40935a-2807-4377-9bf5-38dabb4571e6")
+		(property "Reference" "R40"
+			(at 49.53 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4R7"
+			(at 49.53 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 45.212 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25489.pdf"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C25489"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "25121WJ047JT4E"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "782bb7de-6dea-4b2e-aaf2-093e7d1454e5")
+		)
+		(pin "2"
+			(uuid "fe69b6ab-95ee-4045-8e45-88be13e3297e")
+		)
+		(instances
+			(project ""
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3821,6 +4594,103 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7841884a-3610-4653-aa68-9deb7731bbab")
+		(property "Reference" "C59"
+			(at 104.14 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 104.14 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 101.2952 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23631.pdf"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C23631"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC1206KKX7RDBB102"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c95b41be-2f99-4410-8aeb-6d133797947f")
+		)
+		(pin "2"
+			(uuid "1f354255-1ff8-440e-a8b9-ac225207f16f")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -4050,6 +4920,103 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c459e3c-0ff1-4bed-a9b6-fb9a254959ee")
+		(property "Reference" "C58"
+			(at 50.8 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 50.8 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 47.9552 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23631.pdf"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C23631"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC1206KKX7RDBB102"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "700b10fa-1a16-4849-b696-abfe458684e0")
+		)
+		(pin "2"
+			(uuid "adeda173-a8a0-47f7-82e4-c9236ec533ae")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -4357,6 +5324,103 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 148.59 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a12b5a70-e00c-4a88-8ee5-6640f3258084")
+		(property "Reference" "C61"
+			(at 152.4 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 152.4 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 149.5552 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23631.pdf"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C23631"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC1206KKX7RDBB102"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cc2be90-150a-4f47-bd63-1ada67f1f0b0")
+		)
+		(pin "2"
+			(uuid "355e52a9-5a1c-4ccd-a93c-3225279ec6d0")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 48.26 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4557,7 +5621,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 115.57 115.57 90)
+		(at 129.54 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4566,7 +5630,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa1c7c06-b61e-4fe8-a201-ddf544061364")
 		(property "Reference" "NT3"
-			(at 116.84 114.2999 90)
+			(at 130.81 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +5639,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 116.84 116.8399 90)
+			(at 130.81 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +5648,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 115.57 115.57 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +5657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 115.57 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +5666,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 115.57 115.57 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +5854,7 @@
 	)
 	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 43.18 81.28 0)
+		(at 25.4 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4799,7 +5863,7 @@
 		(fields_autoplaced yes)
 		(uuid "b28e0c5a-39a5-4cbc-831d-5a59b9c22242")
 		(property "Reference" "Q6"
-			(at 49.53 81.0785 0)
+			(at 31.75 81.0785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +5872,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 49.53 83.6185 0)
+			(at 31.75 83.6185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +5881,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +5891,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +5900,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +5909,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5919,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5929,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +5939,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +5949,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +5959,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +5969,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5979,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +5989,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +5999,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +6009,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +6019,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +6029,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +6039,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +6048,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 43.18 81.28 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,16 +6088,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 101.6 0)
+		(at 100.33 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be9e7a91-d0ab-46b4-b132-10fb4fc6fa49")
-		(property "Reference" "R22"
-			(at 118.11 100.3299 0)
+		(uuid "b79eef5d-a497-476e-ab0b-7081808131ca")
+		(property "Reference" "R42"
+			(at 102.87 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,8 +6105,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1mR"
-			(at 118.11 102.8699 0)
+		(property "Value" "4R7"
+			(at 102.87 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,8 +6114,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 113.792 101.6 90)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 98.552 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,8 +6123,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7419999.pdf"
-			(at 115.57 101.6 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25489.pdf"
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +6133,201 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 101.6 0)
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C25489"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "25121WJ047JT4E"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b54439-bec2-4a03-b8e7-49d83ae154b7")
+		)
+		(pin "2"
+			(uuid "243b2297-e821-40ed-a6ff-4fc76e13b7a5")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd1a744f-3db9-4279-b483-59b56b6a5a3c")
+		(property "Reference" "C60"
+			(at 104.14 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 104.14 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 101.2952 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23631.pdf"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C23631"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC1206KKX7RDBB102"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4f7d4e-4ce5-4510-8328-d31746fc500f")
+		)
+		(pin "2"
+			(uuid "62983c9a-261c-4747-a83d-a5b7c81d5e0f")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be9e7a91-d0ab-46b4-b132-10fb4fc6fa49")
+		(property "Reference" "R22"
+			(at 132.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mR"
+			(at 132.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 127.762 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7419999.pdf"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +6336,7 @@
 			)
 		)
 		(property "LCSC_PN" "C7419999"
-			(at 115.57 101.6 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +6345,7 @@
 			)
 		)
 		(property "MP" "FPM253WJR001TML"
-			(at 115.57 101.6 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +6354,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 115.57 101.6 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,6 +6378,103 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef81092-dd52-4797-a90f-08255135c7c7")
+		(property "Reference" "C62"
+			(at 153.67 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 153.67 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 150.8252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23631.pdf"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C23631"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC1206KKX7RDBB102"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3515a7d-90b0-47d2-9f80-afbf52fc39ab")
+		)
+		(pin "2"
+			(uuid "358163ba-9349-42f0-9dac-f63e773e26fd")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -5290,16 +6645,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 101.6 0)
+		(at 46.99 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e5eb7a77-d8bb-49a8-9602-a4f27273ace3")
-		(property "Reference" "R7"
-			(at 48.26 100.3299 0)
+		(uuid "d0b030c9-e511-4707-85e3-9bccca271983")
+		(property "Reference" "R41"
+			(at 49.53 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,8 +6662,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1mR"
-			(at 48.26 102.8699 0)
+		(property "Value" "4R7"
+			(at 49.53 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,8 +6671,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 43.942 101.6 90)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 45.212 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,8 +6680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7419999.pdf"
-			(at 45.72 101.6 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25489.pdf"
+			(at 46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +6690,201 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 101.6 0)
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C25489"
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "25121WJ047JT4E"
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4b0ed00-1352-4617-8ba1-0e60cd9c4262")
+		)
+		(pin "2"
+			(uuid "0d69f4a4-dc61-4618-8f93-a842a49b87ca")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3252617-6ea1-47ee-b46c-08bdcaaddd73")
+		(property "Reference" "C57"
+			(at 50.8 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 50.8 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 47.9552 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23631.pdf"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C23631"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC1206KKX7RDBB102"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6788822f-44d4-4777-b346-9af06c0e012b")
+		)
+		(pin "2"
+			(uuid "ed2778e2-c20d-4243-823b-acab91ea7477")
+		)
+		(instances
+			(project ""
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5eb7a77-d8bb-49a8-9602-a4f27273ace3")
+		(property "Reference" "R7"
+			(at 30.48 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mR"
+			(at 30.48 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 26.162 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7419999.pdf"
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +6893,7 @@
 			)
 		)
 		(property "LCSC_PN" "C7419999"
-			(at 45.72 101.6 0)
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +6902,7 @@
 			)
 		)
 		(property "MP" "FPM253WJR001TML"
-			(at 45.72 101.6 0)
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +6911,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 45.72 101.6 0)
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,6 +6935,103 @@
 			(project ""
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07c9874-7020-4bae-b115-776d7f8e78c7")
+		(property "Reference" "R43"
+			(at 102.87 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4R7"
+			(at 102.87 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 98.552 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25489.pdf"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "No"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C25489"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "25121WJ047JT4E"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59f52515-adb6-4337-8130-59b9d9ceb07e")
+		)
+		(pin "2"
+			(uuid "5f0d5c0a-eabc-48c4-b964-2d7ae60c657a")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/92b92d4b-1235-4f84-bc4b-c464ddae5bcb"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5556,7 +7202,7 @@
 	)
 	(symbol
 		(lib_id "BSC0702LS:BSC0702LS")
-		(at 113.03 81.28 0)
+		(at 127 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5565,7 +7211,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8a7aab7-f640-454b-b7c9-e29beba1b7cf")
 		(property "Reference" "Q2"
-			(at 119.38 81.0785 0)
+			(at 133.35 81.0785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +7220,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 119.38 83.6185 0)
+			(at 133.35 83.6185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +7229,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:TRANS_BSC0702LS"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +7239,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501503.pdf"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +7248,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60V 84A 83W Surface Mount TDSON-8(5x6)"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +7257,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +7267,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +7277,7 @@
 			)
 		)
 		(property "Package" "SON-8 Infineon Technologies"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +7287,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +7297,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=eda"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +7307,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +7317,7 @@
 			)
 		)
 		(property "PARTREV" "2.5"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +7327,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC0702LS/Infineon/view-part/?ref=snap"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +7337,7 @@
 			)
 		)
 		(property "MP" "BSC0702LS"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +7347,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7175070&manufacturer=Infineon Technologies&part_name=BSC0702LS&search_term=bsc0702ls"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +7357,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 60V 100A SUPERSO8"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +7367,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +7377,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +7387,7 @@
 			)
 		)
 		(property "LCSC_PN" "C501503"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +7396,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 113.03 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

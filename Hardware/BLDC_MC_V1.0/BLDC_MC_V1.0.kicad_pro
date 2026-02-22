@@ -711,6 +711,11 @@
           "name": "LCSC_PN",
           "url": false,
           "visible": false
+        },
+        {
+          "name": "MP",
+          "url": false,
+          "visible": false
         }
       ],
       "intersheets_ref_own_page": false,
@@ -760,20 +765,20 @@
       "BLDC_MC_V1.0_MCU"
     ],
     [
-      "17c2dea7-3456-4796-810d-fa2277d14545",
-      "BLDC_MC_V1.0_CAN_Transceiver"
-    ],
-    [
-      "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8",
-      "BLDC_MC_V1.0_Memory"
+      "6e3e7380-448b-40c5-a207-83c216af4ef7",
+      "BLDC_MC_V1.0_Gate_Drive"
     ],
     [
       "92b92d4b-1235-4f84-bc4b-c464ddae5bcb",
       "BLDC_MC_V1.0_3Phase_Inverter_legs"
     ],
     [
-      "6e3e7380-448b-40c5-a207-83c216af4ef7",
-      "BLDC_MC_V1.0_Gate_Drive"
+      "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8",
+      "BLDC_MC_V1.0_Memory"
+    ],
+    [
+      "17c2dea7-3456-4796-810d-fa2277d14545",
+      "BLDC_MC_V1.0_CAN_Transceiver"
     ]
   ],
   "text_variables": {
