@@ -13,4 +13,5 @@
   (lib (name "ABS07-32.768KHZ-T")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/ABS07-32.768KHZ-T.kicad_sym")(options "")(descr ""))
   (lib (name "NCV4274ADT50RKG")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/NCV4274ADT50RKG.kicad_sym")(options "")(descr ""))
   (lib (name "USBLC6-2SC6")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/USBLC6-2SC6.kicad_sym")(options "")(descr ""))
+  (lib (name "RB520CS30L")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/RB520CS30L.kicad_sym")(options "")(descr ""))
 )
