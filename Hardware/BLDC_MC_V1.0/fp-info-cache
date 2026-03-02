@@ -1,4 +1,4 @@
-26745445687048104
+26750763131141840
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -27,6 +27,27 @@ PESD2CANFD24V-QCZ
 0
 3
 3
+BLDC_Motor_Driver_Components_Footprint
+DIODE_PESD3V3L1BA_115_NEX
+
+PESD3V3L1BA_115 
+0
+2
+2
+BLDC_Motor_Driver_Components_Footprint
+DIODE_PESD3V3L1BA_115_NEX-L
+
+PESD3V3L1BA_115 
+0
+2
+2
+BLDC_Motor_Driver_Components_Footprint
+DIODE_PESD3V3L1BA_115_NEX-M
+
+PESD3V3L1BA_115 
+0
+2
+2
 BLDC_Motor_Driver_Components_Footprint
 DIODFN98X58X50-2N
 
