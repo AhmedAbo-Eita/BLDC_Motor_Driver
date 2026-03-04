@@ -5849,6 +5849,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 102.87) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c3e787-645c-4281-9f0a-5d1d63e6a2ce")
+	)
+	(wire
+		(pts
 			(xy 55.88 142.24) (xy 68.58 142.24)
 		)
 		(stroke
@@ -6079,6 +6089,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 128.27) (xy 171.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984b405b-1529-4304-a8c3-5a868c0a109d")
+	)
+	(wire
+		(pts
 			(xy 167.64 59.69) (xy 171.45 59.69)
 		)
 		(stroke
@@ -6216,6 +6236,16 @@
 			(type default)
 		)
 		(uuid "af0166d5-71de-462b-9671-50815493680f")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 171.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10f66b5-75ed-4570-95c6-f98a02a6286a")
 	)
 	(wire
 		(pts
@@ -6902,6 +6932,17 @@
 		)
 		(uuid "72bd775a-903c-4f5e-a5b2-9e58cac69850")
 	)
+	(hierarchical_label "Hall_Phase_A"
+		(shape input)
+		(at 171.45 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76455409-6897-433a-8d28-e43824d5148f")
+	)
 	(hierarchical_label "TXD"
 		(shape bidirectional)
 		(at 171.45 115.57 0)
@@ -6912,6 +6953,17 @@
 			(justify left)
 		)
 		(uuid "8215ca7f-aa78-47d9-aaea-36640bf27446")
+	)
+	(hierarchical_label "Hall_Phase_B"
+		(shape input)
+		(at 171.45 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97d472b6-73eb-4aad-9789-5a9ac5a38c48")
 	)
 	(hierarchical_label "FAULT_N"
 		(shape input)
@@ -6978,6 +7030,17 @@
 			(justify left)
 		)
 		(uuid "c4cae92e-4335-401f-a300-7a3295919005")
+	)
+	(hierarchical_label "Hall_Phase_C"
+		(shape input)
+		(at 129.54 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbb70723-92bd-4dbe-8187-5da2af4e7800")
 	)
 	(hierarchical_label "Memo_CS"
 		(shape output)

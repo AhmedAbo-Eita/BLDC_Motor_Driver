@@ -1,4 +1,4 @@
-26750763131141840
+26752535795133108
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -111,6 +111,13 @@ SOIC127P600X175-8N
 0
 8
 8
+BLDC_Motor_Driver_Components_Footprint
+SOT95P280X145-5N
+
+
+0
+5
+5
 BLDC_Motor_Driver_Components_Footprint
 SOT95P280X145-6N
 

@@ -52,7 +52,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 115.57) (xy 87.63 115.57)
+			(xy 137.16 134.62) (xy 160.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1da1e4-99ae-4d8b-9e9d-70b9eca5908a")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eafbef3-016a-435a-b56b-8620b6585cd0")
+	)
+	(wire
+		(pts
+			(xy 71.12 115.57) (xy 87.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -72,7 +92,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 118.11) (xy 87.63 118.11)
+			(xy 71.12 118.11) (xy 87.63 118.11)
 		)
 		(stroke
 			(width 0)
@@ -99,16 +119,6 @@
 			(type default)
 		)
 		(uuid "50363168-82f0-4390-b1bd-3ec9bf7d7b00")
-	)
-	(wire
-		(pts
-			(xy 137.16 134.62) (xy 160.02 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54deeebf-985b-4fb7-a885-bbc5243dd723")
 	)
 	(wire
 		(pts
@@ -142,6 +152,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 132.08) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6176e8eb-1b09-49f9-aecf-6f50165f86ec")
+	)
+	(wire
+		(pts
 			(xy 203.2 93.98) (xy 219.71 93.98)
 		)
 		(stroke
@@ -149,6 +169,16 @@
 			(type default)
 		)
 		(uuid "6b07a989-6cc0-47bc-be3c-3b227322b726")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0599cf-c3b0-4a09-8d28-09a93da949a0")
 	)
 	(wire
 		(pts
@@ -192,6 +222,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 129.54) (xy 160.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6cef08-66c1-4e0b-a45c-bffeff4d4874")
+	)
+	(wire
+		(pts
 			(xy 203.2 78.74) (xy 219.71 78.74)
 		)
 		(stroke
@@ -212,23 +252,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 160.02 144.78)
+			(xy 137.16 114.3) (xy 160.02 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c152063a-c1cb-4c3a-8a7a-b355283ab503")
-	)
-	(wire
-		(pts
-			(xy 137.16 139.7) (xy 160.02 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2f94a06-07ba-4605-88cf-ecd01f4772f3")
+		(uuid "d98e27ec-ac41-49e4-b4cb-ac63b95caf26")
 	)
 	(wire
 		(pts
@@ -292,6 +322,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 137.16) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8436c7-a53a-416d-bd55-80c0dd63b204")
+	)
+	(wire
+		(pts
 			(xy 137.16 52.07) (xy 160.02 52.07)
 		)
 		(stroke
@@ -312,16 +352,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 160.02 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb88a3e-5b28-496a-b52d-91e014fecb2e")
-	)
-	(wire
-		(pts
 			(xy 203.2 58.42) (xy 219.71 58.42)
 		)
 		(stroke
@@ -331,7 +361,7 @@
 		(uuid "fd295b47-eb64-4991-b4fe-99f5b4bddc3f")
 	)
 	(sheet
-		(at 46.99 110.49)
+		(at 40.64 110.49)
 		(size 30.48 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -347,7 +377,7 @@
 		)
 		(uuid "17c2dea7-3456-4796-810d-fa2277d14545")
 		(property "Sheetname" "BLDC_MC_V1.0_CAN_Transceiver"
-			(at 46.99 109.7784 0)
+			(at 40.64 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,7 +386,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_CAN_Transceiver.kicad_sch"
-			(at 46.99 147.9046 0)
+			(at 40.64 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +395,7 @@
 			)
 		)
 		(pin "CAN_L" bidirectional
-			(at 77.47 142.24 0)
+			(at 71.12 142.24 0)
 			(uuid "8ebeb0ca-2f81-41e7-a8b3-170cddd3ee2c")
 			(effects
 				(font
@@ -375,7 +405,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 77.47 139.7 0)
+			(at 71.12 139.7 0)
 			(uuid "04ac4f4a-2fa8-44e5-8e99-dc8744614c1b")
 			(effects
 				(font
@@ -385,7 +415,7 @@
 			)
 		)
 		(pin "RXD" bidirectional
-			(at 77.47 115.57 0)
+			(at 71.12 115.57 0)
 			(uuid "4a513d0e-4732-4d7a-97b8-460e719238f4")
 			(effects
 				(font
@@ -395,7 +425,7 @@
 			)
 		)
 		(pin "TXD" bidirectional
-			(at 77.47 118.11 0)
+			(at 71.12 118.11 0)
 			(uuid "9ab95830-69a6-47e5-bc43-8bb40c631933")
 			(effects
 				(font
@@ -405,7 +435,7 @@
 			)
 		)
 		(pin "SHDN" input
-			(at 77.47 120.65 0)
+			(at 71.12 120.65 0)
 			(uuid "f1ad4d46-fd8b-4dfb-b5b4-9b496ce1df81")
 			(effects
 				(font
@@ -415,7 +445,7 @@
 			)
 		)
 		(pin "STB" input
-			(at 77.47 123.19 0)
+			(at 71.12 123.19 0)
 			(uuid "2acd9cf8-8729-4113-aa41-410116aaa72d")
 			(effects
 				(font
@@ -1011,7 +1041,7 @@
 			)
 		)
 		(pin "SCK" output
-			(at 137.16 134.62 0)
+			(at 137.16 132.08 0)
 			(uuid "a9819e6a-80e0-40ce-92c5-9815bca55081")
 			(effects
 				(font
@@ -1021,7 +1051,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 137.16 139.7 0)
+			(at 137.16 134.62 0)
 			(uuid "ffd1d443-de67-4ece-8ab6-b8e1f8e59853")
 			(effects
 				(font
@@ -1031,7 +1061,7 @@
 			)
 		)
 		(pin "MOSI" output
-			(at 137.16 144.78 0)
+			(at 137.16 137.16 0)
 			(uuid "1b44bd83-ebf1-41f0-84ed-45dadfa336d3")
 			(effects
 				(font
@@ -1130,6 +1160,36 @@
 				(justify right)
 			)
 		)
+		(pin "Hall_Phase_A" input
+			(at 137.16 109.22 0)
+			(uuid "690c5f28-a739-46a5-a105-7e42f65d7c6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Hall_Phase_C" input
+			(at 137.16 114.3 0)
+			(uuid "f1ae49c6-61a6-44c7-adc3-6ed123f34458")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Hall_Phase_B" input
+			(at 137.16 111.76 0)
+			(uuid "b7a460c2-2055-4cc8-ad89-48b9e9b70215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
@@ -1139,8 +1199,8 @@
 		)
 	)
 	(sheet
-		(at 160.02 124.46)
-		(size 22.86 25.4)
+		(at 160.02 125.73)
+		(size 43.18 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1154,7 +1214,7 @@
 		)
 		(uuid "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8")
 		(property "Sheetname" "BLDC_MC_V1.0_Memory"
-			(at 159.9543 124.0001 0)
+			(at 159.9543 125.2701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1223,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_Memory.kicad_sch"
-			(at 159.9543 150.6044 0)
+			(at 160.02 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1232,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 160.02 144.78 180)
+			(at 160.02 137.16 180)
 			(uuid "1eb5141c-6335-441b-b484-d2d08e21db62")
 			(effects
 				(font
@@ -1182,7 +1242,7 @@
 			)
 		)
 		(pin "SCK" input
-			(at 160.02 134.62 180)
+			(at 160.02 132.08 180)
 			(uuid "578d780a-4076-4d33-8b7d-522ee24b942e")
 			(effects
 				(font
@@ -1202,7 +1262,7 @@
 			)
 		)
 		(pin "MISO" output
-			(at 160.02 139.7 180)
+			(at 160.02 134.62 180)
 			(uuid "c4049add-b636-4594-b0f5-7246e0ade3f1")
 			(effects
 				(font
@@ -1220,8 +1280,8 @@
 		)
 	)
 	(sheet
-		(at 209.55 114.3)
-		(size 34.29 35.56)
+		(at 160.02 105.41)
+		(size 43.18 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1236,7 +1296,7 @@
 		)
 		(uuid "dc725932-b878-467a-b31d-6fcb7ec6c496")
 		(property "Sheetname" "BLDC_MC_V1.0_HallSensor"
-			(at 209.55 113.5884 0)
+			(at 160.02 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,12 +1305,42 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_HallSensor.kicad_sch"
-			(at 209.55 150.4446 0)
+			(at 160.02 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Hall_Phase_B" output
+			(at 160.02 111.76 180)
+			(uuid "ecaab0a1-ce77-4ec8-b39f-591672a3581c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Hall_Phase_A" output
+			(at 160.02 109.22 180)
+			(uuid "74382af2-8ae2-4fcd-bdd9-abd5fe64767a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Hall_Phase_C" output
+			(at 160.02 114.3 180)
+			(uuid "468fbdf2-edb7-4072-b38a-a366ea5b7ccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1262,7 +1352,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 53.34)
+		(at 40.64 53.34)
 		(size 30.48 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1278,7 +1368,7 @@
 		)
 		(uuid "e7fbbff1-7265-43e4-97d7-cbbb02426874")
 		(property "Sheetname" "BLDC_MC_V1.0_Power"
-			(at 46.99 52.6284 0)
+			(at 40.64 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +1377,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_Power.kicad_sch"
-			(at 46.99 92.0246 0)
+			(at 40.64 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

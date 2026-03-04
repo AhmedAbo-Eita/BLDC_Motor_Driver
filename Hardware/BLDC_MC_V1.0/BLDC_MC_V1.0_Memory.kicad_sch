@@ -1306,7 +1306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "173f635b-a517-4404-a4ed-071ab860d94b")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR092"
 			(at 144.78 115.57 0)
 			(effects
 				(font
@@ -1353,7 +1353,14 @@
 		(pin "1"
 			(uuid "8aba11fe-c48d-460c-b0c6-d1ed8e4cc2ab")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1364,7 +1371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "269b79e5-d900-4ed6-a532-43f36c700e57")
-		(property "Reference" "R"
+		(property "Reference" "R44"
 			(at 184.15 101.6 90)
 			(effects
 				(font
@@ -1440,7 +1447,14 @@
 		(pin "1"
 			(uuid "faf00f44-5df3-439d-b361-f08760ee0784")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1451,7 +1465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ed38b32-bf59-4d73-b0e7-c29053c9fe9a")
-		(property "Reference" "R"
+		(property "Reference" "R21"
 			(at 184.15 96.52 90)
 			(effects
 				(font
@@ -1527,7 +1541,14 @@
 		(pin "1"
 			(uuid "9956cf04-cde0-4578-9269-e1678908a863")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1538,7 +1559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f25ef50-bde4-4491-b5ed-f912d37bce2d")
-		(property "Reference" "R"
+		(property "Reference" "R17"
 			(at 129.54 88.9 0)
 			(effects
 				(font
@@ -1616,7 +1637,14 @@
 		(pin "2"
 			(uuid "a763668b-9104-4a90-b704-992eae8767ec")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1627,7 +1655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5badcdd9-50e5-4f4d-8132-55923852d8b9")
-		(property "Reference" "R"
+		(property "Reference" "R16"
 			(at 113.03 93.98 90)
 			(effects
 				(font
@@ -1703,7 +1731,14 @@
 		(pin "1"
 			(uuid "e2029d80-58e1-4a09-91ca-41f4f270483f")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1715,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b20ce42-d312-47fd-a6cc-356739703453")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR032"
 			(at 87.63 115.57 0)
 			(effects
 				(font
@@ -1762,7 +1797,14 @@
 		(pin "1"
 			(uuid "31270ed9-fc22-496e-bb76-8696fe900b04")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1773,7 +1815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75c8d646-3181-4b99-bf19-08d63cb42995")
-		(property "Reference" "R"
+		(property "Reference" "R18"
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -1851,7 +1893,14 @@
 		(pin "2"
 			(uuid "c320b7f6-0aa1-4352-9c24-f052e80425d1")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1959,7 +2008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e5a8b8f-e8ad-470c-a4cf-e14888968773")
-		(property "Reference" "R"
+		(property "Reference" "R20"
 			(at 184.15 91.44 90)
 			(effects
 				(font
@@ -2035,7 +2084,14 @@
 		(pin "1"
 			(uuid "a453006e-c183-41b6-9110-1e274a5c6a71")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2047,7 +2103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4e357bb-7d8f-46dd-97a8-a960112b0efa")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR031"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -2094,7 +2150,14 @@
 		(pin "1"
 			(uuid "ea3fb606-7793-48fb-861b-71a551aa218a")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2105,7 +2168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85a6fa2-beb9-4dd4-874e-58041bee437f")
-		(property "Reference" "R"
+		(property "Reference" "R19"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -2183,7 +2246,14 @@
 		(pin "2"
 			(uuid "edcafbf5-9822-4de5-8b8b-b871ea9600cd")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "25LC256-E_SN:25LC256-E_SN")
@@ -2195,7 +2265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d795a8b6-f37d-4a55-b6d4-1f93caf51910")
-		(property "Reference" "U"
+		(property "Reference" "U8"
 			(at 162.56 77.47 0)
 			(effects
 				(font
@@ -2411,7 +2481,14 @@
 		(pin "1"
 			(uuid "31fcba9b-41bf-48c6-ab78-768a8ece947f")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2423,7 +2500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edd7605b-b44c-4ee4-94d5-0f050d966ffe")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR086"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -2470,6 +2547,13 @@
 		(pin "1"
 			(uuid "b1c3a868-4044-4ba6-8409-e0e3962748e7")
 		)
-		(instances)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
