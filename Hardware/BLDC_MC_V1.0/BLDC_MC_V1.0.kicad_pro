@@ -774,6 +774,10 @@
     [
       "6e3e7380-448b-40c5-a207-83c216af4ef7",
       "BLDC_MC_V1.0_Gate_Drive"
+    ],
+    [
+      "dc725932-b878-467a-b31d-6fcb7ec6c496",
+      "BLDC_MC_V1.0_HallSensor"
     ]
   ],
   "text_variables": {

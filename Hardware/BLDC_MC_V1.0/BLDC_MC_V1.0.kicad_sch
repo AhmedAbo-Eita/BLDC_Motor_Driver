@@ -1220,6 +1220,48 @@
 		)
 	)
 	(sheet
+		(at 209.55 114.3)
+		(size 34.29 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "dc725932-b878-467a-b31d-6fcb7ec6c496")
+		(property "Sheetname" "BLDC_MC_V1.0_HallSensor"
+			(at 209.55 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLDC_MC_V1.0_HallSensor.kicad_sch"
+			(at 209.55 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 46.99 53.34)
 		(size 30.48 38.1)
 		(exclude_from_sim no)
