@@ -1,0 +1,15 @@
+LTspice 24.1.7 for Windows
+Circuit: D:\RnD\BLDC_Motor_Driver\Hardware\Simulation\Hall_Sensor_Circuit\Hall_Sensor_Non-Inv_OpAmp.net
+Start Time: Thu Mar  5 00:15:45 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 17.957 seconds.
+
+Files loaded:
+D:\RnD\BLDC_Motor_Driver\Hardware\Simulation\Hall_Sensor_Circuit\Hall_Sensor_Non-Inv_OpAmp.net
+C:\Users\Ahmed Aboeita\AppData\Local\LTspice\lib\sub\MAX4124.lib
+
