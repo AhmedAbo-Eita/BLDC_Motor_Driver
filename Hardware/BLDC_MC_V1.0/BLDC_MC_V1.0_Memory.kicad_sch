@@ -1364,6 +1364,102 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 128.27 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "252cc327-f524-4fd5-8c93-43ed3eb81029")
+		(property "Reference" "R17"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.048 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_PN" "C95204"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RT0603BRD0710KL"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembled" "Yes"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cc602b2-1fbb-47e2-beba-393da95ebfe4")
+		)
+		(pin "2"
+			(uuid "92a92248-1b07-4ec6-b84c-051fa9b989b5")
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 189.23 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1552,15 +1648,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 90.17 0)
+		(at 134.62 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3f25ef50-bde4-4491-b5ed-f912d37bce2d")
-		(property "Reference" "R17"
-			(at 129.54 88.9 0)
+		(uuid "48e144ff-853a-4294-9d92-b657ca3c35a1")
+		(property "Reference" "R18"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +1665,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 129.54 91.44 0)
+			(at 139.7 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1674,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 126.492 90.17 90)
+			(at 136.398 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,8 +1682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
-			(at 128.27 90.17 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1692,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,8 +1700,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C98220"
-			(at 128.27 90.17 0)
+		(property "LCSC_PN" "C95204"
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,8 +1709,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0710KL"
-			(at 128.27 90.17 0)
+		(property "MP" "RT0603BRD0710KL"
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1719,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 128.27 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,15 +1728,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0f4edc5-3ca2-42d7-9ea3-e549dec714ed")
+			(uuid "149fb747-3d40-415b-bc17-82f7373b30bd")
 		)
 		(pin "2"
-			(uuid "a763668b-9104-4a90-b704-992eae8767ec")
+			(uuid "b62ee6a4-2745-4c5a-8e01-b2c0a2b217c3")
 		)
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1801,102 +1897,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75c8d646-3181-4b99-bf19-08d63cb42995")
-		(property "Reference" "R18"
-			(at 135.89 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 135.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.842 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_PN" "C98220"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "RC0603FR-0710KL"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e33f3f41-7ea1-4328-8128-de3683e3c8af")
-		)
-		(pin "2"
-			(uuid "c320b7f6-0aa1-4352-9c24-f052e80425d1")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/bcfa60d7-9b39-4a60-8e0a-1c9d768132f8"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2161,15 +2161,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 90.17 0)
+		(at 140.97 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c85a6fa2-beb9-4dd4-874e-58041bee437f")
+		(uuid "d112fc24-af64-41f5-a101-51b50bc18f49")
 		(property "Reference" "R19"
-			(at 142.24 88.9 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2178,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 142.24 91.44 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2187,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 139.192 90.17 90)
+			(at 142.748 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -2213,7 +2213,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C98220"
+		(property "LCSC_PN" "C95204"
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0710KL"
+		(property "MP" "RT0603BRD0710KL"
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -2241,10 +2241,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc8f05d4-094c-41f5-a9df-0b568eb6404b")
+			(uuid "3ddbd6f9-e95c-4958-a79b-8c30d5b5803d")
 		)
 		(pin "2"
-			(uuid "edcafbf5-9822-4de5-8b8b-b871ea9600cd")
+			(uuid "1b7bf635-c481-4750-9499-af9f1385a34e")
 		)
 		(instances
 			(project "BLDC_MC_V1.0"
