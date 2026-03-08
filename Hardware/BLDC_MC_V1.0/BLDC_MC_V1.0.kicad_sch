@@ -120,7 +120,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 123.19) (xy 87.63 123.19)
+			(xy 77.47 77.47) (xy 87.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 128.27) (xy 87.63 128.27)
+			(xy 77.47 82.55) (xy 87.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -180,7 +180,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 125.73) (xy 87.63 125.73)
+			(xy 77.47 80.01) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -270,7 +270,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 96.52) (xy 87.63 96.52)
+			(xy 77.47 50.8) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -310,6 +310,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad538695-5577-49dd-82c2-04e568992a5e")
+	)
+	(wire
+		(pts
 			(xy 203.2 78.74) (xy 219.71 78.74)
 		)
 		(stroke
@@ -330,7 +340,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 87.63 120.65)
+			(xy 77.47 74.93) (xy 87.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -340,7 +350,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 87.63 99.06)
+			(xy 77.47 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8071393-7888-406a-a25f-5460cc0ea376")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -601,7 +621,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 91.44)
+		(at 40.64 45.72)
 		(size 36.83 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -617,7 +637,7 @@
 		)
 		(uuid "17c2dea7-3456-4796-810d-fa2277d14545")
 		(property "Sheetname" "BLDC_MC_V1.0_CAN_Transceiver"
-			(at 40.64 90.7284 0)
+			(at 40.64 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -626,7 +646,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_CAN_Transceiver.kicad_sch"
-			(at 40.64 109.8046 0)
+			(at 40.64 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +655,7 @@
 			)
 		)
 		(pin "CAN_L" bidirectional
-			(at 40.64 101.6 180)
+			(at 40.64 55.88 180)
 			(uuid "8ebeb0ca-2f81-41e7-a8b3-170cddd3ee2c")
 			(effects
 				(font
@@ -645,7 +665,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 40.64 99.06 180)
+			(at 40.64 53.34 180)
 			(uuid "04ac4f4a-2fa8-44e5-8e99-dc8744614c1b")
 			(effects
 				(font
@@ -655,7 +675,7 @@
 			)
 		)
 		(pin "RXD" bidirectional
-			(at 77.47 96.52 0)
+			(at 77.47 50.8 0)
 			(uuid "4a513d0e-4732-4d7a-97b8-460e719238f4")
 			(effects
 				(font
@@ -665,7 +685,7 @@
 			)
 		)
 		(pin "TXD" bidirectional
-			(at 77.47 99.06 0)
+			(at 77.47 53.34 0)
 			(uuid "9ab95830-69a6-47e5-bc43-8bb40c631933")
 			(effects
 				(font
@@ -674,9 +694,9 @@
 				(justify right)
 			)
 		)
-		(pin "SHDN" input
-			(at 77.47 101.6 0)
-			(uuid "f1ad4d46-fd8b-4dfb-b5b4-9b496ce1df81")
+		(pin "CAN_SHDN" input
+			(at 77.47 55.88 0)
+			(uuid "42e12401-9fef-4800-8004-9edce20d802f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,9 +704,9 @@
 				(justify right)
 			)
 		)
-		(pin "STB" input
-			(at 77.47 104.14 0)
-			(uuid "2acd9cf8-8729-4113-aa41-410116aaa72d")
+		(pin "CAN_STB" input
+			(at 77.47 58.42 0)
+			(uuid "5cab7218-8e02-42d8-a3b0-f07866324271")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +717,7 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
@@ -999,7 +1019,49 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "7")
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 130.81)
+		(size 36.83 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "711a882b-edcf-4c03-973c-f5d76b2ad1bc")
+		(property "Sheetname" "BLDC_MC_V1.0_Connectors"
+			(at 41.91 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLDC_MC_V1.0_Connectors.kicad_sch"
+			(at 41.91 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC_MC_V1.0"
+				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
+					(page "10")
 				)
 			)
 		)
@@ -1191,14 +1253,14 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 87.63 44.45)
-		(size 49.53 109.22)
+		(size 49.53 121.92)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1222,7 +1284,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_MCU.kicad_sch"
-			(at 87.63 154.2546 0)
+			(at 87.63 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1293,7 @@
 			)
 		)
 		(pin "TXD" bidirectional
-			(at 87.63 99.06 180)
+			(at 87.63 53.34 180)
 			(uuid "53d46eb8-8b60-4434-a380-eeec7276da61")
 			(effects
 				(font
@@ -1241,7 +1303,7 @@
 			)
 		)
 		(pin "RXD" bidirectional
-			(at 87.63 96.52 180)
+			(at 87.63 50.8 180)
 			(uuid "670821fe-e5d3-46e0-a49d-b9d9fcf7e30c")
 			(effects
 				(font
@@ -1281,7 +1343,7 @@
 			)
 		)
 		(pin "SCK" output
-			(at 87.63 123.19 180)
+			(at 87.63 77.47 180)
 			(uuid "a9819e6a-80e0-40ce-92c5-9815bca55081")
 			(effects
 				(font
@@ -1291,7 +1353,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 87.63 125.73 180)
+			(at 87.63 80.01 180)
 			(uuid "ffd1d443-de67-4ece-8ab6-b8e1f8e59853")
 			(effects
 				(font
@@ -1301,7 +1363,7 @@
 			)
 		)
 		(pin "MOSI" output
-			(at 87.63 128.27 180)
+			(at 87.63 82.55 180)
 			(uuid "1b44bd83-ebf1-41f0-84ed-45dadfa336d3")
 			(effects
 				(font
@@ -1311,7 +1373,7 @@
 			)
 		)
 		(pin "Memo_CS" output
-			(at 87.63 120.65 180)
+			(at 87.63 74.93 180)
 			(uuid "3a326d72-8837-45a0-a0ed-5bbfa0973cf8")
 			(effects
 				(font
@@ -1460,6 +1522,66 @@
 				(justify right)
 			)
 		)
+		(pin "CAN_STB" output
+			(at 87.63 58.42 180)
+			(uuid "99328d8b-291e-4a15-982a-9bf812e7f980")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_SHDN" output
+			(at 87.63 55.88 180)
+			(uuid "f819482c-62e5-47cd-9ba7-ac4c37d5f337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4_RX" input
+			(at 87.63 105.41 180)
+			(uuid "c4345ea6-900a-4b26-a4dd-d4191d98da9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3_SCL" output
+			(at 87.63 114.3 180)
+			(uuid "120d8d55-6c0b-4b82-9db1-3ad889b59ff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4_TX" output
+			(at 87.63 107.95 180)
+			(uuid "7aa0b2f8-acb9-46d7-b982-36b8cb8bcf04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 87.63 111.76 180)
+			(uuid "14ba2813-c26e-47ed-8c15-0428cf760d12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
@@ -1469,7 +1591,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 116.84)
+		(at 40.64 71.12)
 		(size 36.83 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1484,7 +1606,7 @@
 		)
 		(uuid "bcfa60d7-9b39-4a60-8e0a-1c9d768132f8")
 		(property "Sheetname" "BLDC_MC_V1.0_Memory"
-			(at 40.5743 116.3801 0)
+			(at 40.5743 70.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +1615,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_Memory.kicad_sch"
-			(at 40.64 133.35 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1624,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 77.47 128.27 0)
+			(at 77.47 82.55 0)
 			(uuid "1eb5141c-6335-441b-b484-d2d08e21db62")
 			(effects
 				(font
@@ -1512,7 +1634,7 @@
 			)
 		)
 		(pin "SCK" input
-			(at 77.47 123.19 0)
+			(at 77.47 77.47 0)
 			(uuid "578d780a-4076-4d33-8b7d-522ee24b942e")
 			(effects
 				(font
@@ -1522,7 +1644,7 @@
 			)
 		)
 		(pin "Memo_CS" input
-			(at 77.47 120.65 0)
+			(at 77.47 74.93 0)
 			(uuid "70fcaa5e-e9b1-40bc-8ace-f9ad8eeffe50")
 			(effects
 				(font
@@ -1532,7 +1654,7 @@
 			)
 		)
 		(pin "MISO" output
-			(at 77.47 125.73 0)
+			(at 77.47 80.01 0)
 			(uuid "c4049add-b636-4594-b0f5-7246e0ade3f1")
 			(effects
 				(font
@@ -1544,7 +1666,7 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -1622,8 +1744,8 @@
 		)
 	)
 	(sheet
-		(at 41.91 44.45)
-		(size 30.48 38.1)
+		(at 41.91 96.52)
+		(size 36.83 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1638,7 +1760,7 @@
 		)
 		(uuid "e7fbbff1-7265-43e4-97d7-cbbb02426874")
 		(property "Sheetname" "BLDC_MC_V1.0_Power"
-			(at 41.91 43.7384 0)
+			(at 41.91 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +1769,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_MC_V1.0_Power.kicad_sch"
-			(at 41.91 83.1346 0)
+			(at 41.91 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

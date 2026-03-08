@@ -1947,8 +1947,8 @@
 		(uuid 481dd98f-9b31-4384-9d3a-6fec031d13a7)
 	)
 	(rectangle
-		(start 68.58 62.23)
-		(end 270.51 119.38)
+		(start 64.77 62.23)
+		(end 266.7 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -1960,7 +1960,7 @@
 	)
 	(rectangle
 		(start 27.94 62.23)
-		(end 68.58 119.38)
+		(end 64.77 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -1994,7 +1994,7 @@
 	)
 	(text "Bypass and Decoupling Capacitors\n"
 		(exclude_from_sim no)
-		(at 48.26 116.84 0)
+		(at 46.99 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2051,7 +2051,7 @@
 		(uuid "1cb2aa2b-0844-4808-b377-9e9c415a33f5")
 	)
 	(junction
-		(at 57.15 74.93)
+		(at 52.07 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b90163b-8120-45c9-9e08-2b65cb027a91")
@@ -2093,7 +2093,7 @@
 		(uuid "a29b44ac-e96b-4591-a1a7-5c7a72df8d8f")
 	)
 	(junction
-		(at 57.15 100.33)
+		(at 52.07 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d612483a-3e1d-438c-80fe-709e380cce36")
@@ -2180,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 92.71) (xy 57.15 100.33)
+			(xy 52.07 92.71) (xy 52.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 100.33) (xy 57.15 105.41)
+			(xy 52.07 100.33) (xy 52.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 85.09) (xy 43.18 74.93)
+			(xy 38.1 85.09) (xy 38.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 92.71) (xy 43.18 100.33)
+			(xy 38.1 92.71) (xy 38.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 72.39) (xy 57.15 74.93)
+			(xy 52.07 72.39) (xy 52.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 74.93) (xy 57.15 74.93)
+			(xy 38.1 74.93) (xy 52.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 85.09)
+			(xy 52.07 74.93) (xy 52.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2610,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 100.33) (xy 57.15 100.33)
+			(xy 38.1 100.33) (xy 52.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +2651,7 @@
 		)
 		(uuid "5c05392e-f69a-4e91-9f3d-88bfd6af7083")
 	)
-	(hierarchical_label "STB"
+	(hierarchical_label "CAN_STB"
 		(shape input)
 		(at 77.47 86.36 180)
 		(effects
@@ -2662,7 +2662,7 @@
 		)
 		(uuid "8f396ca4-7da1-46ca-93c2-85267af3e990")
 	)
-	(hierarchical_label "SHDN"
+	(hierarchical_label "CAN_SHDN"
 		(shape input)
 		(at 77.47 83.82 180)
 		(effects
@@ -3251,7 +3251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 105.41 0)
+		(at 52.07 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3260,7 +3260,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cfcc7e6-c859-4a1c-b966-17ec9fc8ac3d")
 		(property "Reference" "#PWR023"
-			(at 57.15 111.76 0)
+			(at 52.07 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 110.49 0)
+			(at 52.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 105.41 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 105.41 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 105.41 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3317,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 43.18 88.9 0)
+		(at 38.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3326,7 +3326,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f642777-b0b6-472b-bb2e-356cf463e26d")
 		(property "Reference" "C12"
-			(at 46.99 86.7409 0)
+			(at 41.91 86.7409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3335,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 46.99 89.2809 0)
+			(at 41.91 89.2809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3344,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 44.1452 92.71 0)
+			(at 39.0652 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3353,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
-			(at 43.18 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3362,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 43.18 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3371,7 @@
 			)
 		)
 		(property "LCSC_PN" "C7171"
-			(at 43.18 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3380,7 @@
 			)
 		)
 		(property "MP" "TAJA106K016RNJ"
-			(at 43.18 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3389,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 43.18 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3480,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 57.15 72.39 0)
+		(at 52.07 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3489,7 +3489,7 @@
 		(fields_autoplaced yes)
 		(uuid "41bfa71c-76b6-4d1d-8c83-2a9293bebf4e")
 		(property "Reference" "#PWR022"
-			(at 57.15 76.2 0)
+			(at 52.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3498,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 57.15 67.31 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 72.39 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 72.39 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 57.15 72.39 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3546,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 88.9 0)
+		(at 52.07 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3555,7 +3555,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bb94fa5-15c5-422b-b379-6382995f2a3d")
 		(property "Reference" "C11"
-			(at 60.96 87.6299 0)
+			(at 55.88 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3564,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 60.96 90.1699 0)
+			(at 55.88 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3573,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 58.1152 92.71 0)
+			(at 53.0352 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3582,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3591,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3600,7 @@
 			)
 		)
 		(property "LCSC_PN" "C28233"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3609,7 @@
 			)
 		)
 		(property "MP" "CL21B104KCFNNNE"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3618,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 57.15 88.9 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
