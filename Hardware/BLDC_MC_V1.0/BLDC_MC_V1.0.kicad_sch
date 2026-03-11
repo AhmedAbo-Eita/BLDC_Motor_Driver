@@ -615,7 +615,7 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "9")
+					(page "7")
 				)
 			)
 		)
@@ -717,7 +717,7 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "7")
+					(page "9")
 				)
 			)
 		)
@@ -1666,7 +1666,7 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
@@ -1738,7 +1738,7 @@
 		(instances
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f"
-					(page "8")
+					(page "6")
 				)
 			)
 		)

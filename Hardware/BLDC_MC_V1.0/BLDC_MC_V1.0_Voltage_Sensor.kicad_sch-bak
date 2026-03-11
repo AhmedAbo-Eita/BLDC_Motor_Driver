@@ -4,11 +4,6 @@
 	(generator_version "9.0")
 	(uuid "2f763bbf-b8cf-4230-a198-b059bc1a5a3a")
 	(paper "A4")
-	(title_block
-		(title "BLDC_MC_V1.0_Voltage_Sensor")
-		(date "2026-03-11")
-		(rev "V1")
-	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -830,7 +825,7 @@
 	)
 	(rectangle
 		(start 158.75 30.48)
-		(end 276.86 88.9)
+		(end 264.16 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -932,7 +927,7 @@
 		)
 		(uuid "e01f6c4e-9c7a-461b-b3eb-4c8439ecdac5")
 	)
-	(text "[7] 3 Phase Inverter Voltage Sensing"
+	(text "3 Phase Inverter Voltage Sensing"
 		(exclude_from_sim no)
 		(at 152.4 21.59 0)
 		(effects
@@ -940,7 +935,6 @@
 				(size 4 4)
 				(thickness 0.8)
 				(bold yes)
-				(italic yes)
 				(color 132 0 0 1)
 			)
 		)
@@ -1115,23 +1109,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 171.45) (xy 124.46 171.45)
+			(xy 121.92 171.45) (xy 130.81 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1254ff9e-b40a-4f66-a3e5-df45dd05ff5c")
-	)
-	(wire
-		(pts
-			(xy 144.78 107.95) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129d1fe6-f693-4c9d-8ffd-72980e484a99")
 	)
 	(wire
 		(pts
@@ -1152,16 +1136,6 @@
 			(type default)
 		)
 		(uuid "14aad56f-358d-4b75-bd3f-241092c4946e")
-	)
-	(wire
-		(pts
-			(xy 266.7 54.61) (xy 266.7 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151a61ba-d9ba-4f7b-9c0a-c237be875099")
 	)
 	(wire
 		(pts
@@ -1245,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 59.69) (xy 135.89 59.69)
+			(xy 138.43 59.69) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 115.57) (xy 135.89 115.57)
+			(xy 138.43 115.57) (xy 149.86 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1335,27 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 163.83) (xy 144.78 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "403fbe17-7fd0-443f-80d0-fc5f3e016bde")
-	)
-	(wire
-		(pts
-			(xy 144.78 121.92) (xy 144.78 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42536c15-ffeb-4beb-b07a-c1e7112125b3")
-	)
-	(wire
-		(pts
-			(xy 121.92 115.57) (xy 124.46 115.57)
+			(xy 121.92 115.57) (xy 130.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1319,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 38.1) (xy 276.86 38.1)
+			(xy 158.75 38.1) (xy 264.16 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 171.45) (xy 135.89 171.45)
+			(xy 138.43 171.45) (xy 149.86 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1605,16 +1559,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 50.8) (xy 144.78 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758bc59b-174d-419d-9c89-62a2910af66a")
-	)
-	(wire
-		(pts
 			(xy 60.96 59.69) (xy 60.96 63.5)
 		)
 		(stroke
@@ -1705,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 59.69) (xy 124.46 59.69)
+			(xy 121.92 59.69) (xy 130.81 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1742,16 +1686,6 @@
 			(type default)
 		)
 		(uuid "964e187d-fce1-475b-b0aa-85bb9c479aa0")
-	)
-	(wire
-		(pts
-			(xy 144.78 177.8) (xy 144.78 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a2fd48-5b4c-47d3-ac10-aaa3f0cc629c")
 	)
 	(wire
 		(pts
@@ -1812,16 +1746,6 @@
 			(type default)
 		)
 		(uuid "a3486b59-1758-4eed-8aad-5f00ddbae0de")
-	)
-	(wire
-		(pts
-			(xy 266.7 68.58) (xy 266.7 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a40218d0-cd11-4f50-983a-0683141400c0")
 	)
 	(wire
 		(pts
@@ -1912,16 +1836,6 @@
 			(type default)
 		)
 		(uuid "d1864bdb-b4ce-42d8-9a22-62a1bac0cbab")
-	)
-	(wire
-		(pts
-			(xy 144.78 64.77) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d191f1f9-bbd2-44f3-a8ec-4b8748cfa64d")
 	)
 	(polyline
 		(pts
@@ -2266,7 +2180,7 @@
 	)
 	(hierarchical_label "V_C"
 		(shape output)
-		(at 135.89 171.45 0)
+		(at 149.86 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2277,7 +2191,7 @@
 	)
 	(hierarchical_label "V_B"
 		(shape output)
-		(at 135.89 115.57 0)
+		(at 149.86 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2299,7 +2213,7 @@
 	)
 	(hierarchical_label "V_A"
 		(shape output)
-		(at 135.89 59.69 0)
+		(at 149.86 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2380,102 +2294,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 144.78 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d2c2aa4-f782-4d67-9444-dcc4567ea892")
-		(property "Reference" "C85"
-			(at 147.32 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 147.32 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 145.7452 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
-			(at 144.78 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 144.78 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_PN" "C28233"
-			(at 144.78 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL21B104KCFNNNE"
-			(at 144.78 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 144.78 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d5abb4b-e41a-4536-b28f-ccdcd57cdee6")
-		)
-		(pin "2"
-			(uuid "3fad4f78-c5f6-4291-ad92-bb7cec200166")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -2573,102 +2391,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 144.78 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15efaa31-225b-4d98-a549-cd6b97c79de8")
-		(property "Reference" "C83"
-			(at 147.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 145.7452 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_PN" "C28233"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL21B104KCFNNNE"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e925b46-9b23-4ec2-95a9-e395221031ea")
-		)
-		(pin "2"
-			(uuid "d7bdeeba-1190-4385-a239-faacdac8e0df")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -2867,71 +2589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2076a203-03fb-4afe-9eaa-fb6433cce978")
-		(property "Reference" "#PWR0138"
-			(at 144.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74719bce-b33a-49f3-9bdf-32588f6e2356")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 176.53 67.31 0)
 		(unit 1)
@@ -3093,71 +2750,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 266.7 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29a92a0f-e3b7-477a-8b0f-4f3901ebd2e6")
-		(property "Reference" "#PWR0144"
-			(at 266.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c54b0c50-30af-4dc9-b357-7969eae7686e")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 50.8 59.69 270)
 		(unit 1)
@@ -3246,71 +2838,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
 					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 144.78 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35c8e6b5-de92-489f-b72c-99a91bd58270")
-		(property "Reference" "#PWR0139"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "569466d0-2de5-401d-8f1c-13da1918afb1")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -3738,7 +3265,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 115.57 270)
+		(at 134.62 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3746,7 +3273,7 @@
 		(dnp no)
 		(uuid "5963787a-2d56-4d0c-aaa1-1d1124233b19")
 		(property "Reference" "R60"
-			(at 123.19 114.3 90)
+			(at 129.54 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3281,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 133.35 114.3 90)
+			(at 139.7 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3289,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 113.792 90)
+			(at 134.62 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3298,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
-			(at 128.27 115.57 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3307,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 115.57 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3316,7 @@
 			)
 		)
 		(property "LCSC_PN" "C108661"
-			(at 128.27 115.57 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3325,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0733RL"
-			(at 128.27 115.57 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3334,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 128.27 115.57 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,71 +3452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 266.7 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a6d5280-7436-4bea-ba7a-276ba7b69654")
-		(property "Reference" "#PWR0143"
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 266.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 266.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3469124d-4b07-45fb-83a6-8ff0c16a7c1a")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 240.03 74.93 0)
 		(unit 1)
@@ -4049,71 +3511,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 144.78 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75c32628-768c-4f16-aa19-7eee8f44fcf9")
-		(property "Reference" "#PWR0141"
-			(at 144.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 144.78 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.78 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b256fdf4-712b-4834-9a82-e28db400f1d0")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -4346,102 +3743,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 266.7 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e14a0b3-dce9-4bcd-9977-00a9ed61ef16")
-		(property "Reference" "C86"
-			(at 269.24 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 269.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 267.6652 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
-			(at 266.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 266.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_PN" "C28233"
-			(at 266.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL21B104KCFNNNE"
-			(at 266.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 266.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ea05e1b-ff47-45b5-a001-2c8497aa9d16")
-		)
-		(pin "2"
-			(uuid "0f72269c-6cbc-41c8-b03d-83de185ab89e")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 116.84 157.48 0)
 		(unit 1)
@@ -4598,232 +3899,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
 					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "930e7d72-05f5-4c96-9259-178548320f9f")
-		(property "Reference" "#PWR0140"
-			(at 144.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07984ea3-7432-42f0-9b41-ee1da6824d7d")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 144.78 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "963f8161-a4b0-4a54-b941-979fdb87f894")
-		(property "Reference" "C84"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 147.32 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 145.7452 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_PN" "C28233"
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL21B104KCFNNNE"
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembled" "Yes"
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b01e2dcc-0d00-471e-951f-895b7602ed41")
-		)
-		(pin "2"
-			(uuid "215f2d9f-3ace-419a-ad61-829209520603")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "C84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 144.78 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b127ff61-7879-4345-a23e-4e03fdbbd8d8")
-		(property "Reference" "#PWR0137"
-			(at 144.78 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 144.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e4bc001-e54d-463a-9593-cf69b1a62c99")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -5007,7 +4082,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 59.69 270)
+		(at 134.62 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5015,7 +4090,7 @@
 		(dnp no)
 		(uuid "bcd9c030-b2a8-4798-b88a-6dbf5c82b4cb")
 		(property "Reference" "R65"
-			(at 123.19 58.42 90)
+			(at 129.54 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4098,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 133.35 58.42 90)
+			(at 139.7 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +4106,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 57.912 90)
+			(at 134.62 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +4115,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
-			(at 128.27 59.69 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +4124,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 59.69 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +4133,7 @@
 			)
 		)
 		(property "LCSC_PN" "C108661"
-			(at 128.27 59.69 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +4142,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0733RL"
-			(at 128.27 59.69 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +4151,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 128.27 59.69 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,71 +4457,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c58245ca-8a93-4883-9c03-b572b5477d62")
-		(property "Reference" "#PWR0142"
-			(at 144.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb9b6718-e866-40cd-88f2-d1058a282822")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/1175b708-c0b9-4533-b178-0e56bea366e2"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -6502,7 +5512,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 171.45 270)
+		(at 134.62 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6510,7 +5520,7 @@
 		(dnp no)
 		(uuid "f5f6f476-3671-4c72-9796-8e8c899da03c")
 		(property "Reference" "R66"
-			(at 123.19 170.18 90)
+			(at 129.54 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +5528,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 133.35 170.18 90)
+			(at 139.7 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +5536,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 169.672 90)
+			(at 134.62 169.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +5545,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
-			(at 128.27 171.45 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +5554,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 171.45 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +5563,7 @@
 			)
 		)
 		(property "LCSC_PN" "C108661"
-			(at 128.27 171.45 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +5572,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-0733RL"
-			(at 128.27 171.45 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +5581,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 128.27 171.45 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

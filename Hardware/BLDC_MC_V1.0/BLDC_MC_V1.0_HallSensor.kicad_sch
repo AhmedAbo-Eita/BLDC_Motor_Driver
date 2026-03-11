@@ -1144,7 +1144,7 @@
 		)
 		(uuid "0d1113f5-618d-43ec-8562-e02d3c45e113")
 	)
-	(text "Hall Effect Sensor Interface"
+	(text "[6] Hall Effect Sensor Interface"
 		(exclude_from_sim no)
 		(at 142.24 26.67 0)
 		(effects
@@ -1152,6 +1152,7 @@
 				(size 4 4)
 				(thickness 0.8)
 				(bold yes)
+				(italic yes)
 				(color 132 0 0 1)
 			)
 		)
@@ -2498,7 +2499,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b3066ce-2c4f-4e7a-8659-9762ca2823f5")
 		(property "Reference" "#PWR0113"
 			(at 185.42 73.66 0)
@@ -2510,7 +2510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 72.39 0)
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3082,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "461dd576-3562-4eb2-8a18-b006a313647a")
 		(property "Reference" "#PWR0111"
 			(at 156.21 172.72 0)
@@ -3094,7 +3093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 171.45 0)
+			(at 156.21 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3147,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5345ef5b-0de2-4399-81c4-6873a7a9e4fd")
 		(property "Reference" "#PWR0107"
 			(at 156.21 74.93 0)
@@ -3160,7 +3158,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 73.66 0)
+			(at 156.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3278,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5bc9e7d0-30df-4053-92af-e41c4d24cbe0")
 		(property "Reference" "#PWR0108"
 			(at 156.21 101.6 0)
@@ -3292,7 +3289,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 156.21 92.71 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3769,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c6ffbd8-f731-4de1-8fdc-9dab3ee8047b")
 		(property "Reference" "#PWR0109"
 			(at 156.21 124.46 0)
@@ -3784,7 +3780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 123.19 0)
+			(at 156.21 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3900,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82bcb123-02f5-41eb-8733-8a000eba4c43")
 		(property "Reference" "#PWR0106"
 			(at 156.21 52.07 0)
@@ -3916,7 +3911,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 156.21 43.18 0)
+			(at 156.21 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4591,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5371b48-0d15-43ba-984f-651fac21a82a")
 		(property "Reference" "#PWR0110"
 			(at 156.21 149.86 0)
@@ -4608,7 +4602,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 156.21 140.97 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5399,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d54e1aa3-ad22-4fb8-9168-7b31bcb5e96f")
 		(property "Reference" "#PWR0115"
 			(at 198.12 73.66 0)
@@ -5417,7 +5410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 72.39 0)
+			(at 198.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
