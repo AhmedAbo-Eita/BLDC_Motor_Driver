@@ -1733,7 +1733,7 @@
 		)
 		(uuid "29fee643-ff54-4ca4-bef7-b4ddf2dc4ac4")
 	)
-	(text "Smart Gate Drive \n"
+	(text "[4] Smart Gate Drive \n"
 		(exclude_from_sim no)
 		(at 93.98 26.67 0)
 		(effects
@@ -1741,6 +1741,7 @@
 				(size 4 4)
 				(thickness 0.8)
 				(bold yes)
+				(italic yes)
 				(color 132 0 0 1)
 			)
 		)

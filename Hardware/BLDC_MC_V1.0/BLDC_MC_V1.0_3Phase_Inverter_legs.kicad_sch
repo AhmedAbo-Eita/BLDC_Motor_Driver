@@ -1474,6 +1474,20 @@
 		)
 		(uuid 5e591004-5028-4337-809b-e2e1527a815d)
 	)
+	(text "[5] 3 Phases Inverter Bridge\n"
+		(exclude_from_sim no)
+		(at 146.05 27.94 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(italic yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "7584f6d6-c67b-434f-9235-38cb379dbcd4")
+	)
 	(text "3 Phase Inverter Bridge\n"
 		(exclude_from_sim no)
 		(at 90.17 43.18 0)

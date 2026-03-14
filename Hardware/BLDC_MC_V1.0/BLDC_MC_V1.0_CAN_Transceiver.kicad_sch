@@ -2002,14 +2002,15 @@
 		)
 		(uuid "44191001-7eb4-4c7a-bceb-06eda4b43bfd")
 	)
-	(text "CAN Transiver Classic CAN 1Mb/S"
+	(text "[9] CAN Transiver Classic CAN 1Mb/S"
 		(exclude_from_sim no)
-		(at 143.51 46.99 0)
+		(at 144.78 48.26 0)
 		(effects
 			(font
 				(size 4 4)
 				(thickness 0.8)
 				(bold yes)
+				(italic yes)
 				(color 132 0 0 1)
 			)
 		)
@@ -2037,6 +2038,16 @@
 			)
 		)
 		(uuid "9946c0d3-9e34-4e46-89d0-8f8345f11e10")
+	)
+	(text "This IC can operate as CAN-FD for faster datarate\n"
+		(exclude_from_sim no)
+		(at 142.24 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dac0ab04-6ef2-40d5-b8a0-7c71703b7911")
 	)
 	(junction
 		(at 105.41 83.82)

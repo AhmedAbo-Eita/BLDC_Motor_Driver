@@ -2740,7 +2740,7 @@
 		)
 		(uuid "dc524a37-37e7-440f-bd78-73e848ebc2aa")
 	)
-	(text "Power Conversion Vin to 12V and 12V to 3.3V"
+	(text "[1] Power Conversion Vin to 12V and 12V to 3.3V"
 		(exclude_from_sim no)
 		(at 143.51 19.05 0)
 		(effects
@@ -2748,6 +2748,7 @@
 				(size 4 4)
 				(thickness 0.8)
 				(bold yes)
+				(italic yes)
 				(color 132 0 0 1)
 			)
 		)

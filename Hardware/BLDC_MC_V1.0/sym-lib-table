@@ -16,4 +16,7 @@
   (lib (name "RB520CS30L")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/RB520CS30L.kicad_sym")(options "")(descr ""))
   (lib (name "PESD3V3L1BA,115")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/PESD3V3L1BA,115.kicad_sym")(options "")(descr ""))
   (lib (name "TLV9061IDBVR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/TLV9061IDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "1714971")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/1714971.kicad_sym")(options "")(descr ""))
+  (lib (name "1714984")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/1714984.kicad_sym")(options "")(descr ""))
+  (lib (name "430451012")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/430451012.kicad_sym")(options "")(descr ""))
 )

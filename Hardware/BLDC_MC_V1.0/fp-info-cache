@@ -1,4 +1,4 @@
-26752535795133108
+26759629821015686
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83,6 +83,34 @@ FIL_ACT1210-510-2P-TL00
 0
 4
 4
+BLDC_Motor_Driver_Components_Footprint
+MOLEX_430451012
+
+
+0
+10
+10
+BLDC_Motor_Driver_Components_Footprint
+Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical
+Molex Micro-Fit 3.0 Connector System, 43650-0315 (compatible alternatives: 43650-0316, 43650-0317), 3 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 vertical
+0
+3
+3
+BLDC_Motor_Driver_Components_Footprint
+PHOENIX_1714971
+
+
+0
+2
+2
+BLDC_Motor_Driver_Components_Footprint
+PHOENIX_1714984
+
+
+0
+3
+3
 BLDC_Motor_Driver_Components_Footprint
 QFN50P600X400X80-31N
 
