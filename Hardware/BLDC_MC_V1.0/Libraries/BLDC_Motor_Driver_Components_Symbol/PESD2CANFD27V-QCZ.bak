@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "DFN1412D-3_SOT8009_NEX"
-			(at 13.208 -6.35 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "PESD2CANFD24V-QCZ"
-			(at 10.922 -6.35 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

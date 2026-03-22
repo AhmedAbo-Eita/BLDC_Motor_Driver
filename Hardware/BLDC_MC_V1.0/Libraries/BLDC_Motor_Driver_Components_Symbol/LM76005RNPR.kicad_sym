@@ -345,7 +345,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -364,7 +364,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -383,7 +383,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -402,7 +402,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -421,7 +421,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -17.78 -16.51 0)
 				(length 5.08)
 				(name "NC"
@@ -737,7 +737,7 @@
 			)
 		)
 		(symbol "LM76005RNPR_1_0"
-			(pin power_in line
+			(pin passive line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(name "NC"
@@ -755,7 +755,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -17.78 -16.51 0)
 				(length 5.08)
 				(hide yes)

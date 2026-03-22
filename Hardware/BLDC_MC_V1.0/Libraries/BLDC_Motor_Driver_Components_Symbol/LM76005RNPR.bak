@@ -421,7 +421,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -17.78 -16.51 0)
 				(length 5.08)
 				(name "NC"
@@ -432,24 +432,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 17.78 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -773,7 +755,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -17.78 -16.51 0)
 				(length 5.08)
 				(hide yes)
@@ -785,6 +767,24 @@
 					)
 				)
 				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 17.78 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
