@@ -91,25 +91,7 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -22.86 53.34 0)
-				(length 5.08)
-				(name "VCP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
+			(pin passive line
 				(at -22.86 48.26 0)
 				(length 5.08)
 				(name "CPH"
@@ -127,7 +109,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -22.86 40.64 0)
 				(length 5.08)
 				(name "CPL"
@@ -138,24 +120,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 33.02 0)
-				(length 5.08)
-				(name "DVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -289,7 +253,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -22.86 -25.4 0)
 				(length 5.08)
 				(name "VGLS"
@@ -750,6 +714,42 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin passive line
+				(at -22.86 53.34 0)
+				(length 5.08)
+				(name "VCP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 33.02 0)
+				(length 5.08)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin passive line

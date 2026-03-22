@@ -345,45 +345,7 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -17.78 -10.16 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -10.16 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
+			(pin power_in line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -402,7 +364,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin power_in line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -421,7 +383,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin power_in line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -440,7 +402,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin power_in line
 				(at -17.78 -10.16 0)
 				(length 5.08)
 				(hide yes)
@@ -460,7 +422,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -17.78 -10.16 0)
+				(at -17.78 -16.51 0)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -784,6 +746,45 @@
 					)
 				)
 				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM76005RNPR_1_0"
+			(pin power_in line
+				(at -17.78 -10.16 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -16.51 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
 					(effects
 						(font
 							(size 1.016 1.016)
