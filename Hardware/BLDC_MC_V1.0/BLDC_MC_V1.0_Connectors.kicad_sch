@@ -5,7 +5,7 @@
 	(uuid "238f5c37-c366-49a0-8cc3-b76e67a628a4")
 	(paper "A4")
 	(title_block
-		(title "BLDC_MC_V1.0_Connectors")
+		(title "${Project_Name}")
 		(date "2026-03-08")
 		(rev "V1")
 	)
@@ -1504,7 +1504,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -1522,7 +1522,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -2683,7 +2683,7 @@
 		)
 		(uuid "7a759e1d-a990-4437-b89f-feccb075a629")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "Vin_DC"
 		(shape output)
 		(at 96.52 68.58 0)
 		(effects
@@ -3253,7 +3253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 158.75 132.08 0)
 			(effects
 				(font
@@ -3776,7 +3776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 171.45 132.08 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 207.01 87.63 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 219.71 87.63 0)
 			(effects
 				(font

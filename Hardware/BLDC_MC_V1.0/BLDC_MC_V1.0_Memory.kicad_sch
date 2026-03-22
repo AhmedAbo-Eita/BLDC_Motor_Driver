@@ -1399,7 +1399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
+		(property "Datasheet" "~"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -1493,7 +1493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 102.87 0)
 			(effects
 				(font
@@ -1587,7 +1587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 97.79 0)
 			(effects
 				(font
@@ -1683,7 +1683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
+		(property "Datasheet" "~"
 			(at 134.62 90.17 0)
 			(effects
 				(font
@@ -1777,7 +1777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 118.11 95.25 0)
 			(effects
 				(font
@@ -1940,7 +1940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -2034,7 +2034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -2196,7 +2196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
+		(property "Datasheet" "~"
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -2282,7 +2282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "25LC256-E_SN:SOIC127P600X175-8N"
+		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:SOIC127P599X175-8N"
 			(at 162.56 97.79 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "2f763bbf-b8cf-4230-a198-b059bc1a5a3a")
 	(paper "A4")
 	(title_block
-		(title "BLDC_MC_V1.0_Voltage_Sensor")
+		(title "${Project_Name}")
 		(date "2026-03-11")
 		(rev "V1")
 	)
@@ -2421,7 +2421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 173.99 0)
 			(effects
 				(font
@@ -2518,7 +2518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C705760.pdf"
+		(property "Datasheet" "~"
 			(at 35.56 180.34 0)
 			(effects
 				(font
@@ -2614,7 +2614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 60.96 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C870633.pdf"
+		(property "Datasheet" "~"
 			(at 35.56 52.07 0)
 			(effects
 				(font
@@ -2719,7 +2719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.7kΩ ±0.1% 250mW 1206 Thin Film Resistor"
+		(property "Description" "Resistor"
 			(at 35.56 52.07 0)
 			(effects
 				(font
@@ -2806,7 +2806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 60.96 179.07 0)
 			(effects
 				(font
@@ -2967,7 +2967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 176.53 67.31 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 50.8 59.69 0)
 			(effects
 				(font
@@ -3418,7 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
+		(property "Datasheet" "~"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 60.96 123.19 0)
 			(effects
 				(font
@@ -3676,7 +3676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C705760.pdf"
+		(property "Datasheet" "~"
 			(at 35.56 68.58 0)
 			(effects
 				(font
@@ -3770,7 +3770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 128.27 115.57 0)
 			(effects
 				(font
@@ -3864,7 +3864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 50.8 171.45 0)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C95204.pdf"
+		(property "Datasheet" "~"
 			(at 165.1 52.07 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 266.7 64.77 0)
 			(effects
 				(font
@@ -4543,7 +4543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C870633.pdf"
+		(property "Datasheet" "~"
 			(at 35.56 163.83 0)
 			(effects
 				(font
@@ -4552,7 +4552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.7kΩ ±0.1% 250mW 1206 Thin Film Resistor"
+		(property "Description" "Resistor"
 			(at 35.56 163.83 0)
 			(effects
 				(font
@@ -4704,7 +4704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -5039,7 +5039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 128.27 59.69 0)
 			(effects
 				(font
@@ -5135,7 +5135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 60.96 67.31 0)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C51205.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 67.31 0)
 			(effects
 				(font
@@ -5327,7 +5327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "~"
 			(at 250.19 67.31 0)
 			(effects
 				(font
@@ -5555,7 +5555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C705760.pdf"
+		(property "Datasheet" "~"
 			(at 35.56 124.46 0)
 			(effects
 				(font
@@ -6440,7 +6440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C870633.pdf"
+		(property "Datasheet" "~"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -6449,7 +6449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.7kΩ ±0.1% 250mW 1206 Thin Film Resistor"
+		(property "Description" "Resistor"
 			(at 35.56 107.95 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 128.27 171.45 0)
 			(effects
 				(font
@@ -6628,7 +6628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C108661.pdf"
+		(property "Datasheet" "~"
 			(at 50.8 115.57 0)
 			(effects
 				(font

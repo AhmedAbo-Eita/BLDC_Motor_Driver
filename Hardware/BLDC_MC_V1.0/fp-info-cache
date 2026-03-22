@@ -1,4 +1,4 @@
-26759629821015686
+26773861659777346
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84,6 +84,13 @@ FIL_ACT1210-510-2P-TL00
 4
 4
 BLDC_Motor_Driver_Components_Footprint
+LQFP64-10x10mm
+
+STM32G431RBT6 
+0
+64
+64
+BLDC_Motor_Driver_Components_Footprint
 MOLEX_430451012
 
 
@@ -97,6 +104,13 @@ connector Molex Micro-Fit_3.0 vertical
 0
 3
 3
+BLDC_Motor_Driver_Components_Footprint
+PG-TSON-8-3_INF
+
+BSC027N10NS5ATMA1 
+0
+8
+8
 BLDC_Motor_Driver_Components_Footprint
 PHOENIX_1714971
 
@@ -125,6 +139,48 @@ DRV8353HRTAR
 0
 53
 42
+BLDC_Motor_Driver_Components_Footprint
+SMDJSeries_LTF
+
+SMDJ110CA 
+0
+2
+2
+BLDC_Motor_Driver_Components_Footprint
+SMDJSeries_LTF-L
+
+SMDJ110CA 
+0
+2
+2
+BLDC_Motor_Driver_Components_Footprint
+SMDJSeries_LTF-M
+
+SMDJ110CA 
+0
+2
+2
+BLDC_Motor_Driver_Components_Footprint
+SOIC8_D_TEX
+
+LM74700QDRQ1 
+0
+8
+8
+BLDC_Motor_Driver_Components_Footprint
+SOIC8_D_TEX-L
+
+LM74700QDRQ1 
+0
+8
+8
+BLDC_Motor_Driver_Components_Footprint
+SOIC8_D_TEX-M
+
+LM74700QDRQ1 
+0
+8
+8
 BLDC_Motor_Driver_Components_Footprint
 SOIC127P599X175-8N
 

@@ -19,4 +19,8 @@
   (lib (name "1714971")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/1714971.kicad_sym")(options "")(descr ""))
   (lib (name "1714984")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/1714984.kicad_sym")(options "")(descr ""))
   (lib (name "430451012")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/430451012.kicad_sym")(options "")(descr ""))
+  (lib (name "BSC027N10NS5ATMA1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/BSC027N10NS5ATMA1.kicad_sym")(options "")(descr ""))
+  (lib (name "LM74700QDRQ1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/LM74700QDRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "SMDJ110CA")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/SMDJ110CA.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G431RBT6")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/STM32G431RBT6.kicad_sym")(options "")(descr ""))
 )
