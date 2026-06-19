@@ -819,129 +819,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -6398,12 +6275,6 @@
 		(uuid "0c35303e-e208-463e-8575-3f08d4724a71")
 	)
 	(junction
-		(at 146.05 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0caf7ab8-b9c0-48a3-8ec9-2ae38b35313b")
-	)
-	(junction
 		(at 234.95 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6452,12 +6323,6 @@
 		(uuid "47c12bef-1fd3-4aa8-8449-f074efcbd016")
 	)
 	(junction
-		(at 138.43 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508d7850-213a-4988-b5e4-70fdb1120a65")
-	)
-	(junction
 		(at 163.83 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6498,12 +6363,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c9c4208-e3eb-48f2-8d24-5ae623e69d9b")
-	)
-	(junction
-		(at 67.31 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "716617a4-8da9-481a-b002-7baf7e623140")
 	)
 	(junction
 		(at 59.69 121.92)
@@ -6572,22 +6431,10 @@
 		(uuid "929c7221-f89d-4e57-9078-601fc25246ba")
 	)
 	(junction
-		(at 142.24 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96ab6ba4-a28e-4c9e-a856-09a661a127a4")
-	)
-	(junction
 		(at 234.95 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97802eee-a444-4d92-8aec-86e2e7a291bd")
-	)
-	(junction
-		(at 144.78 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a502d1fc-5916-4ec8-9744-cc3521f91699")
 	)
 	(junction
 		(at 251.46 34.29)
@@ -6696,12 +6543,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5a6dc1-ac86-462d-b5ec-5d83cb2b84e4")
-	)
-	(junction
-		(at 140.97 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1f91009-2384-450b-a79d-f22143f515f5")
 	)
 	(no_connect
 		(at 124.46 104.14)
@@ -6819,7 +6660,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 144.78) (xy 67.31 144.78)
+			(xy 64.77 144.78) (xy 73.66 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6916,16 +6757,6 @@
 			(type default)
 		)
 		(uuid "122ce687-37c5-4265-acdd-4c37135d7280")
-	)
-	(wire
-		(pts
-			(xy 146.05 85.09) (xy 146.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1434d415-f546-4b4f-91cd-c9f095a6108c")
 	)
 	(wire
 		(pts
@@ -7079,7 +6910,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 109.22) (xy 148.59 109.22)
+			(xy 132.08 109.22) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7159,16 +6990,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 148.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee96696-7248-4c2d-b6bf-eeabf28c2320")
-	)
-	(wire
-		(pts
 			(xy 181.61 111.76) (xy 181.61 114.3)
 		)
 		(stroke
@@ -7186,16 +7007,6 @@
 			(type default)
 		)
 		(uuid "309b0fec-12c1-49ee-a72b-2f7f687e4e79")
-	)
-	(wire
-		(pts
-			(xy 142.24 85.09) (xy 142.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "310dd830-74ae-45aa-9231-b98d2bd7c4c1")
 	)
 	(wire
 		(pts
@@ -7239,16 +7050,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 91.44) (xy 146.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367a9a9c-6326-453e-8e55-6b1b5707a04b")
-	)
-	(wire
-		(pts
 			(xy 118.11 50.8) (xy 127 50.8)
 		)
 		(stroke
@@ -7279,7 +7080,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 148.59 91.44)
+			(xy 132.08 91.44) (xy 148.59 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7499,7 +7300,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 138.43 86.36)
+			(xy 132.08 86.36) (xy 148.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7879,16 +7680,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 85.09) (xy 138.43 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "808c2edb-6824-4772-8e59-10c0f1a5dbbe")
-	)
-	(wire
-		(pts
 			(xy 149.86 58.42) (xy 163.83 58.42)
 		)
 		(stroke
@@ -7939,7 +7730,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 144.78 111.76)
+			(xy 132.08 111.76) (xy 148.59 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8139,16 +7930,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 144.78) (xy 73.66 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b87162d-d80a-4d16-b2b8-43e6d16dfc0d")
-	)
-	(wire
-		(pts
 			(xy 205.74 49.53) (xy 217.17 49.53)
 		)
 		(stroke
@@ -8306,16 +8087,6 @@
 			(type default)
 		)
 		(uuid "b10f66b5-75ed-4570-95c6-f98a02a6286a")
-	)
-	(wire
-		(pts
-			(xy 144.78 111.76) (xy 148.59 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1bc646e-a74e-4c72-a6a2-d4483921a23f")
 	)
 	(wire
 		(pts
@@ -8487,16 +8258,6 @@
 		)
 		(uuid "bc4332e3-f8b7-4167-a4ce-84d005bb3baa")
 	)
-	(wire
-		(pts
-			(xy 140.97 107.95) (xy 140.97 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be5f3f4c-efe4-4f19-a70f-1b9733c86d46")
-	)
 	(polyline
 		(pts
 			(xy 13.97 36.83) (xy 13.97 165.1)
@@ -8539,26 +8300,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 107.95) (xy 144.78 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e50c71-b2f8-453e-8e39-3f61c1254550")
-	)
-	(wire
-		(pts
-			(xy 132.08 109.22) (xy 140.97 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5336028-f3a7-410d-9778-180dd5fa5d7c")
-	)
-	(wire
-		(pts
 			(xy 243.84 134.62) (xy 243.84 132.08)
 		)
 		(stroke
@@ -8566,16 +8307,6 @@
 			(type default)
 		)
 		(uuid "c5a2b86d-422b-4f25-b2a3-640dbbffc7ed")
-	)
-	(wire
-		(pts
-			(xy 138.43 86.36) (xy 148.59 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5fca818-71e3-4cef-b82d-5ff020e4e12c")
 	)
 	(wire
 		(pts
@@ -9029,7 +8760,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 142.24 88.9)
+			(xy 132.08 88.9) (xy 148.59 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9935,85 +9666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 144.78 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06a2652f-287b-44d5-8bf9-d2edb7fd0e80")
-		(property "Reference" "TP15"
-			(at 143.51 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 142.24 103.3781 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 149.86 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bebc48f6-8f65-49dc-b9e5-6b5443002ec0")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 181.61 121.92 0)
 		(unit 1)
@@ -10427,85 +10079,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "12e7f487-9a73-4da9-88ca-7dbcf618c2b2")
-		(property "Reference" "TP12"
-			(at 134.62 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 135.89 80.5181 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 143.51 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cb1ef00-b8e2-4f44-92e8-bdf6823b484e")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -12594,85 +12167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58e6b776-225e-4eaf-a33a-db3391afe03e")
-		(property "Reference" "TP11"
-			(at 139.7 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.7 80.5181 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 147.32 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 142.24 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79132c47-15b5-4369-9aae-7876501c4ba6")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 119.38 0)
 		(unit 1)
@@ -12969,85 +12463,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7570708c-33fd-4d85-8a46-ae55b7ef8857")
-		(property "Reference" "TP13"
-			(at 144.78 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 143.51 80.5181 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 151.13 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b76f0ff-1448-483a-bd91-33f450ee0fe8")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -15725,85 +15140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 67.31 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2ee290d-4bd5-43da-8fea-37329e45606e")
-		(property "Reference" "TP16"
-			(at 64.77 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 64.77 140.2081 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 72.39 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 67.31 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23d35fd0-68f5-4431-adef-7a69f0a592fe")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 224.79 134.62 0)
 		(unit 1)
@@ -17298,85 +16634,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 140.97 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f5ec9ce1-d231-442b-8e91-22139c354ae6")
-		(property "Reference" "TP14"
-			(at 138.43 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 138.43 103.3781 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 146.05 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 140.97 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db611359-2e9d-478e-ae1c-e4f6df6f1009")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/a8b67aa6-c16e-4704-8284-64b4e81a0aca"
-					(reference "TP14")
 					(unit 1)
 				)
 			)

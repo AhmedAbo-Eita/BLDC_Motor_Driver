@@ -2789,6 +2789,76 @@
 		)
 		(uuid "f4882e89-80e4-41e0-a0a3-7f25924387ae")
 	)
+	(label "SHDN"
+		(at 110.49 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e0b95a1-78ca-4a4e-898c-0599543786fc")
+	)
+	(label "CANH"
+		(at 157.48 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12b12135-ddc6-41ad-8f87-3aadc954ac2e")
+	)
+	(label "IC_RXD"
+		(at 107.95 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2872b1fc-ac32-4a49-891a-fae7fa3bba68")
+	)
+	(label "STB"
+		(at 110.49 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41fc875c-a0b3-4d36-871d-5785c03b82bd")
+	)
+	(label "CANL"
+		(at 157.48 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e0c8be4-93bb-4b5e-8994-e3ea635c51d7")
+	)
+	(label "IC_TXD"
+		(at 107.95 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daced9c0-0c9f-4ff1-bc49-5099f2d123b3")
+	)
+	(label "Split_CAP"
+		(at 203.2 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e497a927-b3b4-48ca-9698-9840b6a7ea34")
+	)
 	(hierarchical_label "RXD"
 		(shape output)
 		(at 77.47 91.44 180)

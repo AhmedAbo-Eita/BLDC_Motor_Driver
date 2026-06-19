@@ -632,7 +632,7 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
+          "label": "Manufacturer",
           "name": "MANUFACTURER",
           "show": false
         },
@@ -650,12 +650,6 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Mfr. Part #",
           "name": "Mfr. Part #",
           "show": false
@@ -664,12 +658,6 @@
           "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
           "show": false
         },
         {
