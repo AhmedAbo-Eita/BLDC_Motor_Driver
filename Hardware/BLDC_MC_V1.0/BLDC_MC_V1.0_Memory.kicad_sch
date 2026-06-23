@@ -1371,8 +1371,8 @@
 		)
 		(uuid "371e872c-1032-4f4e-a9ef-69aceb3ce0b4")
 	)
-	(label "SCK"
-		(at 181.61 102.87 0)
+	(label "SCK_M"
+		(at 180.34 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
