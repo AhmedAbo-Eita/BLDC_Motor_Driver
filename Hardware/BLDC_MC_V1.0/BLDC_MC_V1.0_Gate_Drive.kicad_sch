@@ -10,129 +10,6 @@
 		(rev "V1")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DRV8353HRTAR:DRV8353HRTAR"
 			(pin_names
 				(offset 0.254)
@@ -2384,18 +2261,6 @@
 		(uuid "8d4eb740-77af-4b96-b02c-0eac07fa4fbf")
 	)
 	(junction
-		(at 154.94 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96dfb9ff-4aec-43ac-a3f0-c0b6e4b97ebd")
-	)
-	(junction
-		(at 154.94 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b881643d-8a6f-4138-86de-1b01fc8956f7")
-	)
-	(junction
 		(at 72.39 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2420,34 +2285,10 @@
 		(uuid "c582a139-99e8-4294-89e5-19520d9cf8e7")
 	)
 	(junction
-		(at 154.94 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7a67929-ac70-48f1-92cf-be65bf8ae52b")
-	)
-	(junction
-		(at 154.94 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd3245ab-add9-4b9a-b37d-1079843ee1de")
-	)
-	(junction
 		(at 78.74 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5066e26-4df0-4f8c-a68a-00061325210d")
-	)
-	(junction
-		(at 154.94 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3bc2e8f-a3ee-4be3-8883-53c420dc0b51")
-	)
-	(junction
-		(at 154.94 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e97e612a-b183-45cf-98af-f6af399f5ff1")
 	)
 	(junction
 		(at 57.15 100.33)
@@ -2507,16 +2348,6 @@
 		)
 		(uuid "0bab90b7-2295-44ba-8e03-8c1b78f7c457")
 	)
-	(wire
-		(pts
-			(xy 152.4 101.6) (xy 154.94 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e09e96b-8862-4c65-aef4-4ce044882b05")
-	)
 	(polyline
 		(pts
 			(xy 15.24 35.56) (xy 27.94 35.56)
@@ -2549,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 165.1 71.12)
+			(xy 152.4 71.12) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2569,7 +2400,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 154.94 91.44)
+			(xy 152.4 91.44) (xy 165.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2596,16 +2427,6 @@
 			(type default)
 		)
 		(uuid "231c67d8-9345-4de0-bb2d-fd6e65a6d939")
-	)
-	(wire
-		(pts
-			(xy 154.94 91.44) (xy 165.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2470e925-1916-447e-89a0-d256c2ac7332")
 	)
 	(wire
 		(pts
@@ -2769,16 +2590,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 154.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4030f5b9-b4a5-40cc-90fc-3da475ad9f9a")
-	)
-	(wire
-		(pts
 			(xy 85.09 58.42) (xy 85.09 78.74)
 		)
 		(stroke
@@ -2786,16 +2597,6 @@
 			(type default)
 		)
 		(uuid "40b2235d-fc5b-4363-82ea-b1cd0f525d69")
-	)
-	(wire
-		(pts
-			(xy 152.4 60.96) (xy 154.94 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad8242c-6684-433b-b576-7f6c5a1ff8cb")
 	)
 	(wire
 		(pts
@@ -2939,16 +2740,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 154.94 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dcd6783-024f-4002-be26-3e80a25f8ce6")
-	)
-	(wire
-		(pts
 			(xy 81.28 90.17) (xy 81.28 86.36)
 		)
 		(stroke
@@ -2976,16 +2767,6 @@
 			(type default)
 		)
 		(uuid "70af5c8d-b8b4-4753-bbd8-05b3ed1b86c1")
-	)
-	(wire
-		(pts
-			(xy 152.4 111.76) (xy 154.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7985ce18-dcbb-405b-b8d8-7bf629765a06")
 	)
 	(wire
 		(pts
@@ -3299,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 111.76) (xy 165.1 111.76)
+			(xy 152.4 111.76) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 165.1 101.6)
+			(xy 152.4 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 165.1 81.28)
+			(xy 152.4 81.28) (xy 165.1 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3459,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 165.1 60.96)
+			(xy 152.4 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4266,86 +4047,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "132313d5-9a9b-4b71-a4a4-77f33b5e8aa6")
-		(property "Reference" "TP9"
-			(at 157.48 98.2979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 157.48 99.5679 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 160.02 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a21ef56e-0107-4da9-9ade-b4eef137f88b")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 71.12 86.36 90)
 		(unit 1)
@@ -4578,86 +4279,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 91.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24734955-b9bd-4d3e-8892-50192dc36aaf")
-		(property "Reference" "TP8"
-			(at 157.48 94.7419 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 157.48 96.0119 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 149.86 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb4b72d4-6dc1-4a1e-bfd8-6623dd02a066")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -4935,86 +4556,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "441eb49b-571e-418c-b802-ffe48c46e600")
-		(property "Reference" "TP7"
-			(at 157.48 77.9779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 157.48 79.2479 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 160.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57d95e36-179e-48a2-a95d-69329c95226d")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -5762,86 +5303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66e86569-8149-43a7-9d53-d618971e3ac1")
-		(property "Reference" "TP5"
-			(at 157.48 57.6579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 157.48 58.9279 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 160.02 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7b78e08-3819-4a39-8171-b4d761b38bd1")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 30.48 182.88 0)
 		(unit 1)
@@ -5914,86 +5375,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
 					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 111.76 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f05ce47-c6dd-4e15-bf46-4193acfec57a")
-		(property "Reference" "TP10"
-			(at 157.48 115.0619 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 157.48 116.3319 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 149.86 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bbee26d-c704-433a-9e32-7c508863ffd7")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -6868,85 +6249,6 @@
 			(project "BLDC_MC_V1.0"
 				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f5cff51-8dd2-42fa-86f4-683cec552ad1")
-		(property "Reference" "TP6"
-			(at 157.48 73.1519 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 157.48 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 149.86 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59b25ac7-59fc-4615-bc8e-d62faa19527f")
-		)
-		(instances
-			(project "BLDC_MC_V1.0"
-				(path "/e34fda66-7244-4ac9-bbf7-3725f03e688f/6e3e7380-448b-40c5-a207-83c216af4ef7"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
