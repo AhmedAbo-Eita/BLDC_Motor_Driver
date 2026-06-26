@@ -538,16 +538,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 161.29) (xy 46.99 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4b53f5-6f61-40f9-83d1-66d06ef0f92a")
-	)
-	(wire
-		(pts
 			(xy 208.28 63.5) (xy 228.6 63.5)
 		)
 		(stroke
@@ -838,16 +828,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 33.02 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b646ba-7863-4a22-b707-c16c867316b4")
-	)
-	(wire
-		(pts
 			(xy 82.55 77.47) (xy 92.71 77.47)
 		)
 		(stroke
@@ -1095,16 +1075,6 @@
 			(type default)
 		)
 		(uuid "fd295b47-eb64-4991-b4fe-99f5b4bddc3f")
-	)
-	(wire
-		(pts
-			(xy 33.02 49.53) (xy 33.02 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb8d191-c355-4552-b7af-0ed6d85a960c")
 	)
 	(sheet
 		(at 163.83 100.33)
@@ -1785,16 +1755,6 @@
 		(pin "Vin_DC" output
 			(at 46.99 158.75 180)
 			(uuid "e72542c8-acea-4e1e-a8a2-e92a43bf18b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GND_In" output
-			(at 46.99 161.29 180)
-			(uuid "7e3920fb-f723-416a-b7df-708d6f2c42d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,16 +2528,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GND_In" input
-			(at 45.72 49.53 180)
-			(uuid "2cad0d0d-5bf6-4d63-93d0-0e8572107cb0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "Vin_DC" input
