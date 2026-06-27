@@ -13,7 +13,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 8.89 6.35 0)
+			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -24,7 +24,7 @@
 			)
 		)
 		(property "Value" "S10B-PHDSS LFSN"
-			(at 0.254 3.556 0)
+			(at -8.636 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:CONN_S10B-PHDSS_JST"
-			(at 0.254 3.556 0)
+			(at -8.636 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -47,7 +47,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C161672.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=EwBZX1cCQlBdA1dQRlQPBFdfEVkMUgZREVBeVwEAE1ExVlNeRVVYVFRWQlNaXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRTlNADxALGw%3D%3D"
-			(at 0.254 3.556 0)
+			(at -8.636 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -59,7 +59,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER TH R/A 10POS 2mm"
-			(at 1.27 11.43 0)
+			(at -7.62 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -70,7 +70,7 @@
 			)
 		)
 		(property "LCSC_PN" "C161672"
-			(at 1.27 11.43 0)
+			(at -7.62 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -81,7 +81,7 @@
 			)
 		)
 		(property "MP" "S10B-PHDSS(LF)(SN)"
-			(at 1.27 11.43 0)
+			(at -7.62 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -92,7 +92,7 @@
 			)
 		)
 		(property "Assembled" "Yes"
-			(at 1.27 11.43 0)
+			(at -7.62 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -127,7 +127,7 @@
 		(symbol "S10B-PHDSS_LFSN_1_1"
 			(polyline
 				(pts
-					(xy 2.54 10.16) (xy 2.54 -5.08)
+					(xy -6.35 7.62) (xy -6.35 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -139,7 +139,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 16.51 -5.08)
+					(xy -6.35 -7.62) (xy 7.62 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -151,7 +151,7 @@
 			)
 			(polyline
 				(pts
-					(xy 16.51 10.16) (xy 2.54 10.16)
+					(xy 7.62 7.62) (xy -6.35 7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -163,7 +163,7 @@
 			)
 			(polyline
 				(pts
-					(xy 16.51 -5.08) (xy 16.51 10.16)
+					(xy 7.62 -7.62) (xy 7.62 7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -173,8 +173,8 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 7.62 0)
+			(pin passive line
+				(at -11.43 5.08 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -191,8 +191,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 5.08 0)
+			(pin passive line
+				(at -11.43 2.54 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -209,8 +209,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 2.54 0)
+			(pin passive line
+				(at -11.43 0 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -227,8 +227,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 0 0)
+			(pin passive line
+				(at -11.43 -2.54 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -245,8 +245,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 -2.54 0)
+			(pin passive line
+				(at -11.43 -5.08 0)
 				(length 5.08)
 				(name "5"
 					(effects
@@ -263,8 +263,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 7.62 180)
+			(pin passive line
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "6"
 					(effects
@@ -281,8 +281,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 5.08 180)
+			(pin passive line
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "7"
 					(effects
@@ -299,8 +299,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 2.54 180)
+			(pin passive line
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "8"
 					(effects
@@ -317,8 +317,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 0 180)
+			(pin passive line
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "9"
 					(effects
@@ -335,8 +335,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 -2.54 180)
+			(pin passive line
+				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "10"
 					(effects
