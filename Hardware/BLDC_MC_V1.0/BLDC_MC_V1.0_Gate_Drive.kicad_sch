@@ -4372,7 +4372,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37a6c139-c5aa-4517-a603-5240b699b41b")
 		(property "Reference" "#PWR058"
 			(at 153.67 184.15 0)
@@ -4385,14 +4384,15 @@
 				)
 			)
 		)
-		(property "Value" "PGND"
-			(at 153.67 182.88 0)
+		(property "Value" "GND"
+			(at 152.4 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5312,7 +5312,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "699b88cd-f632-400c-a0d1-9ea5a30039b2")
 		(property "Reference" "#PWR0156"
 			(at 30.48 189.23 0)
@@ -5325,14 +5324,15 @@
 				)
 			)
 		)
-		(property "Value" "PGND"
-			(at 30.48 187.96 0)
+		(property "Value" "GND"
+			(at 29.21 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
