@@ -6022,7 +6022,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 45.72) (xy 153.67 45.72)
+			(xy 156.21 43.18) (xy 153.67 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6199,6 +6199,16 @@
 			(type default)
 		)
 		(uuid "cff1833d-14ad-460c-b01d-df133a588a93")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 153.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11a33dc-e27a-4653-b13b-dacaf2326619")
 	)
 	(wire
 		(pts
@@ -6797,8 +6807,18 @@
 		)
 		(uuid "23b1ab2d-b2bc-4327-a327-d950799960cb")
 	)
+	(label "Buck_SW"
+		(at 156.21 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50581a53-2f6c-4def-8add-c7e086c3f437")
+	)
 	(label "VCC_Buck"
-		(at 154.94 45.72 0)
+		(at 156.21 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
