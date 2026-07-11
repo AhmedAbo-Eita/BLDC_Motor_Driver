@@ -1220,7 +1220,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_L" bidirectional
+		(pin "CAN_N" bidirectional
 			(at 45.72 105.41 180)
 			(uuid "8ebeb0ca-2f81-41e7-a8b3-170cddd3ee2c")
 			(effects
@@ -1230,7 +1230,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN_H" bidirectional
+		(pin "CAN_P" bidirectional
 			(at 45.72 102.87 180)
 			(uuid "04ac4f4a-2fa8-44e5-8e99-dc8744614c1b")
 			(effects
@@ -1662,7 +1662,7 @@
 				(justify right)
 			)
 		)
-		(pin "CAN_H" bidirectional
+		(pin "CAN_P" bidirectional
 			(at 46.99 135.89 180)
 			(uuid "29480bb7-7b90-4ef9-b448-535b57ce7bc3")
 			(effects
@@ -1672,7 +1672,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN_L" bidirectional
+		(pin "CAN_N" bidirectional
 			(at 46.99 133.35 180)
 			(uuid "b580f119-7a41-492f-a50a-ec08265b078e")
 			(effects

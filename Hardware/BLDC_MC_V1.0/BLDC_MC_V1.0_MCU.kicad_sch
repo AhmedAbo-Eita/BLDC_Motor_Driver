@@ -8858,6 +8858,26 @@
 		)
 		(uuid "1499d665-b6ba-4c92-af31-49713dca930f")
 	)
+	(label "U_N"
+		(at 240.03 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21a8c898-be92-4c59-a950-bfba51cb2367")
+	)
+	(label "U_P"
+		(at 240.03 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e192137-e52d-4498-8fc9-80e594cac978")
+	)
 	(label "USB_N"
 		(at 256.54 134.62 0)
 		(effects

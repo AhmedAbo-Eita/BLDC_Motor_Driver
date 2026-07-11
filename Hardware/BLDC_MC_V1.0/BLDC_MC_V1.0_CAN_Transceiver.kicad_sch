@@ -2697,11 +2697,11 @@
 		)
 		(uuid "f4882e89-80e4-41e0-a0a3-7f25924387ae")
 	)
-	(label "CANH"
+	(label "CAN_IC_P"
 		(at 157.48 83.82 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -2717,11 +2717,11 @@
 		)
 		(uuid "2872b1fc-ac32-4a49-891a-fae7fa3bba68")
 	)
-	(label "CANL"
+	(label "CAN_IC_N"
 		(at 157.48 91.44 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -2758,7 +2758,7 @@
 		)
 		(uuid "025eb51d-74e0-4379-87cb-9c5f5f1bcd81")
 	)
-	(hierarchical_label "CAN_H"
+	(hierarchical_label "CAN_P"
 		(shape bidirectional)
 		(at 254 78.74 0)
 		(effects
@@ -2769,7 +2769,7 @@
 		)
 		(uuid "111ba606-6f31-4875-a29c-d8c4ec638336")
 	)
-	(hierarchical_label "CAN_L"
+	(hierarchical_label "CAN_N"
 		(shape bidirectional)
 		(at 254 96.52 0)
 		(effects
