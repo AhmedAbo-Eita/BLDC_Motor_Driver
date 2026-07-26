@@ -16932,4 +16932,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
