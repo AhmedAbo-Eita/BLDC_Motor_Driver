@@ -6,8 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "${Project_Name}")
-		(date "2026-01-05")
-		(rev "V1")
+		(date "2026-08-17")
+		(rev "V1.0")
+		(company "Ahmed Aboeita")
+		(comment 1 "8-Layer High-TG180 PCB with Kelvin Current Sensing")
+		(comment 2 "Power Stage: 3-Phase Inverter with Active Reverse Polarity & E-Fuse OCP")
+		(comment 3 "Core MCU: STM32G431RBT6 (FOC & CORDIC Processing, 100 kHz PWM)")
+		(comment 4 "Stackup & Sensing: System Ratings: 100V DC Bus | 50A Continuous | T_A = 125 degrees  ")
 	)
 	(lib_symbols
 		(symbol "ACT1210-510-2P-TL00:ACT1210-510-2P-TL00"
