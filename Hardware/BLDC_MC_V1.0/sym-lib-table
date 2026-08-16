@@ -27,4 +27,5 @@
 	(lib (name "XT60-M") (type "KiCad") (uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/XT60-M.kicad_sym") (options "") (descr ""))
 	(lib (name "S10B-PHDSS(LF)(SN)") (type "KiCad") (uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/S10B-PHDSS(LF)(SN).kicad_sym") (options "") (descr ""))
 	(lib (name "S6B-PH-K-S_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/S6B-PH-K-S_LF__SN_.kicad_sym") (options "") (descr ""))
+	(lib (name "USB_C") (type "KiCad") (uri "${KIPRJMOD}/Libraries/BLDC_Motor_Driver_Components_Symbol/USB_C.kicad_sym") (options "") (descr ""))
 )
