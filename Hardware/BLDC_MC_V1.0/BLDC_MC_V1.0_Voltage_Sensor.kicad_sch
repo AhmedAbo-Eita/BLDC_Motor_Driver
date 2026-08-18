@@ -1053,8 +1053,7 @@
 			(type solid)
 		)
 		(fill
-			(type color)
-			(color 0 0 0 0)
+			(type none)
 		)
 		(effects
 			(font
@@ -1074,8 +1073,7 @@
 			(type solid)
 		)
 		(fill
-			(type color)
-			(color 0 0 0 0)
+			(type none)
 		)
 		(effects
 			(font
@@ -1095,8 +1093,7 @@
 			(type solid)
 		)
 		(fill
-			(type color)
-			(color 0 0 0 0)
+			(type none)
 		)
 		(effects
 			(font
