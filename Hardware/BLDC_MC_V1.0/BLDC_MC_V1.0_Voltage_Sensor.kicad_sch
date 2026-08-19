@@ -2628,7 +2628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k6"
+		(property "Value" "2k7"
 			(at 38.1 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +2900,7 @@
 				)
 			)
 		)
-		(property "LCSC_PN" "C870633"
+		(property "LCSC_PN" "C2907368"
 			(at 35.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2911,7 +2911,7 @@
 				)
 			)
 		)
-		(property "MP" "RT1206BRD072K7L"
+		(property "MP" "FRC1206F1003TS"
 			(at 35.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4002,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k6"
+		(property "Value" "2k7"
 			(at 38.1 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5075,7 +5075,7 @@
 				)
 			)
 		)
-		(property "LCSC_PN" "C870633"
+		(property "LCSC_PN" "C2907368"
 			(at 35.56 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5086,7 +5086,7 @@
 				)
 			)
 		)
-		(property "MP" "RT1206BRD072K7L"
+		(property "MP" "FRC1206F1003TS"
 			(at 35.56 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6231,7 +6231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k6"
+		(property "Value" "2k7"
 			(at 38.1 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,7 +7322,7 @@
 				)
 			)
 		)
-		(property "LCSC_PN" "C870633"
+		(property "LCSC_PN" "C2907368"
 			(at 35.56 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7333,7 +7333,7 @@
 				)
 			)
 		)
-		(property "MP" "RT1206BRD072K7L"
+		(property "MP" "FRC1206F1003TS"
 			(at 35.56 107.95 0)
 			(hide yes)
 			(show_name no)
