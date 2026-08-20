@@ -111,15 +111,6 @@ The schematic is organized into 10 modular hierarchical sheets:
 
 ---
 
-## Recommended PCB Stackup & Layout Rules
-
-* **Stackup:** 8-Layer Symmetrical Build with High-TG180 FR4 material (2 oz outer, 1 oz inner).
-* **Power Decoupling:** Place low-ESR ceramic caps ($47\,\mu\text{F}$) as close as physically possible to the high-side MOSFET drains and low-side source shunts.
-* **Kelvin Current Sensing:** Keep `SA+`/`SA-`, `SB+`/`SB-`, and `SC+`/`SC-` routed strictly as shielded differential pairs on Layer 3, isolated from high $dv/dt$ switch-node planes.
-* **Grounding Scheme:** Maintain an isolated `Chassis_GND` net on the 4 corner mounting holes (`H1–H4`) and bridge to `PGND` via a parallel $1\text{ M}\Omega$ (1206) resistor and $100\text{ nF}$ ($1\text{ kV}–2\text{ kV}$) high-voltage capacitor at the power input.
-
----
-
 ## Author & Project Information
 * **Lead Hardware Engineer:** Ahmed Aboeita
 * **Design Suite:** KiCad E.D.A. v10.0.5
