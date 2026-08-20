@@ -1,4 +1,4 @@
-# 100V / 32A High-Performance BLDC & PMSM Motor Controller (ESC)
+# 100V / 30A High-Performance BLDC & PMSM Motor Controller (ESC)
 
 ![Top-side 3D render of BLDC MC V1.0](BLDC_MC_V1.0/Output_Job_files/3d_Pics/BLDC_MC_V1.0.png)
 
@@ -108,6 +108,15 @@ The schematic is organized into 10 modular hierarchical sheets:
 
 ### 4. Debug & Programming (`J4` - 6-Pin SWD Header)
 * **Pin 1:** `+3.3V` | **Pin 2:** `NRST` | **Pin 3:** `SWDIO` (PA13) | **Pin 4:** `SWCLK` (PA14) | **Pin 5:** `SWO` (PB3) | **Pin 6:** `GND`
+
+---
+
+## Recommended PCB Stackup & Layout Rules
+
+* **Stackup:** 8-Layer Symmetrical Build with High-TG180 FR4 material (2 oz outer, 1 oz inner).
+* **Power Decoupling:** Place low-ESR ceramic caps ($47\,\mu\text{F}$) as close as physically possible to the high-side MOSFET drains and low-side source shunts.
+* **Kelvin Current Sensing:** Keep `SA+`/`SA-`, `SB+`/`SB-`, and `SC+`/`SC-` routed strictly as shielded differential pairs on Layer 3, isolated from high $dv/dt$ switch-node planes.
+* **Grounding Scheme:** Maintain an isolated `Chassis_GND` net on the 4 corner mounting holes (`H1–H4`) and bridge to `PGND` via a parallel $1\text{ M}\Omega$ (1206) resistor and $100\text{ nF}$ ($1\text{ kV}–2\text{ kV}$) high-voltage capacitor at the power input.
 
 ---
 
