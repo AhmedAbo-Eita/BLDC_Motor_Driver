@@ -113,10 +113,39 @@ The schematic is organized into 10 modular hierarchical sheets:
 
 ## Recommended PCB Stackup & Layout Rules
 
-* **Stackup:** 8-Layer Symmetrical Build with High-TG180 FR4 material (2 oz outer, 1 oz inner).
+### PCB Stackup
+
+The board uses an 8-layer high-TG180 FR4 stackup with 1.65 mm nominal finished thickness. Copper thicknesses and dielectric spacing are nominal values from the fabrication stackup.
+
+| Layer / Dielectric | Material | Thickness |
+| :--- | :--- | :---: |
+| L1 | Outer copper, 1 oz | 0.035 mm (1.38 mil) |
+| L1-L2 | 2116 prepreg, RC54%, 4.9 mil | 0.094 mm (3.70 mil) |
+| L2 | Inner copper | 0.030 mm (1.18 mil) |
+| L2-L3 | FR4 core, 0.25 mm / 1 oz without copper | 0.250 mm (9.84 mil) |
+| L3 | Inner copper | 0.030 mm (1.18 mil) |
+| L3-L4 | 2116 prepreg, RC54%, 4.9 mil, 2 plies | 0.188 mm (7.40 mil) |
+| L4 | Inner copper | 0.030 mm (1.18 mil) |
+| L4-L5 | FR4 core, 0.25 mm / 1 oz without copper | 0.250 mm (9.84 mil) |
+| L5 | Inner copper | 0.030 mm (1.18 mil) |
+| L5-L6 | 2116 prepreg, RC54%, 4.9 mil, 2 plies | 0.188 mm (7.40 mil) |
+| L6 | Inner copper | 0.030 mm (1.18 mil) |
+| L6-L7 | FR4 core, 0.25 mm / 1 oz without copper | 0.250 mm (9.84 mil) |
+| L7 | Inner copper | 0.030 mm (1.18 mil) |
+| L7-L8 | 2116 prepreg, RC54%, 4.9 mil | 0.094 mm (3.70 mil) |
+| L8 | Outer copper, 1 oz | 0.035 mm (1.38 mil) |
+
+### Controlled Impedance
+
+| Target impedance | Type | Signal layer | Reference layer | Trace width | Differential spacing |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| 50 ohm | Single-ended, non-coplanar | L1 | L2 | 6.790 mil (0.172 mm) | - |
+| 50 ohm | Single-ended, non-coplanar | L3 | L2 / L4 | 8.370 mil (0.213 mm) | - |
+| 100 ohm | Differential pair, non-coplanar | L1 | L2 | 5.270 mil (0.134 mm) | 8.000 mil (0.203 mm) |
+
 * **Power Decoupling:** Place low-ESR ceramic caps ($47\,\mu\text{F}$) as close as physically possible to the high-side MOSFET drains and low-side source shunts.
 * **Kelvin Current Sensing:** Keep `SA+`/`SA-`, `SB+`/`SB-`, and `SC+`/`SC-` routed strictly as shielded differential pairs on Layer 3, isolated from high $dv/dt$ switch-node planes.
-* **Grounding Scheme:** Maintain an isolated `Chassis_GND` net on the 4 corner mounting holes (`H1–H4`) and bridge to `PGND` via a parallel $1\text{ M}\Omega$ (1206) resistor and $100\text{ nF}$ ($1\text{ kV}–2\text{ kV}$) high-voltage capacitor at the power input.
+
 
 ---
 
