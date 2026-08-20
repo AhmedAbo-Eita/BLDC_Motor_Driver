@@ -12,7 +12,7 @@
 		(comment 1 "8-Layer High-TG180 PCB with Kelvin Current Sensing")
 		(comment 2 "Power Stage: 3-Phase Inverter with Active Reverse Polarity & E-Fuse OCP")
 		(comment 3 "Core MCU: STM32G431RBT6 (FOC & CORDIC Processing, 100 kHz PWM)")
-		(comment 4 "Stackup & Sensing: System Ratings: 100V DC Bus | 50A Continuous | T_A = 125 degrees  ")
+		(comment 4 "Stackup & Sensing: System Ratings: 60V DC Bus | 30A Continuous | T_A = 125 degrees  ")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
