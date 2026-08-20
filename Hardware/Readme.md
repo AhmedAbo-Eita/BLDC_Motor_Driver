@@ -1,4 +1,4 @@
-# 100V / 30A High-Performance BLDC & PMSM Motor Controller (ESC)
+# 100V / 32A High-Performance BLDC & PMSM Motor Controller (ESC)
 
 ![Top-side 3D render of BLDC MC V1.0](BLDC_MC_V1.0/Output_Job_files/3d_Pics/BLDC_MC_V1.0.png)
 
