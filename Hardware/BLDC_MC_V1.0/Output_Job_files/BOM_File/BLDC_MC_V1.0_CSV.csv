@@ -48,7 +48,9 @@ LDL1117S33R,1,U5,LDL1117S33R,Yes,C435835,"3.3V 18V Positive Fixed SOT-223-4 Volt
 DRV8353HRTAR,1,U6,DRV8353HRTAR,Yes,C2150766,"Three Phase MOSFET 700mA 700mA WQFN-40-EP(6x6) Motor Drivers, Controllers RoHS",BLDC_Motor_Driver_Components_Footprint:RTA0040B
 NCV4274ADT50RKG,1,U7,NCV4274ADT50RKG,Yes,C233416,"5V 40V Positive Fixed TO-252-2(DPAK) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS",BLDC_Motor_Driver_Components_Footprint:DPAK-3_ONS
 25LC256-E/SN,1,U8,25LC256-E_SN,Yes,C1349834,2.5V~5.5V 256Kbit 10MHz SPI SOIC-8 Memory (ICs) RoHS,BLDC_Motor_Driver_Components_Footprint:SOIC127P599X175-8N
-USBLC6-2SC6,1,U9,USBLC6-2SC6,Yes,,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",Package_TO_SOT_SMD:SOT-23-6
+USBLC6-2SC6,1,U9,USBLC6-2SC6,Yes,C7519,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",Package_TO_SOT_SMD:SOT-23-6
 LM74700QDRQ1,1,U16,LM74700QDRQ1,Yes,C33579657,"20mV 11mA 65V 2.37A SOIC-8 OR Controllers, Ideal Diodes RoHS",BLDC_Motor_Driver_Components_Footprint:SOIC8_D_TEX
 7M-24.000MAAJ-T,1,Y1,7M-24.000MAAJ-T,Yes,C2450233,Crystal 24MHz ±30ppm 18pF 60Ω SMD3225-4P,BLDC_Motor_Driver_Components_Footprint:XTAL_7M-24.000MAAJ-T
 ABS07-32.768KHZ-T,1,Y2,ABS07-32.768KHZ-T,Yes,C130253,Crystal 32.768kHz ±20ppm 12.5pF 70kΩ SMD3215-2P,BLDC_Motor_Driver_Components_Footprint:XTAL_ABS07-32.768KHZ-T
+FRC1206J105 TS,1,R9,1M,Yes,C2907441,Resistor,Resistor_SMD:R_1206_3216Metric
+TCC1206X7R103K101DT,1,C14,10nF,Yes,C377055,Unpolarized capacitor,Capacitor_SMD:C_1206_3216Metric
