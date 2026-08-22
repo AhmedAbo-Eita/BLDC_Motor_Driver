@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.93,
-          "width": 1.98
+          "height": 0.5334,
+          "width": 0.7366
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,15 +52,15 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 1.27,
           "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -581,7 +581,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output_Job_files/Fabrication_Files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../BLDC_MC_V1.0.glb",
@@ -903,7 +903,7 @@
         "uuid": "e34fda66-7244-4ac9-bbf7-3725f03e688f"
       }
     ],
-    "used_designators": "J1-2,J6-7,J9,NT5-10",
+    "used_designators": "R9,J1-2,J6-7,J9,NT5-10,#PWR62,C14",
     "variants": []
   },
   "sheets": [
