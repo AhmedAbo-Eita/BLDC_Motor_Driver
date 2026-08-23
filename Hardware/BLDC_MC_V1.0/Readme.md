@@ -1,10 +1,30 @@
 # 60V / 30A High-Performance BLDC & PMSM Motor Controller (ESC)
 
+[![Hardware Status](https://img.shields.io/badge/Hardware%20Status-Completed%20%26%20Fabrication%20Ready-brightgreen)](#deliverables--manufacturing-files)
+[![Revision](https://img.shields.io/badge/Revision-Rev%201.0%20(2026--08--17)-blue)](#author--project-information)
+[![MCU](https://img.shields.io/badge/MCU-STM32G431RBT6-blue)](https://www.st.com/en/microcontrollers-microprocessors/stm32g431rb.html)
+[![Gate Driver](https://img.shields.io/badge/Gate%20Driver-TI%20DRV8353HRTAR-orange)](https://www.ti.com/product/DRV8353)
+[![Power Stage](https://img.shields.io/badge/Power%20Stage-60V%20%2F%2030A-red)](#technical-specifications)
+[![KiCad](https://img.shields.io/badge/KiCad-v10.0.5-blueviolet)](https://www.kicad.org/)
+
 ![Top-side 3D render of BLDC MC V1.0](Output_Job_files/3d_Pics/BLDC_MC_V1.0.png)
 
 ![Bottom-side 3D render of BLDC MC V1.0](Output_Job_files/3d_Pics/BLDC_MC_V1.0-1.png)
 
+
 A compact, high-efficiency, 3-phase Field-Oriented Control (FOC) motor controller designed for high-power robotics, e-mobility, and industrial automation. Built on the **STM32G431RBT6** ARM Cortex-M4 MCU and the **TI DRV8353HRTAR** smart gate driver, this board supports high-frequency switching up to 100 kHz with extensive hardware protection, sensor feedback, and connectivity.
+
+---
+
+## Deliverables & Manufacturing Files
+
+All production output packages have been generated and validated:
+
+* **[Schematic PDF](Output_Job_files/Board_SCH/BLDC_MC_V1.0.pdf)** — Complete multi-sheet schematic with block hierarchy.
+* **[Bill of Materials (BOM PDF)](Output_Job_files/BOM_File/BLDC_MC_V1.0_PDF.pdf)** | **[BOM CSV](Output_Job_files/BOM_File/BLDC_MC_V1.0_CSV.csv)** | **[BOM Excel](Output_Job_files/BOM_File/BLDC_MC_V1.0_Excel.xlsx)**
+* **[Fabrication Gerber & Drill Files](Output_Job_files/Fabrication_Files/)** — RS-274X Gerbers and Excellon drill files for 8-layer PCB fabrication.
+* **[Pick & Place Centroid Data](Output_Job_files/PnP_File/BLDC_MC_V1.0-all-pos.csv)** — Surface-mount component placement coordinates.
+* **[Circuit Simulations](../Simulation/)** — LTspice simulation models for Hall sensor level shifting and BEMF voltage divider networks.
 
 ---
 
@@ -12,7 +32,7 @@ A compact, high-efficiency, 3-phase Field-Oriented Control (FOC) motor controlle
 
 | Parameter | Specification | Notes / Details |
 | :--- | :--- | :--- |
-| **Input DC Bus Voltage ($V_{BUS}$)** | **24V – 60V** (**60V Maximum**) | High-voltage bulk capacitor bank + TVS clamping |
+| **Input DC Bus Voltage ($V_{BUS}$)** | **24V – 60V** (**60V Maximum**) | High-voltage bulk capacitor bank + TVS transient clamping |
 | **Maximum Phase Current** | **30A Maximum** | Dependent on external heatsinking and thermal interface |
 | **Maximum Switching Frequency** | Up to **100 kHz PWM** | Hardware-accelerated CORDIC/FMAC trigonometric engine |
 | **Operating Temperature ($T_A$)** | **$-40^\circ\text{C}$ to $+125^\circ\text{C}$** | Designed for High-TG180 PCB substrates |
@@ -145,7 +165,6 @@ The board uses an 8-layer high-TG180 FR4 stackup with 1.65 mm nominal finished t
 
 * **Power Decoupling:** Place low-ESR ceramic caps ($47\,\mu\text{F}$) as close as physically possible to the high-side MOSFET drains and low-side source shunts.
 * **Kelvin Current Sensing:** Keep `SA+`/`SA-`, `SB+`/`SB-`, and `SC+`/`SC-` routed strictly as shielded differential pairs on Layer 3, isolated from high $dv/dt$ switch-node planes.
-
 
 ---
 
