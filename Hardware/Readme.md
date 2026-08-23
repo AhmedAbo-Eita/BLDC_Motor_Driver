@@ -56,11 +56,7 @@ Hardware/
 
 ---
 
-## Future Versions
 
-* **V1.1** - _Planned revision for integrated magnetic angle sensor (magnetic encoder) on board bottom and compact form factor enhancements._
-
----
 
 ## Project Information
 
