@@ -24,9 +24,7 @@ This repository contains the complete end-to-end design stack:
 
 ---
 
-## Hardware V1.0 Summary & Highlights
-
-The **BLDC_MC_V1.0** hardware design is **completed, verified, and packaged for manufacturing**.
+## Hardware V1.0 Summary & Highlight
 
 ### Key Technical Specifications
 
