@@ -4474,6 +4474,12 @@
 		(uuid "0be82764-10e6-408e-9d00-cf97faf38384")
 	)
 	(junction
+		(at 46.99 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ed6a643-cf75-40e6-91ed-cfae653093fa")
+	)
+	(junction
 		(at 34.29 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4570,10 +4576,10 @@
 		(uuid "5ec2bdb9-8f7a-42c2-ba3b-9f7f0fedc989")
 	)
 	(junction
-		(at 46.99 52.07)
+		(at 71.12 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64fc9cfd-01f3-4ec9-af68-4b1cee5cd050")
+		(uuid "688484f7-022a-480e-b60f-35b066c6034b")
 	)
 	(junction
 		(at 223.52 44.45)
@@ -4702,12 +4708,6 @@
 		(uuid "f331682a-c5cc-495e-92d5-deab220a02de")
 	)
 	(junction
-		(at 71.12 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f84b7de4-aae0-481e-9061-46818d36a4ea")
-	)
-	(junction
 		(at 181.61 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4769,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 52.07) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e85097-26c3-40bd-9a00-3a6f86352f8b")
+	)
+	(wire
+		(pts
 			(xy 46.99 64.77) (xy 46.99 52.07)
 		)
 		(stroke
@@ -4786,16 +4796,6 @@
 			(type default)
 		)
 		(uuid "0c834431-e96f-4630-af90-2f49beb124e6")
-	)
-	(wire
-		(pts
-			(xy 46.99 52.07) (xy 50.8 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c955bc2-ad48-457f-9e98-542a88f69599")
 	)
 	(wire
 		(pts
@@ -4836,16 +4836,6 @@
 			(type default)
 		)
 		(uuid "14a4e0e5-ab40-4d8c-9fcc-46da165b45d3")
-	)
-	(wire
-		(pts
-			(xy 58.42 57.15) (xy 58.42 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150e7484-3ccd-4ad5-9efb-23545e3f06a2")
 	)
 	(wire
 		(pts
@@ -5496,6 +5486,16 @@
 			(type default)
 		)
 		(uuid "693b342d-2867-4686-a6b9-169aac674008")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 71.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a44ab9c-8719-4ffa-93b5-460358c6853c")
 	)
 	(wire
 		(pts
@@ -6209,6 +6209,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92358cd-f09f-4404-bb71-1cb8a8bbe326")
+	)
+	(wire
+		(pts
 			(xy 163.83 113.03) (xy 163.83 116.84)
 		)
 		(stroke
@@ -6266,6 +6276,16 @@
 			(type default)
 		)
 		(uuid "d11a33dc-e27a-4653-b13b-dacaf2326619")
+	)
+	(wire
+		(pts
+			(xy 58.42 57.15) (xy 58.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2092ff6-d07c-473a-9b18-fffe760718dc")
 	)
 	(wire
 		(pts
@@ -6349,16 +6369,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 71.12 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7456c28-d2d9-460c-9102-dd60c0f99cbb")
-	)
-	(wire
-		(pts
 			(xy 25.4 52.07) (xy 34.29 52.07)
 		)
 		(stroke
@@ -6406,16 +6416,6 @@
 			(type default)
 		)
 		(uuid "da25e3d4-6a46-4f02-bc33-f39dbfcf82f2")
-	)
-	(wire
-		(pts
-			(xy 71.12 72.39) (xy 71.12 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb943a0-dc98-4b0b-9671-5ea2654106a3")
 	)
 	(wire
 		(pts
@@ -14136,7 +14136,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMDJ110CA"
+		(property "Value" "SMDJ60CA"
 			(at 17.78 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -14160,7 +14160,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "SMDJ110CA"
+		(property "Datasheet" "SMDJ60CA"
 			(at 25.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14172,7 +14172,7 @@
 				)
 			)
 		)
-		(property "Description" "177VC Clamp 16.9A Ipp TVS DIODE SMC(DO-214AB)"
+		(property "Description" "TVS DIODE 60VWM 96.8VC DO214AB"
 			(at 25.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14183,7 +14183,7 @@
 				)
 			)
 		)
-		(property "LCSC_PN" "C2990268"
+		(property "LCSC_PN" "  C42394438 "
 			(at 25.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14205,7 +14205,7 @@
 				)
 			)
 		)
-		(property "Assembled" ""
+		(property "Assembled" "Yes"
 			(at 25.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16657,7 +16657,8 @@
 	)
 	(symbol
 		(lib_id "BSC027N10NS5ATMA1:BSC027N10NS5ATMA1")
-		(at 55.88 54.61 90)
+		(at 60.96 54.61 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16667,7 +16668,7 @@
 		(dnp no)
 		(uuid "f9b79f79-17c2-4527-aa8b-40d2443bf87d")
 		(property "Reference" "Q7"
-			(at 53.34 48.26 90)
+			(at 63.5 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16690,7 +16691,7 @@
 			)
 		)
 		(property "Footprint" "BLDC_Motor_Driver_Components_Footprint:PG-TSON-8-3_INF"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16702,7 +16703,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C534315.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=QwMPAlBQEQRYV1dSQFkMUgcFRgAMUFFUFlRdUgEDRQAxVlNRQ1FaVVFSQ1hZVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16713,7 +16714,7 @@
 			)
 		)
 		(property "Description" "N-Channel 100V 3W Surface Mount TDSON-8-EP(5x6)"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16724,7 +16725,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16736,7 +16737,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16748,7 +16749,7 @@
 			)
 		)
 		(property "Package" "TSON-8 Infineon Technologies"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16760,7 +16761,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16772,7 +16773,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC027N10NS5ATMA1/Infineon/view-part/?ref=eda"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16784,7 +16785,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16796,7 +16797,7 @@
 			)
 		)
 		(property "PARTREV" "2.1"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16808,7 +16809,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC027N10NS5ATMA1/Infineon/view-part/?ref=snap"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16820,7 +16821,7 @@
 			)
 		)
 		(property "MP" "BSC027N10NS5ATMA1"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16832,7 +16833,7 @@
 			)
 		)
 		(property "Description_1" "N-Channel 100 V 23A (Ta), 100A (Tc) 3W (Ta), 214W (Tc) Surface Mount PG-TSON-8-3"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16844,7 +16845,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16856,7 +16857,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16868,7 +16869,7 @@
 			)
 		)
 		(property "LCSC_PN" "C534315"
-			(at 55.88 54.61 0)
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
